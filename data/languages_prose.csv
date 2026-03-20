@@ -1,0 +1,19 @@
+language,aliases,extensions
+AsciiDoc,,.asciidoc; .adoc; .asc
+Creole,,.creole
+Gemini,gemtext,.gmi
+Gettext Catalog,pot,.po; .pot
+Markdown,md; pandoc,.md; .livemd; .markdown; .mdown; .mdwn; .mkd; .mkdn; .mkdown; .ronn; .scd; .workbook
+Muse,amusewiki; emacs muse,.muse
+Org,,.org
+Pod,,.pod
+Pod 6,,.pod; .pod6
+RDoc,,.rdoc
+reStructuredText,rst,.rst; .rest; .rest.txt; .rst.txt
+RMarkdown,,.qmd; .rmd
+Sweave,,.rnw
+Texinfo,,.texinfo; .texi; .txi
+Text,fundamental; plain text,.txt; .fr; .nb; .ncl; .no
+Textile,,.textile
+Vim Help File,help; vimhelp,.txt
+Wikitext,mediawiki; wiki,.mediawiki; .wiki; .wikitext

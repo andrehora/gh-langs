@@ -1,0 +1,26 @@
+language,type,aliases,extensions
+C,programming,,.c; .cats; .h; .h.in; .idc
+C#,programming,csharp; cake; cakescript,.cs; .cake; .cs.pp; .csx; .linq
+C++,programming,cpp,.cpp; .c++; .cc; .cp; .cppm; .cxx; .h; .h++; .hh; .hpp; .hxx; .inc; .inl; .ino; .ipp; .ixx; .re; .tcc; .tpp; .txx
+CoffeeScript,programming,coffee; coffee-script,.coffee; ._coffee; .cake; .cjsx; .iced
+CSS,markup,,.css
+Dart,programming,,.dart
+DM,programming,byond,.dm
+Elixir,programming,,.ex; .exs
+Go,programming,golang,.go
+Groovy,programming,,.groovy; .grt; .gtpl; .gvy
+HTML,markup,xhtml,.html; .hta; .htm; .html.hl; .inc; .xht; .xhtml
+Java,programming,,.java; .jav; .jsh
+JavaScript,programming,js; node,.js; ._js; .bones; .cjs; .es; .es6; .frag; .gs; .jake; .javascript; .jsb; .jscad; .jsfl; .jslib; .jsm; .jspre; .jss; .jsx; .mjs; .njs; .pac; .sjs; .ssjs; .xsjs; .xsjslib
+Kotlin,programming,,.kt; .ktm; .kts
+Objective-C,programming,obj-c; objc; objectivec,.m; .h
+Perl,programming,cperl,.pl; .al; .cgi; .fcgi; .perl; .ph; .plx; .pm; .psgi; .t
+PHP,programming,inc,.php; .aw; .ctp; .fcgi; .inc; .php3; .php4; .php5; .phps; .phpt
+PowerShell,programming,posh; pwsh,.ps1; .psd1; .psm1
+Python,programming,py; py3; python3; rusthon,.py; .cgi; .fcgi; .gyp; .gypi; .lmi; .py3; .pyde; .pyi; .pyp; .pyt; .pyw; .rpy; .spec; .tac; .wsgi; .xpy
+Ruby,programming,jruby; macruby; rake; rb; rbx,.rb; .builder; .eye; .fcgi; .gemspec; .god; .jbuilder; .mspec; .pluginspec; .podspec; .prawn; .rabl; .rake; .rbi; .rbuild; .rbw; .rbx; .ru; .ruby; .spec; .thor; .watchr
+Rust,programming,rs,.rs; .rs.in
+Scala,programming,,.scala; .kojo; .sbt; .sc
+Shell,programming,sh; shell-script; bash; zsh; envrc,.sh; .bash; .bats; .cgi; .command; .fcgi; .ksh; .sbatch; .sh.in; .slurm; .tmux; .tool; .trigger; .zsh; .zsh-theme
+Swift,programming,,.swift
+TypeScript,programming,ts,.ts; .cts; .mts
