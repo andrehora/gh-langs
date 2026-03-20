@@ -26,6 +26,7 @@ Popular GitHub languages: [popular.yml](https://github.com/github-linguist/lingu
 
 ## Language and Extensions per Type
 
+Language types can be: programming, data, markup, or prose.
 
 <!-- types:start -->
 | File | Count | Description |
