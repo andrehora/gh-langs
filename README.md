@@ -24,9 +24,7 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 
 Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
-## Language and Extensions per Type
-
-Language types can be: programming, data, markup, or prose.
+## Language and Extensions per Type: programming, data, markup, or prose
 
 <!-- types:start -->
 | File | Count | Description |
