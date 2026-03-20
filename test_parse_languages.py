@@ -99,6 +99,7 @@ def test_python_entry(parsed_data):
     assert python["aliases"] == ["py", "py3", "python3", "rusthon"]
     assert ".py" in python["extensions"]
     assert len(python["extensions"]) == 17
+    assert python["filenames"] == []
 
 
 def test_lang_entry_fields(parsed_data):
@@ -108,13 +109,89 @@ def test_lang_entry_fields(parsed_data):
     assert data["Python"]["type"] == "programming"
     assert "aliases" in data["Python"]
     assert "extensions" in data["Python"]
+    # filenames key should be absent for Python (empty), but extensions present
+    keys = list(data["Python"].keys())
+    assert "extensions" in keys
 
 
-def test_lang_entry_without_type(parsed_data):
+def test_lang_entry_filenames_order(parsed_data):
+    import json
+    _, _, _, _, tmp = parsed_data
+    data = json.loads((tmp / "languages.json").read_text())
+    # Find a language with filenames (e.g. Makefile)
+    entry = data.get("Makefile")
+    if entry and "filenames" in entry:
+        keys = list(entry.keys())
+        assert keys.index("filenames") < keys.index("extensions")
+
+
+def test_lang_csv_columns(parsed_data):
+    import csv
+    _, _, _, _, tmp = parsed_data
+    with open(tmp / "languages.csv") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+    assert header == ["language", "type", "aliases", "filenames", "extensions"]
+
+
+def test_lang_type_entry_fields(parsed_data):
     import json
     _, _, _, _, tmp = parsed_data
     data = json.loads((tmp / "languages_programming.json").read_text())
     assert "type" not in data["Python"]
+    assert "extensions" in data["Python"]
+
+
+def test_lang_type_entry_filenames(parsed_data):
+    import json
+    _, _, _, _, tmp = parsed_data
+    # Makefile has filenames in languages.yml
+    data = json.loads((tmp / "languages_data.json").read_text())
+    makefile_entry = data.get("Makefile")
+    if makefile_entry:
+        assert "filenames" in makefile_entry
+        keys = list(makefile_entry.keys())
+        assert keys.index("filenames") < keys.index("extensions")
+
+
+def test_lang_type_csv_columns(parsed_data):
+    import csv
+    _, _, _, _, tmp = parsed_data
+    with open(tmp / "languages_programming.csv") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+    assert header == ["language", "aliases", "filenames", "extensions"]
+
+
+def test_lang_stats_csv_columns(parsed_data):
+    import csv
+    _, _, _, _, tmp = parsed_data
+    with open(tmp / "languages_stats.csv") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+    assert header == ["language", "type", "extensions_count", "aliases_count", "filenames_count"]
+
+
+def test_lang_popular_csv_columns(parsed_data):
+    import csv
+    _, _, _, _, tmp = parsed_data
+    with open(tmp / "languages_popular.csv") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+    assert header == ["language", "type", "aliases", "filenames", "extensions"]
+
+
+def test_lang_popular_json_fields(parsed_data):
+    import json
+    _, _, _, _, tmp = parsed_data
+    data = json.loads((tmp / "languages_popular.json").read_text())
+    # Python is a popular language
+    assert "extensions" in data["Python"]
+    assert "type" in data["Python"]
+    # filenames key, if present, should come before extensions
+    if "filenames" in data["Python"]:
+        keys = list(data["Python"].keys())
+        assert keys.index("filenames") < keys.index("extensions")
 
 
 JSON_FILES = [

@@ -35,11 +35,17 @@ Popular GitHub languages: [popular.yml](https://github.com/github-linguist/lingu
 | [`languages_prose.json`](data/languages_prose.json) / [`csv`](data/languages_prose.csv) | 18 | Prose languages |
 <!-- types:end -->
 
-### Language Entry
+### Fields
 
-In `languages.json`, each entry includes the type (`programming`, `data`, `markup`, or `prose`), aliases (if any), and file extensions:
+- type: Either programming (e.g., Python), data (e.g., JSON), markup (e.g., HTML) or prose (e.g., Markdown).
+- aliases: List of additional aliases (optional)
+- filenames: List of associated filenames. May be omitted if the extensions field is present (and vice versa).
+- extensions: List of associated file extensions.
 
-**Programming** (e.g., Python):
+#### Examples
+
+programming:
+
 ```json
 {
   "Python": {
@@ -50,7 +56,8 @@ In `languages.json`, each entry includes the type (`programming`, `data`, `marku
 }
 ```
 
-**Data** (e.g., JSON):
+data:
+
 ```json
 {
   "JSON": {
@@ -61,7 +68,8 @@ In `languages.json`, each entry includes the type (`programming`, `data`, `marku
 }
 ```
 
-**Markup** (e.g., HTML):
+markup:
+
 ```json
 {
   "HTML": {
@@ -72,7 +80,8 @@ In `languages.json`, each entry includes the type (`programming`, `data`, `marku
 }
 ```
 
-**Prose** (e.g., Markdown):
+prose:
+
 ```json
 {
   "Markdown": {
@@ -83,7 +92,7 @@ In `languages.json`, each entry includes the type (`programming`, `data`, `marku
 }
 ```
 
-## Generating the dataset
+## Generating the Dataset
 
 To regenerate the files from the source `languages.yml`:
 

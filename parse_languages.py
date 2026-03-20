@@ -28,7 +28,7 @@ def parse_languages():
     write_languages_json(all_langs)
     write_languages_csv(all_langs)
 
-    write_popular_languages_json(all_langs, popular_names)
+    write_languages_popular_json(all_langs, popular_names)
     write_popular_languages_csv(all_langs, popular_names)
 
     write_gh_extensions_csv(all_langs)
@@ -58,6 +58,7 @@ def load_languages(languages_url):
                 "type": lang_type,
                 "aliases": props.get("aliases", []),
                 "extensions": props.get("extensions", []),
+                "filenames": props.get("filenames", []),
             })
 
     for t in by_type:
@@ -76,9 +77,12 @@ def write_type_files_json(by_type):
     for t in TYPES:
         type_data = {}
         for lang in by_type[t]:
-            entry = {"extensions": lang["extensions"]}
+            entry = {}
             if lang["aliases"]:
                 entry["aliases"] = lang["aliases"]
+            if lang["filenames"]:
+                entry["filenames"] = lang["filenames"]
+            entry["extensions"] = lang["extensions"]
             type_data[lang["name"]] = entry
         filename = f"languages_{t}.json"
         filepath = Path(OUTPUT_DIR) / filename
@@ -92,8 +96,8 @@ def write_type_files_csv(by_type):
         rows = sorted(by_type[t], key=lambda lang: lang["name"].lower())
         filename = f"languages_{t}.csv"
         filepath = Path(OUTPUT_DIR) / filename
-        data = [[lang["name"], "; ".join(lang["aliases"]), "; ".join(lang["extensions"])] for lang in rows]
-        _write_csv(filepath, ["language", "aliases", "extensions"], data)
+        data = [[lang["name"], "; ".join(lang["aliases"]), "; ".join(lang["filenames"]), "; ".join(lang["extensions"])] for lang in rows]
+        _write_csv(filepath, ["language", "aliases", "filenames", "extensions"], data)
         print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
@@ -102,9 +106,12 @@ def write_languages_json(all_langs):
     filepath = Path(OUTPUT_DIR) / filename
     langs = {}
     for lang in all_langs:
-        entry = {"type": lang["type"], "extensions": lang["extensions"]}
+        entry = {"type": lang["type"]}
         if lang["aliases"]:
             entry["aliases"] = lang["aliases"]
+        if lang["filenames"]:
+            entry["filenames"] = lang["filenames"]
+        entry["extensions"] = lang["extensions"]
         langs[lang["name"]] = entry
     with open(filepath, "w") as f:
         json.dump(langs, f, indent=2)
@@ -115,16 +122,16 @@ def write_languages_csv(all_langs):
     filename = "languages.csv"
     filepath = Path(OUTPUT_DIR) / filename
     rows = sorted(
-        [(lang["name"], lang["type"], lang["aliases"], lang["extensions"]) for lang in all_langs],
+        [(lang["name"], lang["type"], lang["aliases"], lang["filenames"], lang["extensions"]) for lang in all_langs],
         key=lambda r: r[0].lower()
     )
-    data = [[name, lang_type, "; ".join(aliases), "; ".join(extensions)] for name, lang_type, aliases, extensions in rows]
-    _write_csv(filepath, ["language", "type", "aliases", "extensions"], data)
+    data = [[name, lang_type, "; ".join(aliases), "; ".join(filenames), "; ".join(extensions)] for name, lang_type, aliases, filenames, extensions in rows]
+    _write_csv(filepath, ["language", "type", "aliases", "filenames", "extensions"], data)
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
-def write_popular_languages_json(all_langs, popular_names):
-    filename = "popular_languages.json"
+def write_languages_popular_json(all_langs, popular_names):
+    filename = "languages_popular.json"
     filepath = Path(OUTPUT_DIR) / filename
     langs_by_name = {lang["name"]: lang for lang in all_langs}
     popular = {}
@@ -132,25 +139,28 @@ def write_popular_languages_json(all_langs, popular_names):
         lang = langs_by_name.get(name)
         if lang is None:
             continue
-        entry = {"type": lang["type"], "extensions": lang["extensions"]}
+        entry = {"type": lang["type"]}
         if lang["aliases"]:
             entry["aliases"] = lang["aliases"]
+        if lang["filenames"]:
+            entry["filenames"] = lang["filenames"]
+        entry["extensions"] = lang["extensions"]
         popular[name] = entry
     with open(filepath, "w") as f:
         json.dump(popular, f, indent=2)
     print(f"Wrote {filepath} ({len(popular)} languages)")
 
 
-def write_popular_languages_csv(all_langs, popular_names):
-    filename = "popular_languages.csv"
+def write_languages_popular_csv(all_langs, popular_names):
+    filename = "languages_popular.csv"
     filepath = Path(OUTPUT_DIR) / filename
     langs_by_name = {lang["name"]: lang for lang in all_langs}
     rows = [
-        [name, langs_by_name[name]["type"], "; ".join(langs_by_name[name]["aliases"]), "; ".join(langs_by_name[name]["extensions"])]
+        [name, langs_by_name[name]["type"], "; ".join(langs_by_name[name]["aliases"]), "; ".join(langs_by_name[name]["filenames"]), "; ".join(langs_by_name[name]["extensions"])]
         for name in popular_names
         if name in langs_by_name
     ]
-    _write_csv(filepath, ["language", "type", "aliases", "extensions"], rows)
+    _write_csv(filepath, ["language", "type", "aliases", "filenames", "extensions"], rows)
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
@@ -174,10 +184,10 @@ def write_languages_stats_csv(all_langs):
     filename = "languages_stats.csv"
     filepath = Path(OUTPUT_DIR) / filename
     rows = sorted(
-        [(lang["name"], lang["type"], len(lang["extensions"]), len(lang["aliases"])) for lang in all_langs],
+        [(lang["name"], lang["type"], len(lang["extensions"]), len(lang["aliases"]), len(lang["filenames"])) for lang in all_langs],
         key=lambda r: (-(r[2] + r[3]), r[0].lower())
     )
-    _write_csv(filepath, ["language", "type", "extensions_count", "aliases_count"], rows)
+    _write_csv(filepath, ["language", "type", "extensions_count", "aliases_count", "filenames_count"], rows)
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
