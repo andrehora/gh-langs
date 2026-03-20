@@ -1,7 +1,8 @@
 # GitHub Languages and Extensions
 
 Comprehensive dataset of 800+ languages and their extensions extracted from [GitHub Linguist](https://github.com/github-linguist/linguist).
-Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml):
+
+Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
 ### Basic
 
