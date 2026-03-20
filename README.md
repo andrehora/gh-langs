@@ -22,8 +22,10 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 | [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | 25 | Popular languages and extensions |
 <!-- summary:end -->
 
+Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
-Per language type (`programming`, `data`, `markup`, or `prose`):
+# Language and Extensions per Type
+
 
 <!-- types:start -->
 | File | Count | Description |
