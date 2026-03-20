@@ -6,28 +6,28 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 
 # Basic
 
+<!-- gh:start -->
 | File | Count | Description |
 |------|-------|-------------|
-<!-- gh:start -->
 | [`gh_languages.csv`](data/gh_languages.csv) | 804 | Languages known to GitHub |
-| [`gh_extensions.csv`](data/gh_extensions.csv) | 1034 | Language extensions known to GitHub |
+| [`gh_extensions.csv`](data/gh_extensions.csv) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
 # Language and Extensions
 
+<!-- summary:start -->
 | File | Count | Description |
 |------|-------|-------------|
-<!-- summary:start -->
-| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 804 | Language and extensions |
-| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | 25 | Popular language and extensions (see GitHub Linguist's [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml)) |
+| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 804 | Languages and extensions |
+| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | 25 | Popular languages and extensions |
 <!-- summary:end -->
 
 
 Per language type (`programming`, `data`, `markup`, or `prose`):
 
+<!-- types:start -->
 | File | Count | Description |
 |------|-------|-------------|
-<!-- types:start -->
 | [`languages_programming.json`](data/languages_programming.json) / [`csv`](data/languages_programming.csv) | 539 | Programming languages |
 | [`languages_data.json`](data/languages_data.json) / [`csv`](data/languages_data.csv) | 178 | Data languages |
 | [`languages_markup.json`](data/languages_markup.json) / [`csv`](data/languages_markup.csv) | 69 | Markup languages |

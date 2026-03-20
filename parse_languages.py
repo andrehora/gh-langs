@@ -146,9 +146,9 @@ def write_popular_languages_csv(all_langs, popular_names):
     filepath = Path(OUTPUT_DIR) / filename
     langs_by_name = {lang["name"]: lang for lang in all_langs}
     rows = [
-        [name, lang["type"], "; ".join(lang["aliases"]), "; ".join(lang["extensions"])]
+        [name, langs_by_name[name]["type"], "; ".join(langs_by_name[name]["aliases"]), "; ".join(langs_by_name[name]["extensions"])]
         for name in popular_names
-        if (lang := langs_by_name.get(name)) is not None
+        if name in langs_by_name
     ]
     _write_csv(filepath, ["language", "type", "aliases", "extensions"], rows)
     print(f"Wrote {filepath} ({len(rows)} languages)")
@@ -197,21 +197,29 @@ def write_readme(type_counts, popular_names, all_langs):
     gh_languages_count = len({lang["name"] for lang in all_langs})
     gh_extensions_count = len({ext for lang in all_langs for ext in lang["extensions"]})
     gh_rows = (
-        f"| [`gh_languages.csv`](data/gh_languages.csv) | {gh_languages_count} | Language names as defined in GitHub Linguist |\n"
-        f"| [`gh_extensions.csv`](data/gh_extensions.csv) | {gh_extensions_count} | File extensions mapped to languages in GitHub Linguist |"
+        "| File | Count | Description |\n"
+        "|------|-------|-------------|\n"
+        f"| [`gh_languages.csv`](data/gh_languages.csv) | {gh_languages_count} | Languages known to GitHub |\n"
+        f"| [`gh_extensions.csv`](data/gh_extensions.csv) | {gh_extensions_count} | Language extensions known to GitHub |"
     )
     content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", gh_rows)
 
     summary_rows = (
-        f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | All languages |\n"
-        f"| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | {len(popular_names)} | Popular languages |"
+        "| File | Count | Description |\n"
+        "|------|-------|-------------|\n"
+        f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | Languages and extensions |\n"
+        f"| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | {len(popular_names)} | Popular languages and extensions |"
     )
     content = _replace_between(content, "<!-- summary:start -->", "<!-- summary:end -->", summary_rows)
 
     type_descriptions = {"programming": "Programming", "data": "Data", "markup": "Markup", "prose": "Prose"}
-    types_rows = "\n".join(
-        f"| [`languages_{t}.json`](data/languages_{t}.json) / [`csv`](data/languages_{t}.csv) | {type_counts[t]} | {type_descriptions[t]} languages |"
-        for t in TYPES
+    types_rows = (
+        "| File | Count | Description |\n"
+        "|------|-------|-------------|\n"
+        + "\n".join(
+            f"| [`languages_{t}.json`](data/languages_{t}.json) / [`csv`](data/languages_{t}.csv) | {type_counts[t]} | {type_descriptions[t]} languages |"
+            for t in TYPES
+        )
     )
     content = _replace_between(content, "<!-- types:start -->", "<!-- types:end -->", types_rows)
 
