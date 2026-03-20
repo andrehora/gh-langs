@@ -29,7 +29,7 @@ def parse_languages():
     write_languages_csv(all_langs)
 
     write_languages_popular_json(all_langs, popular_names)
-    write_popular_languages_csv(all_langs, popular_names)
+    write_languages_popular_csv(all_langs, popular_names)
 
     write_gh_extensions_csv(all_langs)
     write_gh_languages_csv(all_langs)
