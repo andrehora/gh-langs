@@ -12,8 +12,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 <!-- gh:start -->
 | File | Count | Description |
 |------|-------|-------------|
-| [`gh_languages.csv`](data/gh_languages.csv) | 804 | Languages known to GitHub |
-| [`gh_extensions.csv`](data/gh_extensions.csv) | 1448 | Language extensions known to GitHub |
+| [`gh_languages.txt`](data/gh_languages.txt) | 804 | Languages known to GitHub |
+| [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
 ### Language and Extensions

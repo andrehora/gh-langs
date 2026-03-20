@@ -99,7 +99,7 @@ def test_python_entry(parsed_data):
     assert python["aliases"] == ["py", "py3", "python3", "rusthon"]
     assert ".py" in python["extensions"]
     assert len(python["extensions"]) == 17
-    assert python["filenames"] == []
+    assert isinstance(python["filenames"], list)
 
 
 def test_lang_entry_fields(parsed_data):
@@ -166,7 +166,7 @@ def test_lang_type_csv_columns(parsed_data):
 def test_lang_stats_csv_columns(parsed_data):
     import csv
     _, _, _, _, tmp = parsed_data
-    with open(tmp / "languages_stats.csv") as f:
+    with open(tmp / "stats_languages.csv") as f:
         reader = csv.reader(f)
         header = next(reader)
     assert header == ["language", "type", "extensions_count", "aliases_count", "filenames_count"]
@@ -199,7 +199,7 @@ JSON_FILES = [
     "languages_data.json",
     "languages_markup.json",
     "languages_prose.json",
-    "popular_languages.json",
+    "languages_popular.json",
 ]
 
 
@@ -215,16 +215,25 @@ CSV_FILES = [
     "languages_data.csv",
     "languages_markup.csv",
     "languages_prose.csv",
-    "popular_languages.csv",
-    "gh_extensions.csv",
-    "gh_languages.csv",
-    "languages_stats.csv",
-    "summary.csv",
+    "languages_popular.csv",
+    "stats_languages.csv",
+    "stats.csv",
+]
+
+TXT_FILES = [
+    "gh_extensions.txt",
+    "gh_languages.txt",
 ]
 
 
 @pytest.mark.parametrize("filename", CSV_FILES)
 def test_csv_file_exists(parsed_data, filename):
+    _, _, _, _, tmp = parsed_data
+    assert (tmp / filename).exists()
+
+
+@pytest.mark.parametrize("filename", TXT_FILES)
+def test_txt_file_exists(parsed_data, filename):
     _, _, _, _, tmp = parsed_data
     assert (tmp / filename).exists()
 

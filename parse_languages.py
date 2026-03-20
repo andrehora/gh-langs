@@ -31,11 +31,11 @@ def parse_languages():
     write_languages_popular_json(all_langs, popular_names)
     write_languages_popular_csv(all_langs, popular_names)
 
-    write_gh_extensions_csv(all_langs)
-    write_gh_languages_csv(all_langs)
+    write_gh_extensions_txt(all_langs)
+    write_gh_languages_txt(all_langs)
 
-    write_languages_stats_csv(all_langs)
-    write_summary_csv(type_counts)
+    write_stats_languages_csv(all_langs)
+    write_stats_csv(type_counts)
     write_readme(type_counts, popular_names, all_langs)
 
     print("Done.")
@@ -164,24 +164,24 @@ def write_languages_popular_csv(all_langs, popular_names):
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
-def write_gh_extensions_csv(all_langs):
-    filename = "gh_extensions.csv"
+def write_gh_extensions_txt(all_langs):
+    filename = "gh_extensions.txt"
     filepath = Path(OUTPUT_DIR) / filename
     all_extensions = sorted({ext for lang in all_langs for ext in lang["extensions"]})
-    _write_csv(filepath, ["extension"], [[ext] for ext in all_extensions])
+    filepath.write_text("\n".join(all_extensions) + "\n")
     print(f"Wrote {filepath} ({len(all_extensions)} extensions)")
 
 
-def write_gh_languages_csv(all_langs):
-    filename = "gh_languages.csv"
+def write_gh_languages_txt(all_langs):
+    filename = "gh_languages.txt"
     filepath = Path(OUTPUT_DIR) / filename
     all_names = sorted({lang["name"] for lang in all_langs}, key=str.lower)
-    _write_csv(filepath, ["language"], [[name] for name in all_names])
+    filepath.write_text("\n".join(all_names) + "\n")
     print(f"Wrote {filepath} ({len(all_names)} languages)")
 
 
-def write_languages_stats_csv(all_langs):
-    filename = "languages_stats.csv"
+def write_stats_languages_csv(all_langs):
+    filename = "stats_languages.csv"
     filepath = Path(OUTPUT_DIR) / filename
     rows = sorted(
         [(lang["name"], lang["type"], len(lang["extensions"]), len(lang["aliases"]), len(lang["filenames"])) for lang in all_langs],
@@ -191,8 +191,8 @@ def write_languages_stats_csv(all_langs):
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 
-def write_summary_csv(type_counts):
-    filename = "summary.csv"
+def write_stats_csv(type_counts):
+    filename = "stats.csv"
     filepath = Path(OUTPUT_DIR) / filename
     rows = [[t, type_counts[t]] for t in TYPES] + [["total", sum(type_counts.values())]]
     _write_csv(filepath, ["type", "count"], rows)
@@ -209,8 +209,8 @@ def write_readme(type_counts, popular_names, all_langs):
     gh_rows = (
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
-        f"| [`gh_languages.csv`](data/gh_languages.csv) | {gh_languages_count} | Languages known to GitHub |\n"
-        f"| [`gh_extensions.csv`](data/gh_extensions.csv) | {gh_extensions_count} | Language extensions known to GitHub |"
+        f"| [`gh_languages.txt`](data/gh_languages.txt) | {gh_languages_count} | Languages known to GitHub |\n"
+        f"| [`gh_extensions.txt`](data/gh_extensions.txt) | {gh_extensions_count} | Language extensions known to GitHub |"
     )
     content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", gh_rows)
 
