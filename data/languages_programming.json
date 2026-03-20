@@ -85,10 +85,10 @@
       "abuild",
       "apkbuild"
     ],
+    "extensions": [],
     "filenames": [
       "APKBUILD"
-    ],
-    "extensions": []
+    ]
   },
   "AMPL": {
     "extensions": [
@@ -263,13 +263,13 @@
       "dosbatch",
       "winbatch"
     ],
-    "filenames": [
-      "gradlew.bat",
-      "mvnw.cmd"
-    ],
     "extensions": [
       ".bat",
       ".cmd"
+    ],
+    "filenames": [
+      "gradlew.bat",
+      "mvnw.cmd"
     ]
   },
   "Beef": {
@@ -566,9 +566,6 @@
     ]
   },
   "Clojure": {
-    "filenames": [
-      "riemann.config"
-    ],
     "extensions": [
       ".clj",
       ".bb",
@@ -580,6 +577,9 @@
       ".cljscm",
       ".cljx",
       ".hic"
+    ],
+    "filenames": [
+      "riemann.config"
     ]
   },
   "Clue": {
@@ -588,12 +588,12 @@
     ]
   },
   "CMake": {
-    "filenames": [
-      "CMakeLists.txt"
-    ],
     "extensions": [
       ".cmake",
       ".cmake.in"
+    ],
+    "filenames": [
+      "CMakeLists.txt"
     ]
   },
   "COBOL": {
@@ -619,15 +619,15 @@
       "coffee",
       "coffee-script"
     ],
-    "filenames": [
-      "Cakefile"
-    ],
     "extensions": [
       ".coffee",
       "._coffee",
       ".cake",
       ".cjsx",
       ".iced"
+    ],
+    "filenames": [
+      "Cakefile"
     ]
   },
   "ColdFusion": {
@@ -819,13 +819,13 @@
     "aliases": [
       "Containerfile"
     ],
-    "filenames": [
-      "Containerfile",
-      "Dockerfile"
-    ],
     "extensions": [
       ".dockerfile",
       ".containerfile"
+    ],
+    "filenames": [
+      "Containerfile",
+      "Dockerfile"
     ]
   },
   "Dogescript": {
@@ -842,10 +842,10 @@
     ]
   },
   "Dune": {
+    "extensions": [],
     "filenames": [
       "dune-project"
-    ],
-    "extensions": []
+    ]
   },
   "Dylan": {
     "extensions": [
@@ -864,10 +864,10 @@
     "aliases": [
       "Earthfile"
     ],
+    "extensions": [],
     "filenames": [
       "Earthfile"
-    ],
-    "extensions": []
+    ]
   },
   "eC": {
     "extensions": [
@@ -901,12 +901,12 @@
     ]
   },
   "Elixir": {
-    "filenames": [
-      "mix.lock"
-    ],
     "extensions": [
       ".ex",
       ".exs"
+    ],
+    "filenames": [
+      "mix.lock"
     ]
   },
   "Elm": {
@@ -929,6 +929,11 @@
       "elisp",
       "emacs"
     ],
+    "extensions": [
+      ".el",
+      ".emacs",
+      ".emacs.desktop"
+    ],
     "filenames": [
       ".abbrev_defs",
       ".emacs",
@@ -941,11 +946,6 @@
       "Project.ede",
       "_emacs",
       "abbrev_defs"
-    ],
-    "extensions": [
-      ".el",
-      ".emacs",
-      ".emacs.desktop"
     ]
   },
   "EmberScript": {
@@ -960,12 +960,6 @@
     ]
   },
   "Erlang": {
-    "filenames": [
-      "Emakefile",
-      "rebar.config",
-      "rebar.config.lock",
-      "rebar.lock"
-    ],
     "extensions": [
       ".erl",
       ".app",
@@ -975,6 +969,12 @@
       ".hrl",
       ".xrl",
       ".yrl"
+    ],
+    "filenames": [
+      "Emakefile",
+      "rebar.config",
+      "rebar.config.lock",
+      "rebar.lock"
     ]
   },
   "Euphoria": {
@@ -1003,21 +1003,21 @@
     ]
   },
   "Factor": {
+    "extensions": [
+      ".factor"
+    ],
     "filenames": [
       ".factor-boot-rc",
       ".factor-rc"
-    ],
-    "extensions": [
-      ".factor"
     ]
   },
   "Fancy": {
-    "filenames": [
-      "Fakefile"
-    ],
     "extensions": [
       ".fy",
       ".fancypack"
+    ],
+    "filenames": [
+      "Fakefile"
     ]
   },
   "Fantom": {
@@ -1317,14 +1317,14 @@
     ]
   },
   "Groovy": {
-    "filenames": [
-      "Jenkinsfile"
-    ],
     "extensions": [
       ".groovy",
       ".grt",
       ".gtpl",
       ".gvy"
+    ],
+    "filenames": [
+      "Jenkinsfile"
     ]
   },
   "Groovy Server Pages": {
@@ -1508,10 +1508,10 @@
     ]
   },
   "Isabelle ROOT": {
+    "extensions": [],
     "filenames": [
       "ROOT"
-    ],
-    "extensions": []
+    ]
   },
   "ISPC": {
     "extensions": [
@@ -1572,9 +1572,6 @@
       "js",
       "node"
     ],
-    "filenames": [
-      "Jakefile"
-    ],
     "extensions": [
       ".js",
       "._js",
@@ -1601,6 +1598,9 @@
       ".ssjs",
       ".xsjs",
       ".xsjslib"
+    ],
+    "filenames": [
+      "Jakefile"
     ]
   },
   "JavaScript+ERB": {
@@ -1673,6 +1673,9 @@
     "aliases": [
       "Justfile"
     ],
+    "extensions": [
+      ".just"
+    ],
     "filenames": [
       ".JUSTFILE",
       ".Justfile",
@@ -1680,9 +1683,6 @@
       "JUSTFILE",
       "Justfile",
       "justfile"
-    ],
-    "extensions": [
-      ".just"
     ]
   },
   "Kaitai Struct": {
@@ -1698,20 +1698,20 @@
       "kak",
       "kakscript"
     ],
-    "filenames": [
-      "kakrc"
-    ],
     "extensions": [
       ".kak"
+    ],
+    "filenames": [
+      "kakrc"
     ]
   },
   "KCL": {
+    "extensions": [
+      ".k"
+    ],
     "filenames": [
       "kcl.mod",
       "kcl.mod.lock"
-    ],
-    "extensions": [
-      ".k"
     ]
   },
   "KerboScript": {
@@ -1797,13 +1797,13 @@
     "aliases": [
       "flex"
     ],
-    "filenames": [
-      "Lexer.x",
-      "lexer.x"
-    ],
     "extensions": [
       ".l",
       ".lex"
+    ],
+    "filenames": [
+      "Lexer.x",
+      "lexer.x"
     ]
   },
   "LFE": {
@@ -1834,13 +1834,13 @@
     ]
   },
   "Linker Script": {
-    "filenames": [
-      "ld.script"
-    ],
     "extensions": [
       ".ld",
       ".lds",
       ".x"
+    ],
+    "filenames": [
+      "ld.script"
     ]
   },
   "Liquidsoap": {
@@ -1881,12 +1881,12 @@
       "live-script",
       "ls"
     ],
-    "filenames": [
-      "Slakefile"
-    ],
     "extensions": [
       ".ls",
       "._ls"
+    ],
+    "filenames": [
+      "Slakefile"
     ]
   },
   "LLVM": {
@@ -1930,9 +1930,6 @@
     ]
   },
   "Lua": {
-    "filenames": [
-      ".luacheckrc"
-    ],
     "extensions": [
       ".lua",
       ".fcgi",
@@ -1942,6 +1939,9 @@
       ".rbxs",
       ".rockspec",
       ".wlua"
+    ],
+    "filenames": [
+      ".luacheckrc"
     ]
   },
   "Luau": {
@@ -1968,11 +1968,11 @@
     "aliases": [
       "autoconf"
     ],
-    "filenames": [
-      "configure.ac"
-    ],
     "extensions": [
       ".m4"
+    ],
+    "filenames": [
+      "configure.ac"
     ]
   },
   "Macaulay2": {
@@ -1989,6 +1989,14 @@
       "make",
       "mf"
     ],
+    "extensions": [
+      ".mak",
+      ".d",
+      ".make",
+      ".makefile",
+      ".mk",
+      ".mkfile"
+    ],
     "filenames": [
       "BSDmakefile",
       "GNUmakefile",
@@ -2003,14 +2011,6 @@
       "makefile",
       "makefile.sco",
       "mkfile"
-    ],
-    "extensions": [
-      ".mak",
-      ".d",
-      ".make",
-      ".makefile",
-      ".mk",
-      ".mkfile"
     ]
   },
   "Mako": {
@@ -2064,11 +2064,11 @@
     ]
   },
   "Meson": {
+    "extensions": [],
     "filenames": [
       "meson.build",
       "meson_options.txt"
-    ],
-    "extensions": []
+    ]
   },
   "Metal": {
     "extensions": [
@@ -2131,13 +2131,13 @@
     ]
   },
   "Module Management System": {
-    "filenames": [
-      "descrip.mmk",
-      "descrip.mms"
-    ],
     "extensions": [
       ".mms",
       ".mmk"
+    ],
+    "filenames": [
+      "descrip.mmk",
+      "descrip.mms"
     ]
   },
   "Mojo": {
@@ -2278,11 +2278,11 @@
     ]
   },
   "Nextflow": {
-    "filenames": [
-      "nextflow.config"
-    ],
     "extensions": [
       ".nf"
+    ],
+    "filenames": [
+      "nextflow.config"
     ]
   },
   "Nickel": {
@@ -2291,15 +2291,15 @@
     ]
   },
   "Nim": {
-    "filenames": [
-      "nim.cfg"
-    ],
     "extensions": [
       ".nim",
       ".nim.cfg",
       ".nimble",
       ".nimrod",
       ".nims"
+    ],
+    "filenames": [
+      "nim.cfg"
     ]
   },
   "Nit": {
@@ -2338,11 +2338,11 @@
     "aliases": [
       "nush"
     ],
-    "filenames": [
-      "Nukefile"
-    ],
     "extensions": [
       ".nu"
+    ],
+    "filenames": [
+      "Nukefile"
     ]
   },
   "NumPy": {
@@ -2608,14 +2608,6 @@
     "aliases": [
       "cperl"
     ],
-    "filenames": [
-      ".latexmkrc",
-      "Makefile.PL",
-      "Rexfile",
-      "ack",
-      "cpanfile",
-      "latexmkrc"
-    ],
     "extensions": [
       ".pl",
       ".al",
@@ -2627,17 +2619,19 @@
       ".pm",
       ".psgi",
       ".t"
+    ],
+    "filenames": [
+      ".latexmkrc",
+      "Makefile.PL",
+      "Rexfile",
+      "ack",
+      "cpanfile",
+      "latexmkrc"
     ]
   },
   "PHP": {
     "aliases": [
       "inc"
-    ],
-    "filenames": [
-      ".php",
-      ".php_cs",
-      ".php_cs.dist",
-      "Phakefile"
     ],
     "extensions": [
       ".php",
@@ -2650,6 +2644,12 @@
       ".php5",
       ".phps",
       ".phpt"
+    ],
+    "filenames": [
+      ".php",
+      ".php_cs",
+      ".php_cs.dist",
+      "Phakefile"
     ]
   },
   "PicoLisp": {
@@ -2759,10 +2759,10 @@
     ]
   },
   "Procfile": {
+    "extensions": [],
     "filenames": [
       "Procfile"
-    ],
-    "extensions": []
+    ]
   },
   "Prolog": {
     "extensions": [
@@ -2784,11 +2784,11 @@
     ]
   },
   "Puppet": {
-    "filenames": [
-      "Modulefile"
-    ],
     "extensions": [
       ".pp"
+    ],
+    "filenames": [
+      "Modulefile"
     ]
   },
   "PureBasic": {
@@ -2814,13 +2814,6 @@
       "python3",
       "rusthon"
     ],
-    "filenames": [
-      ".gclient",
-      "DEPS",
-      "SConscript",
-      "SConstruct",
-      "wscript"
-    ],
     "extensions": [
       ".py",
       ".cgi",
@@ -2839,6 +2832,13 @@
       ".tac",
       ".wsgi",
       ".xpy"
+    ],
+    "filenames": [
+      ".gclient",
+      "DEPS",
+      "SConscript",
+      "SConstruct",
+      "wscript"
     ]
   },
   "Python console": {
@@ -2873,20 +2873,20 @@
     ]
   },
   "Qt Script": {
+    "extensions": [
+      ".qs"
+    ],
     "filenames": [
       "installscript.qs",
       "toolchain_installscript.qs"
-    ],
-    "extensions": [
-      ".qs"
     ]
   },
   "Quake": {
+    "extensions": [],
     "filenames": [
       "m3makefile",
       "m3overrides"
-    ],
-    "extensions": []
+    ]
   },
   "QuakeC": {
     "extensions": [
@@ -2911,14 +2911,14 @@
       "Rscript",
       "splus"
     ],
-    "filenames": [
-      ".Rprofile",
-      "expr-dist"
-    ],
     "extensions": [
       ".r",
       ".rd",
       ".rsx"
+    ],
+    "filenames": [
+      ".Rprofile",
+      "expr-dist"
     ]
   },
   "Racket": {
@@ -3112,6 +3112,30 @@
       "rb",
       "rbx"
     ],
+    "extensions": [
+      ".rb",
+      ".builder",
+      ".eye",
+      ".fcgi",
+      ".gemspec",
+      ".god",
+      ".jbuilder",
+      ".mspec",
+      ".pluginspec",
+      ".podspec",
+      ".prawn",
+      ".rabl",
+      ".rake",
+      ".rbi",
+      ".rbuild",
+      ".rbw",
+      ".rbx",
+      ".ru",
+      ".ruby",
+      ".spec",
+      ".thor",
+      ".watchr"
+    ],
     "filenames": [
       ".irbrc",
       ".pryrc",
@@ -3136,30 +3160,6 @@
       "Thorfile",
       "Vagrantfile",
       "buildfile"
-    ],
-    "extensions": [
-      ".rb",
-      ".builder",
-      ".eye",
-      ".fcgi",
-      ".gemspec",
-      ".god",
-      ".jbuilder",
-      ".mspec",
-      ".pluginspec",
-      ".podspec",
-      ".prawn",
-      ".rabl",
-      ".rake",
-      ".rbi",
-      ".rbuild",
-      ".rbw",
-      ".rbx",
-      ".ru",
-      ".ruby",
-      ".spec",
-      ".thor",
-      ".watchr"
     ]
   },
   "Rust": {
@@ -3249,6 +3249,23 @@
       "zsh",
       "envrc"
     ],
+    "extensions": [
+      ".sh",
+      ".bash",
+      ".bats",
+      ".cgi",
+      ".command",
+      ".fcgi",
+      ".ksh",
+      ".sbatch",
+      ".sh.in",
+      ".slurm",
+      ".tmux",
+      ".tool",
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
+    ],
     "filenames": [
       ".bash_aliases",
       ".bash_functions",
@@ -3291,23 +3308,6 @@
       "zprofile",
       "zshenv",
       "zshrc"
-    ],
-    "extensions": [
-      ".sh",
-      ".bash",
-      ".bats",
-      ".cgi",
-      ".command",
-      ".fcgi",
-      ".ksh",
-      ".sbatch",
-      ".sh.in",
-      ".slurm",
-      ".tmux",
-      ".tool",
-      ".trigger",
-      ".zsh",
-      ".zsh-theme"
     ]
   },
   "ShellSession": {
@@ -3330,10 +3330,10 @@
     ]
   },
   "Singularity": {
+    "extensions": [],
     "filenames": [
       "Singularity"
-    ],
-    "extensions": []
+    ]
   },
   "Slang": {
     "extensions": [
@@ -3393,12 +3393,12 @@
     "aliases": [
       "snakefile"
     ],
-    "filenames": [
-      "Snakefile"
-    ],
     "extensions": [
       ".smk",
       ".snakefile"
+    ],
+    "filenames": [
+      "Snakefile"
     ]
   },
   "Solidity": {
@@ -3453,6 +3453,10 @@
       "bazel",
       "bzl"
     ],
+    "extensions": [
+      ".bzl",
+      ".star"
+    ],
     "filenames": [
       "BUCK",
       "BUILD",
@@ -3462,10 +3466,6 @@
       "WORKSPACE",
       "WORKSPACE.bazel",
       "WORKSPACE.bzlmod"
-    ],
-    "extensions": [
-      ".bzl",
-      ".star"
     ]
   },
   "Stata": {
@@ -3532,10 +3532,6 @@
       "sdc",
       "xdc"
     ],
-    "filenames": [
-      "owh",
-      "starfield"
-    ],
     "extensions": [
       ".tcl",
       ".adp",
@@ -3543,6 +3539,10 @@
       ".tcl.in",
       ".tm",
       ".xdc"
+    ],
+    "filenames": [
+      "owh",
+      "starfield"
     ]
   },
   "Tcsh": {
@@ -3746,6 +3746,12 @@
       "nvim",
       "vimscript"
     ],
+    "extensions": [
+      ".vim",
+      ".vba",
+      ".vimrc",
+      ".vmb"
+    ],
     "filenames": [
       ".exrc",
       ".gvimrc",
@@ -3755,12 +3761,6 @@
       "gvimrc",
       "nvimrc",
       "vimrc"
-    ],
-    "extensions": [
-      ".vim",
-      ".vba",
-      ".vimrc",
-      ".vmb"
     ]
   },
   "Visual Basic .NET": {
@@ -3904,10 +3904,10 @@
     ]
   },
   "Xmake": {
+    "extensions": [],
     "filenames": [
       "xmake.lua"
-    ],
-    "extensions": []
+    ]
   },
   "Xojo": {
     "extensions": [

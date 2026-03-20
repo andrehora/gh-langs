@@ -94,15 +94,15 @@
     "aliases": [
       "gotmpl"
     ],
-    "filenames": [
-      "_helpers.tpl"
-    ],
     "extensions": [
       ".gohtml",
       ".gotmpl",
       ".html.tmpl",
       ".tmpl",
       ".tpl"
+    ],
+    "filenames": [
+      "_helpers.tpl"
     ]
   },
   "Haml": {
@@ -198,11 +198,11 @@
     "aliases": [
       "IPython Notebook"
     ],
-    "filenames": [
-      "Notebook"
-    ],
     "extensions": [
       ".ipynb"
+    ],
+    "filenames": [
+      "Notebook"
     ]
   },
   "Kit": {
@@ -341,13 +341,6 @@
       "nroff",
       "troff"
     ],
-    "filenames": [
-      "eqnrc",
-      "mmn",
-      "mmt",
-      "troffrc",
-      "troffrc-end"
-    ],
     "extensions": [
       ".roff",
       ".1",
@@ -377,6 +370,13 @@
       ".nr",
       ".rno",
       ".tmac"
+    ],
+    "filenames": [
+      "eqnrc",
+      "mmn",
+      "mmt",
+      "troffrc",
+      "troffrc-end"
     ]
   },
   "Roff Manpage": {

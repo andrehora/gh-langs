@@ -43,25 +43,25 @@
     ]
   },
   "Ant Build System": {
+    "extensions": [],
     "filenames": [
       "ant.xml",
       "build.xml"
-    ],
-    "extensions": []
+    ]
   },
   "ApacheConf": {
     "aliases": [
       "aconf",
       "apache"
     ],
+    "extensions": [
+      ".apacheconf",
+      ".vhost"
+    ],
     "filenames": [
       ".htaccess",
       "apache2.conf",
       "httpd.conf"
-    ],
-    "extensions": [
-      ".apacheconf",
-      ".vhost"
     ]
   },
   "ASN.1": {
@@ -76,11 +76,11 @@
     ]
   },
   "Browserslist": {
+    "extensions": [],
     "filenames": [
       ".browserslistrc",
       "browserslist"
-    ],
-    "extensions": []
+    ]
   },
   "BuildStream": {
     "extensions": [
@@ -96,23 +96,23 @@
     "aliases": [
       "Cabal"
     ],
+    "extensions": [
+      ".cabal"
+    ],
     "filenames": [
       "cabal.config",
       "cabal.project"
-    ],
-    "extensions": [
-      ".cabal"
     ]
   },
   "Caddyfile": {
     "aliases": [
       "Caddy"
     ],
-    "filenames": [
-      "Caddyfile"
-    ],
     "extensions": [
       ".caddyfile"
+    ],
+    "filenames": [
+      "Caddyfile"
     ]
   },
   "Checksums": {
@@ -122,16 +122,6 @@
       "hashes",
       "sum",
       "sums"
-    ],
-    "filenames": [
-      "MD5SUMS",
-      "SHA1SUMS",
-      "SHA256SUMS",
-      "SHA256SUMS.txt",
-      "SHA512SUMS",
-      "checksums.txt",
-      "cksums",
-      "md5sum.txt"
     ],
     "extensions": [
       ".crc32",
@@ -146,6 +136,16 @@
       ".sha3",
       ".sha384",
       ".sha512"
+    ],
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
     ]
   },
   "CIL": {
@@ -154,16 +154,16 @@
     ]
   },
   "Cloud Firestore Security Rules": {
+    "extensions": [],
     "filenames": [
       "firestore.rules"
-    ],
-    "extensions": []
+    ]
   },
   "CODEOWNERS": {
+    "extensions": [],
     "filenames": [
       "CODEOWNERS"
-    ],
-    "extensions": []
+    ]
   },
   "COLLADA": {
     "extensions": [
@@ -197,10 +197,10 @@
       "cron",
       "cron table"
     ],
+    "extensions": [],
     "filenames": [
       "crontab"
-    ],
-    "extensions": []
+    ]
   },
   "CSON": {
     "extensions": [
@@ -221,18 +221,18 @@
     "aliases": [
       "curlrc"
     ],
+    "extensions": [],
     "filenames": [
       ".curlrc",
       "_curlrc"
-    ],
-    "extensions": []
+    ]
   },
   "Cylc": {
-    "filenames": [
-      "suite.rc"
-    ],
     "extensions": [
       ".cylc"
+    ],
+    "filenames": [
+      "suite.rc"
     ]
   },
   "D-ObjDump": {
@@ -271,6 +271,9 @@
     ]
   },
   "dircolors": {
+    "extensions": [
+      ".dircolors"
+    ],
     "filenames": [
       ".dir_colors",
       ".dircolors",
@@ -278,9 +281,6 @@
       "_dir_colors",
       "_dircolors",
       "dir_colors"
-    ],
-    "extensions": [
-      ".dircolors"
     ]
   },
   "DirectX 3D File": {
@@ -295,6 +295,9 @@
     ]
   },
   "Dotenv": {
+    "extensions": [
+      ".env"
+    ],
     "filenames": [
       ".env",
       ".env.ci",
@@ -310,9 +313,6 @@
       ".env.template",
       ".env.test",
       ".env.testing"
-    ],
-    "extensions": [
-      ".env"
     ]
   },
   "E-mail": {
@@ -352,10 +352,10 @@
     "aliases": [
       "editor-config"
     ],
-    "filenames": [
+    "extensions": [
       ".editorconfig"
     ],
-    "extensions": [
+    "filenames": [
       ".editorconfig"
     ]
   },
@@ -394,10 +394,10 @@
     ]
   },
   "Gemfile.lock": {
+    "extensions": [],
     "filenames": [
       "Gemfile.lock"
-    ],
-    "extensions": []
+    ]
   },
   "Gerber Image": {
     "aliases": [
@@ -426,41 +426,41 @@
     "aliases": [
       "gitattributes"
     ],
+    "extensions": [],
     "filenames": [
       ".gitattributes"
-    ],
-    "extensions": []
+    ]
   },
   "Git Commit": {
     "aliases": [
       "commit"
     ],
+    "extensions": [],
     "filenames": [
       "COMMIT_EDITMSG"
-    ],
-    "extensions": []
+    ]
   },
   "Git Config": {
     "aliases": [
       "gitconfig",
       "gitmodules"
     ],
+    "extensions": [
+      ".gitconfig"
+    ],
     "filenames": [
       ".gitconfig",
       ".gitmodules"
-    ],
-    "extensions": [
-      ".gitconfig"
     ]
   },
   "Git Revision List": {
     "aliases": [
       "Git Blame Ignore Revs"
     ],
+    "extensions": [],
     "filenames": [
       ".git-blame-ignore-revs"
-    ],
-    "extensions": []
+    ]
   },
   "Glyph Bitmap Distribution Format": {
     "extensions": [
@@ -468,12 +468,12 @@
     ]
   },
   "GN": {
-    "filenames": [
-      ".gn"
-    ],
     "extensions": [
       ".gn",
       ".gni"
+    ],
+    "filenames": [
+      ".gn"
     ]
   },
   "Go Checksums": {
@@ -483,41 +483,41 @@
       "go.work.sum",
       "go work sum"
     ],
+    "extensions": [],
     "filenames": [
       "go.sum",
       "go.work.sum"
-    ],
-    "extensions": []
+    ]
   },
   "Go Module": {
     "aliases": [
       "go.mod",
       "go mod"
     ],
+    "extensions": [],
     "filenames": [
       "go.mod"
-    ],
-    "extensions": []
+    ]
   },
   "Go Workspace": {
     "aliases": [
       "go.work",
       "go work"
     ],
+    "extensions": [],
     "filenames": [
       "go.work"
-    ],
-    "extensions": []
+    ]
   },
   "Godot Resource": {
-    "filenames": [
-      "project.godot"
-    ],
     "extensions": [
       ".gdnlib",
       ".gdns",
       ".tres",
       ".tscn"
+    ],
+    "filenames": [
+      "project.godot"
     ]
   },
   "Gradle": {
@@ -549,32 +549,32 @@
     ]
   },
   "HAProxy": {
-    "filenames": [
-      "haproxy.cfg"
-    ],
     "extensions": [
       ".cfg"
+    ],
+    "filenames": [
+      "haproxy.cfg"
     ]
   },
   "HOCON": {
+    "extensions": [
+      ".hocon"
+    ],
     "filenames": [
       ".scalafix.conf",
       ".scalafmt.conf"
-    ],
-    "extensions": [
-      ".hocon"
     ]
   },
   "Hosts File": {
     "aliases": [
       "hosts"
     ],
+    "extensions": [],
     "filenames": [
       "HOSTS",
       "hosts",
       "hosts.txt"
-    ],
-    "extensions": []
+    ]
   },
   "HTTP": {
     "extensions": [
@@ -601,6 +601,9 @@
       "gitignore",
       "git-ignore"
     ],
+    "extensions": [
+      ".gitignore"
+    ],
     "filenames": [
       ".atomignore",
       ".babelignore",
@@ -622,25 +625,11 @@
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
-    ],
-    "extensions": [
-      ".gitignore"
     ]
   },
   "INI": {
     "aliases": [
       "dosini"
-    ],
-    "filenames": [
-      ".buckconfig",
-      ".coveragerc",
-      ".flake8",
-      ".pylintrc",
-      "HOSTS",
-      "buildozer.spec",
-      "hosts",
-      "pylintrc",
-      "vlcrc"
     ],
     "extensions": [
       ".ini",
@@ -653,6 +642,17 @@
       ".pro",
       ".properties",
       ".url"
+    ],
+    "filenames": [
+      ".buckconfig",
+      ".coveragerc",
+      ".flake8",
+      ".pylintrc",
+      "HOSTS",
+      "buildozer.spec",
+      "hosts",
+      "pylintrc",
+      "vlcrc"
     ]
   },
   "IRC log": {
@@ -666,10 +666,10 @@
     ]
   },
   "JAR Manifest": {
+    "extensions": [],
     "filenames": [
       "MANIFEST.MF"
-    ],
-    "extensions": []
+    ]
   },
   "Java Properties": {
     "extensions": [
@@ -687,26 +687,6 @@
       "jsonl",
       "sarif",
       "topojson"
-    ],
-    "filenames": [
-      ".all-contributorsrc",
-      ".arcconfig",
-      ".auto-changelog",
-      ".c8rc",
-      ".htmlhintrc",
-      ".imgbotconfig",
-      ".nycrc",
-      ".tern-config",
-      ".tern-project",
-      ".watchmanconfig",
-      "MODULE.bazel.lock",
-      "Package.resolved",
-      "Pipfile.lock",
-      "bun.lock",
-      "composer.lock",
-      "deno.lock",
-      "flake.lock",
-      "mcmod.info"
     ],
     "extensions": [
       ".json",
@@ -730,27 +710,31 @@
       ".webmanifest",
       ".yy",
       ".yyp"
+    ],
+    "filenames": [
+      ".all-contributorsrc",
+      ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
+      ".htmlhintrc",
+      ".imgbotconfig",
+      ".nycrc",
+      ".tern-config",
+      ".tern-project",
+      ".watchmanconfig",
+      "MODULE.bazel.lock",
+      "Package.resolved",
+      "Pipfile.lock",
+      "bun.lock",
+      "composer.lock",
+      "deno.lock",
+      "flake.lock",
+      "mcmod.info"
     ]
   },
   "JSON with Comments": {
     "aliases": [
       "jsonc"
-    ],
-    "filenames": [
-      ".babelrc",
-      ".devcontainer.json",
-      ".eslintrc.json",
-      ".jscsrc",
-      ".jshintrc",
-      ".jslintrc",
-      ".oxlintrc.json",
-      ".swcrc",
-      "api-extractor.json",
-      "devcontainer.json",
-      "jsconfig.json",
-      "language-configuration.json",
-      "tsconfig.json",
-      "tslint.json"
     ],
     "extensions": [
       ".jsonc",
@@ -771,6 +755,22 @@
       ".sublime_metrics",
       ".sublime_session",
       ".tsconfig.json"
+    ],
+    "filenames": [
+      ".babelrc",
+      ".devcontainer.json",
+      ".eslintrc.json",
+      ".jscsrc",
+      ".jshintrc",
+      ".jslintrc",
+      ".oxlintrc.json",
+      ".swcrc",
+      "api-extractor.json",
+      "devcontainer.json",
+      "jsconfig.json",
+      "language-configuration.json",
+      "tsconfig.json",
+      "tslint.json"
     ]
   },
   "JSON5": {
@@ -792,13 +792,13 @@
     "aliases": [
       "pcbnew"
     ],
-    "filenames": [
-      "fp-lib-table"
-    ],
     "extensions": [
       ".kicad_pcb",
       ".kicad_mod",
       ".kicad_wks"
+    ],
+    "filenames": [
+      "fp-lib-table"
     ]
   },
   "KiCad Legacy Layout": {
@@ -853,10 +853,10 @@
     ]
   },
   "Maven POM": {
+    "extensions": [],
     "filenames": [
       "pom.xml"
-    ],
-    "extensions": []
+    ]
   },
   "Microsoft Developer Studio Project": {
     "extensions": [
@@ -880,12 +880,12 @@
     ]
   },
   "nanorc": {
+    "extensions": [
+      ".nanorc"
+    ],
     "filenames": [
       ".nanorc",
       "nanorc"
-    ],
-    "extensions": [
-      ".nanorc"
     ]
   },
   "NEON": {
@@ -901,13 +901,13 @@
     "aliases": [
       "nginx configuration file"
     ],
-    "filenames": [
-      "nginx.conf"
-    ],
     "extensions": [
       ".nginx",
       ".nginxconf",
       ".vhost"
+    ],
+    "filenames": [
+      "nginx.conf"
     ]
   },
   "Ninja": {
@@ -924,10 +924,10 @@
     "aliases": [
       "npmrc"
     ],
+    "extensions": [],
     "filenames": [
       ".npmrc"
-    ],
-    "extensions": []
+    ]
   },
   "OASv2-json": {
     "extensions": [
@@ -992,14 +992,14 @@
       "opts",
       "ackrc"
     ],
+    "extensions": [],
     "filenames": [
       ".ackrc",
       ".rspec",
       ".yardopts",
       "ackrc",
       "mocha.opts"
-    ],
-    "extensions": []
+    ]
   },
   "Pickle": {
     "extensions": [
@@ -1007,13 +1007,13 @@
     ]
   },
   "Pip Requirements": {
+    "extensions": [],
     "filenames": [
       "dev-requirements.txt",
       "requirements-dev.txt",
       "requirements.lock.txt",
       "requirements.txt"
-    ],
-    "extensions": []
+    ]
   },
   "PlantUML": {
     "extensions": [
@@ -1088,26 +1088,26 @@
       "inputrc",
       "readline"
     ],
+    "extensions": [],
     "filenames": [
       ".inputrc",
       "inputrc"
-    ],
-    "extensions": []
+    ]
   },
   "Record Jar": {
+    "extensions": [],
     "filenames": [
       "language-subtag-registry.txt"
-    ],
-    "extensions": []
+    ]
   },
   "Redirect Rules": {
     "aliases": [
       "redirects"
     ],
+    "extensions": [],
     "filenames": [
       "_redirects"
-    ],
-    "extensions": []
+    ]
   },
   "Regular Expression": {
     "aliases": [
@@ -1124,10 +1124,10 @@
       "robots",
       "robots txt"
     ],
+    "extensions": [],
     "filenames": [
       "robots.txt"
-    ],
-    "extensions": []
+    ]
   },
   "RON": {
     "extensions": [
@@ -1157,25 +1157,25 @@
       "SELinux Kernel Policy Language",
       "sepolicy"
     ],
+    "extensions": [
+      ".te"
+    ],
     "filenames": [
       "file_contexts",
       "genfs_contexts",
       "initial_sids",
       "port_contexts",
       "security_classes"
-    ],
-    "extensions": [
-      ".te"
     ]
   },
   "ShellCheck Config": {
     "aliases": [
       "shellcheckrc"
     ],
+    "extensions": [],
     "filenames": [
       ".shellcheckrc"
-    ],
-    "extensions": []
+    ]
   },
   "Simple File Verification": {
     "aliases": [
@@ -1186,10 +1186,10 @@
     ]
   },
   "Soong": {
+    "extensions": [],
     "filenames": [
       "Android.bp"
-    ],
-    "extensions": []
+    ]
   },
   "SPARQL": {
     "extensions": [
@@ -1221,6 +1221,7 @@
       "ssh_config",
       "sshd_config"
     ],
+    "extensions": [],
     "filenames": [
       "ssh-config",
       "ssh_config",
@@ -1228,8 +1229,7 @@
       "sshconfig.snip",
       "sshd-config",
       "sshd_config"
-    ],
-    "extensions": []
+    ]
   },
   "STAR": {
     "extensions": [
@@ -1274,10 +1274,10 @@
     "aliases": [
       "tm-properties"
     ],
+    "extensions": [],
     "filenames": [
       ".tm_properties"
-    ],
-    "extensions": []
+    ]
   },
   "TMDL": {
     "aliases": [
@@ -1288,6 +1288,10 @@
     ]
   },
   "TOML": {
+    "extensions": [
+      ".toml",
+      ".toml.example"
+    ],
     "filenames": [
       "Cargo.lock",
       "Cargo.toml.orig",
@@ -1296,20 +1300,16 @@
       "pdm.lock",
       "poetry.lock",
       "uv.lock"
-    ],
-    "extensions": [
-      ".toml",
-      ".toml.example"
     ]
   },
   "Tor Config": {
     "aliases": [
       "torrc"
     ],
+    "extensions": [],
     "filenames": [
       "torrc"
-    ],
-    "extensions": []
+    ]
   },
   "TSPLIB data": {
     "aliases": [
@@ -1406,10 +1406,10 @@
     "aliases": [
       "wgetrc"
     ],
+    "extensions": [],
     "filenames": [
       ".wgetrc"
-    ],
-    "extensions": []
+    ]
   },
   "Win32 Message File": {
     "extensions": [
@@ -1435,13 +1435,13 @@
     ]
   },
   "X Font Directory Index": {
+    "extensions": [],
     "filenames": [
       "encodings.dir",
       "fonts.alias",
       "fonts.dir",
       "fonts.scale"
-    ],
-    "extensions": []
+    ]
   },
   "X PixMap": {
     "aliases": [
@@ -1453,30 +1453,18 @@
     ]
   },
   "XCompose": {
+    "extensions": [],
     "filenames": [
       ".XCompose",
       "XCompose",
       "xcompose"
-    ],
-    "extensions": []
+    ]
   },
   "XML": {
     "aliases": [
       "rss",
       "xsd",
       "wsdl"
-    ],
-    "filenames": [
-      ".classpath",
-      ".cproject",
-      ".project",
-      "App.config",
-      "NuGet.config",
-      "Settings.StyleCop",
-      "Web.Debug.config",
-      "Web.Release.config",
-      "Web.config",
-      "packages.config"
     ],
     "extensions": [
       ".xml",
@@ -1589,6 +1577,18 @@
       ".xspec",
       ".xul",
       ".zcml"
+    ],
+    "filenames": [
+      ".classpath",
+      ".cproject",
+      ".project",
+      "App.config",
+      "NuGet.config",
+      "Settings.StyleCop",
+      "Web.Debug.config",
+      "Web.Release.config",
+      "Web.config",
+      "packages.config"
     ]
   },
   "XML Property List": {
@@ -1612,16 +1612,6 @@
     "aliases": [
       "yml"
     ],
-    "filenames": [
-      ".clang-format",
-      ".clang-tidy",
-      ".clangd",
-      ".gemrc",
-      "CITATION.cff",
-      "glide.lock",
-      "pixi.lock",
-      "yarn.lock"
-    ],
     "extensions": [
       ".yml",
       ".mir",
@@ -1633,6 +1623,16 @@
       ".yaml-tmlanguage",
       ".yaml.sed",
       ".yml.mysql"
+    ],
+    "filenames": [
+      ".clang-format",
+      ".clang-tidy",
+      ".clangd",
+      ".gemrc",
+      "CITATION.cff",
+      "glide.lock",
+      "pixi.lock",
+      "yarn.lock"
     ]
   },
   "YANG": {

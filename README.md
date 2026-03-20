@@ -25,7 +25,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages and extensions |
 <!-- summary:end -->
 
-Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
+> [!NOTE]
+> Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
 ### Language and Extensions per Type: programming, data, markup, or prose
 
@@ -45,9 +46,7 @@ Popular GitHub languages: [popular.yml](https://github.com/github-linguist/lingu
 - `filenames`: List of associated filenames. May be omitted if the extensions field is present (and vice versa).
 - `extensions`: List of associated file extensions.
 
-#### Examples
-
-programming:
+#### programming
 
 ```json
 {
@@ -59,7 +58,7 @@ programming:
 }
 ```
 
-data:
+#### data
 
 ```json
 {
@@ -71,7 +70,7 @@ data:
 }
 ```
 
-markup:
+#### markup
 
 ```json
 {
@@ -83,7 +82,7 @@ markup:
 }
 ```
 
-prose:
+#### prose
 
 ```json
 {

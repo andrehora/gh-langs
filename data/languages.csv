@@ -1,805 +1,805 @@
-language,type,aliases,filenames,extensions
-1C Enterprise,programming,,,.bsl; .os
-2-Dimensional Array,data,,,.2da
-4D,programming,,,.4dm
-ABAP,programming,,,.abap
-ABAP CDS,programming,,,.asddls
-ABNF,data,,,.abnf
-ActionScript,programming,actionscript 3; actionscript3; as3,,.as
-Ada,programming,ada95; ada2005,,.adb; .ada; .ads
-Adblock Filter List,data,ad block filters; ad block; adb; adblock,,.txt
-Adobe Font Metrics,data,acfm; adobe composite font metrics; adobe multiple font metrics; amfm,,.afm
-Agda,programming,,,.agda
-AGS Script,programming,ags,,.asc; .ash
-AIDL,programming,,,.aidl
-Aiken,programming,,,.ak
-AL,programming,,,.al
-ALGOL,programming,,,.alg
-Alloy,programming,,,.als
-Alpine Abuild,programming,abuild; apkbuild,APKBUILD,
-Altium Designer,data,altium,,.OutJob; .PcbDoc; .PrjPCB; .SchDoc
-AMPL,programming,,,.ampl; .mod
-AngelScript,programming,,,.as; .angelscript
-Answer Set Programming,programming,,,.lp
-Ant Build System,data,,ant.xml; build.xml,
-Antlers,markup,,,.antlers.html; .antlers.php; .antlers.xml
-ANTLR,programming,,,.g4
-ApacheConf,data,aconf; apache,.htaccess; apache2.conf; httpd.conf,.apacheconf; .vhost
-Apex,programming,,,.cls; .apex; .trigger
-API Blueprint,markup,,,.apib
-APL,programming,,,.apl; .dyalog
-Apollo Guidance Computer,programming,,,.agc
-AppleScript,programming,apples; osascript,,.applescript; .scpt
-Arc,programming,,,.arc
-AsciiDoc,prose,,,.asciidoc; .adoc; .asc
-ASL,programming,,,.asl; .dsl
-ASN.1,data,,,.asn; .asn1
-ASP.NET,programming,aspx; aspx-vb,,.asax; .ascx; .ashx; .asmx; .aspx; .axd
-AspectJ,programming,,,.aj
-Assembly,programming,asm; nasm,,.asm; .a51; .i; .inc; .nas; .nasm; .s
-Astro,markup,,,.astro
-Asymptote,programming,,,.asy
-ATS,programming,ats2,,.dats; .hats; .sats
-Augeas,programming,,,.aug
-AutoHotkey,programming,ahk,,.ahk; .ahkl
-AutoIt,programming,au3; AutoIt3; AutoItScript,,.au3
-Avro IDL,data,,,.avdl
-Awk,programming,,,.awk; .auk; .gawk; .mawk; .nawk
-B (Formal Method),programming,,,.mch
-B4X,programming,basic for android,,.bas
-Ballerina,programming,,,.bal
-BASIC,programming,,,.bas
-Batchfile,programming,bat; batch; dosbatch; winbatch,gradlew.bat; mvnw.cmd,.bat; .cmd
-Beef,programming,,,.bf
-Befunge,programming,,,.befunge; .bf
-Berry,programming,be,,.be
-BibTeX,markup,,,.bib; .bibtex
-BibTeX Style,programming,,,.bst
-Bicep,programming,,,.bicep; .bicepparam
-Bikeshed,markup,,,.bs
-Bison,programming,,,.bison
-BitBake,programming,,,.bb; .bbappend; .bbclass; .inc
-Blade,markup,,,.blade; .blade.php
-BlitzBasic,programming,b3d; blitz3d; blitzplus; bplus,,.bb; .decls
-BlitzMax,programming,bmax,,.bmx
-Bluespec,programming,bluespec bsv; bsv,,.bsv
-Bluespec BH,programming,bh; bluespec classic,,.bs
-Boo,programming,,,.boo
-Boogie,programming,,,.bpl
-BQN,programming,,,.bqn
-Brainfuck,programming,,,.b; .bf
-BrighterScript,programming,,,.bs
-Brightscript,programming,,,.brs
-Browserslist,data,,.browserslistrc; browserslist,
-Bru,markup,,,.bru
-BuildStream,data,,,.bst
-C,programming,,,.c; .cats; .h; .h.in; .idc
-C#,programming,csharp; cake; cakescript,,.cs; .cake; .cs.pp; .csx; .linq
-C++,programming,cpp,,.cpp; .c++; .cc; .cp; .cppm; .cxx; .h; .h++; .hh; .hpp; .hxx; .inc; .inl; .ino; .ipp; .ixx; .re; .tcc; .tpp; .txx
-C-ObjDump,data,,,.c-objdump
-C2hs Haskell,programming,c2hs,,.chs
-C3,programming,,,.c3
-Cabal Config,data,Cabal,cabal.config; cabal.project,.cabal
-Caddyfile,data,Caddy,Caddyfile,.caddyfile
-Cadence,programming,,,.cdc
-Cairo,programming,,,.cairo
-Cairo Zero,programming,,,.cairo
-CameLIGO,programming,,,.mligo
-Cangjie,programming,,,.cj
-CAP CDS,programming,cds,,.cds
-Cap'n Proto,programming,,,.capnp
-Carbon,programming,,,.carbon
-CartoCSS,programming,Carto,,.mss
-Ceylon,programming,,,.ceylon
-Chapel,programming,chpl,,.chpl
-Charity,programming,,,.ch
-Checksums,data,checksum; hash; hashes; sum; sums,MD5SUMS; SHA1SUMS; SHA256SUMS; SHA256SUMS.txt; SHA512SUMS; checksums.txt; cksums; md5sum.txt,.crc32; .md2; .md4; .md5; .sha1; .sha2; .sha224; .sha256; .sha256sum; .sha3; .sha384; .sha512
-ChucK,programming,,,.ck
-CIL,data,,,.cil
-Circom,programming,,,.circom
-Cirru,programming,,,.cirru
-Clarion,programming,,,.clw
-Clarity,programming,,,.clar
-Classic ASP,programming,asp,,.asp
-Clean,programming,,,.icl; .dcl
-Click,programming,,,.click
-CLIPS,programming,,,.clp
-Clojure,programming,,riemann.config,.clj; .bb; .boot; .cl2; .cljc; .cljs; .cljs.hl; .cljscm; .cljx; .hic
-Closure Templates,markup,soy,,.soy
-Cloud Firestore Security Rules,data,,firestore.rules,
-Clue,programming,,,.clue
-CMake,programming,,CMakeLists.txt,.cmake; .cmake.in
-COBOL,programming,,,.cob; .cbl; .ccp; .cobol; .cpy
-CODEOWNERS,data,,CODEOWNERS,
-CodeQL,programming,ql,,.ql; .qll
-CoffeeScript,programming,coffee; coffee-script,Cakefile,.coffee; ._coffee; .cake; .cjsx; .iced
-ColdFusion,programming,cfm; cfml; coldfusion html,,.cfm; .cfml
-ColdFusion CFC,programming,cfc,,.cfc
-COLLADA,data,,,.dae
-Common Lisp,programming,lisp,,.lisp; .asd; .cl; .l; .lsp; .ny; .podsl; .sexp
-Common Workflow Language,programming,cwl,,.cwl
-Component Pascal,programming,,,.cp; .cps
-CoNLL-U,data,CoNLL; CoNLL-X,,.conllu; .conll
-Cooklang,markup,,,.cook
-Cool,programming,,,.cl
-Cpp-ObjDump,data,c++-objdump,,.cppobjdump; .c++-objdump; .c++objdump; .cpp-objdump; .cxx-objdump
-CQL,programming,,,.cql
-Creole,prose,,,.creole
-crontab,data,cron; cron table,crontab,
-Crystal,programming,,,.cr
-CSON,data,,,.cson
-Csound,programming,csound-orc,,.orc; .udo
-Csound Document,programming,csound-csd,,.csd
-Csound Score,programming,csound-sco,,.sco
-CSS,markup,,,.css
-CSV,data,,,.csv
-Cuda,programming,,,.cu; .cuh
-CUE,programming,,,.cue
-Cue Sheet,data,,,.cue
-cURL Config,data,curlrc,.curlrc; _curlrc,
-Curry,programming,,,.curry
-CWeb,programming,,,.w
-Cycript,programming,,,.cy
-Cylc,data,,suite.rc,.cylc
-Cypher,programming,,,.cyp; .cypher
-Cython,programming,pyrex,,.pyx; .pxd; .pxi
-D,programming,Dlang,,.d; .di
-D-ObjDump,data,,,.d-objdump
-D2,markup,d2lang,,.d2
-Dafny,programming,,,.dfy
-Darcs Patch,data,dpatch,,.darcspatch; .dpatch
-Dart,programming,,,.dart
-Daslang,programming,,,.das
-DataWeave,programming,,,.dwl
-Debian Package Control File,data,,,.dsc
-DenizenScript,programming,,,.dsc
-desktop,data,,,.desktop; .desktop.in; .service
-Dhall,programming,,,.dhall
-Diff,data,udiff,,.diff; .patch
-DIGITAL Command Language,programming,dcl,,.com
-dircolors,data,,.dir_colors; .dircolors; DIR_COLORS; _dir_colors; _dircolors; dir_colors,.dircolors
-DirectX 3D File,data,,,.x
-DM,programming,byond,,.dm
-DNS Zone,data,,,.zone; .arpa
-Dockerfile,programming,Containerfile,Containerfile; Dockerfile,.dockerfile; .containerfile
-Dogescript,programming,,,.djs
-Dotenv,data,,.env; .env.ci; .env.dev; .env.development; .env.development.local; .env.example; .env.local; .env.prod; .env.production; .env.sample; .env.staging; .env.template; .env.test; .env.testing,.env
-DTrace,programming,dtrace-script,,.d
-Dune,programming,,dune-project,
-Dylan,programming,,,.dylan; .dyl; .intr; .lid
-E,programming,,,.e
-E-mail,data,email; eml; mail; mbox,,.eml; .mbox
-Eagle,data,,,.sch; .brd
-Earthly,programming,Earthfile,Earthfile,
-Easybuild,data,,,.eb
-EBNF,data,,,.ebnf
-eC,programming,,,.ec; .eh
-Ecere Projects,data,,,.epj
-ECL,programming,,,.ecl; .eclxml
-ECLiPSe,programming,,,.ecl
-Ecmarkup,markup,ecmarkdown,,.html
-Edge,markup,,,.edge
-EdgeQL,programming,esdl,,.edgeql; .esdl
+language,type,aliases,extensions,filenames
+1C Enterprise,programming,,.bsl; .os,
+2-Dimensional Array,data,,.2da,
+4D,programming,,.4dm,
+ABAP,programming,,.abap,
+ABAP CDS,programming,,.asddls,
+ABNF,data,,.abnf,
+ActionScript,programming,actionscript 3; actionscript3; as3,.as,
+Ada,programming,ada95; ada2005,.adb; .ada; .ads,
+Adblock Filter List,data,ad block filters; ad block; adb; adblock,.txt,
+Adobe Font Metrics,data,acfm; adobe composite font metrics; adobe multiple font metrics; amfm,.afm,
+Agda,programming,,.agda,
+AGS Script,programming,ags,.asc; .ash,
+AIDL,programming,,.aidl,
+Aiken,programming,,.ak,
+AL,programming,,.al,
+ALGOL,programming,,.alg,
+Alloy,programming,,.als,
+Alpine Abuild,programming,abuild; apkbuild,,APKBUILD
+Altium Designer,data,altium,.OutJob; .PcbDoc; .PrjPCB; .SchDoc,
+AMPL,programming,,.ampl; .mod,
+AngelScript,programming,,.as; .angelscript,
+Answer Set Programming,programming,,.lp,
+Ant Build System,data,,,ant.xml; build.xml
+Antlers,markup,,.antlers.html; .antlers.php; .antlers.xml,
+ANTLR,programming,,.g4,
+ApacheConf,data,aconf; apache,.apacheconf; .vhost,.htaccess; apache2.conf; httpd.conf
+Apex,programming,,.cls; .apex; .trigger,
+API Blueprint,markup,,.apib,
+APL,programming,,.apl; .dyalog,
+Apollo Guidance Computer,programming,,.agc,
+AppleScript,programming,apples; osascript,.applescript; .scpt,
+Arc,programming,,.arc,
+AsciiDoc,prose,,.asciidoc; .adoc; .asc,
+ASL,programming,,.asl; .dsl,
+ASN.1,data,,.asn; .asn1,
+ASP.NET,programming,aspx; aspx-vb,.asax; .ascx; .ashx; .asmx; .aspx; .axd,
+AspectJ,programming,,.aj,
+Assembly,programming,asm; nasm,.asm; .a51; .i; .inc; .nas; .nasm; .s,
+Astro,markup,,.astro,
+Asymptote,programming,,.asy,
+ATS,programming,ats2,.dats; .hats; .sats,
+Augeas,programming,,.aug,
+AutoHotkey,programming,ahk,.ahk; .ahkl,
+AutoIt,programming,au3; AutoIt3; AutoItScript,.au3,
+Avro IDL,data,,.avdl,
+Awk,programming,,.awk; .auk; .gawk; .mawk; .nawk,
+B (Formal Method),programming,,.mch,
+B4X,programming,basic for android,.bas,
+Ballerina,programming,,.bal,
+BASIC,programming,,.bas,
+Batchfile,programming,bat; batch; dosbatch; winbatch,.bat; .cmd,gradlew.bat; mvnw.cmd
+Beef,programming,,.bf,
+Befunge,programming,,.befunge; .bf,
+Berry,programming,be,.be,
+BibTeX,markup,,.bib; .bibtex,
+BibTeX Style,programming,,.bst,
+Bicep,programming,,.bicep; .bicepparam,
+Bikeshed,markup,,.bs,
+Bison,programming,,.bison,
+BitBake,programming,,.bb; .bbappend; .bbclass; .inc,
+Blade,markup,,.blade; .blade.php,
+BlitzBasic,programming,b3d; blitz3d; blitzplus; bplus,.bb; .decls,
+BlitzMax,programming,bmax,.bmx,
+Bluespec,programming,bluespec bsv; bsv,.bsv,
+Bluespec BH,programming,bh; bluespec classic,.bs,
+Boo,programming,,.boo,
+Boogie,programming,,.bpl,
+BQN,programming,,.bqn,
+Brainfuck,programming,,.b; .bf,
+BrighterScript,programming,,.bs,
+Brightscript,programming,,.brs,
+Browserslist,data,,,.browserslistrc; browserslist
+Bru,markup,,.bru,
+BuildStream,data,,.bst,
+C,programming,,.c; .cats; .h; .h.in; .idc,
+C#,programming,csharp; cake; cakescript,.cs; .cake; .cs.pp; .csx; .linq,
+C++,programming,cpp,.cpp; .c++; .cc; .cp; .cppm; .cxx; .h; .h++; .hh; .hpp; .hxx; .inc; .inl; .ino; .ipp; .ixx; .re; .tcc; .tpp; .txx,
+C-ObjDump,data,,.c-objdump,
+C2hs Haskell,programming,c2hs,.chs,
+C3,programming,,.c3,
+Cabal Config,data,Cabal,.cabal,cabal.config; cabal.project
+Caddyfile,data,Caddy,.caddyfile,Caddyfile
+Cadence,programming,,.cdc,
+Cairo,programming,,.cairo,
+Cairo Zero,programming,,.cairo,
+CameLIGO,programming,,.mligo,
+Cangjie,programming,,.cj,
+CAP CDS,programming,cds,.cds,
+Cap'n Proto,programming,,.capnp,
+Carbon,programming,,.carbon,
+CartoCSS,programming,Carto,.mss,
+Ceylon,programming,,.ceylon,
+Chapel,programming,chpl,.chpl,
+Charity,programming,,.ch,
+Checksums,data,checksum; hash; hashes; sum; sums,.crc32; .md2; .md4; .md5; .sha1; .sha2; .sha224; .sha256; .sha256sum; .sha3; .sha384; .sha512,MD5SUMS; SHA1SUMS; SHA256SUMS; SHA256SUMS.txt; SHA512SUMS; checksums.txt; cksums; md5sum.txt
+ChucK,programming,,.ck,
+CIL,data,,.cil,
+Circom,programming,,.circom,
+Cirru,programming,,.cirru,
+Clarion,programming,,.clw,
+Clarity,programming,,.clar,
+Classic ASP,programming,asp,.asp,
+Clean,programming,,.icl; .dcl,
+Click,programming,,.click,
+CLIPS,programming,,.clp,
+Clojure,programming,,.clj; .bb; .boot; .cl2; .cljc; .cljs; .cljs.hl; .cljscm; .cljx; .hic,riemann.config
+Closure Templates,markup,soy,.soy,
+Cloud Firestore Security Rules,data,,,firestore.rules
+Clue,programming,,.clue,
+CMake,programming,,.cmake; .cmake.in,CMakeLists.txt
+COBOL,programming,,.cob; .cbl; .ccp; .cobol; .cpy,
+CODEOWNERS,data,,,CODEOWNERS
+CodeQL,programming,ql,.ql; .qll,
+CoffeeScript,programming,coffee; coffee-script,.coffee; ._coffee; .cake; .cjsx; .iced,Cakefile
+ColdFusion,programming,cfm; cfml; coldfusion html,.cfm; .cfml,
+ColdFusion CFC,programming,cfc,.cfc,
+COLLADA,data,,.dae,
+Common Lisp,programming,lisp,.lisp; .asd; .cl; .l; .lsp; .ny; .podsl; .sexp,
+Common Workflow Language,programming,cwl,.cwl,
+Component Pascal,programming,,.cp; .cps,
+CoNLL-U,data,CoNLL; CoNLL-X,.conllu; .conll,
+Cooklang,markup,,.cook,
+Cool,programming,,.cl,
+Cpp-ObjDump,data,c++-objdump,.cppobjdump; .c++-objdump; .c++objdump; .cpp-objdump; .cxx-objdump,
+CQL,programming,,.cql,
+Creole,prose,,.creole,
+crontab,data,cron; cron table,,crontab
+Crystal,programming,,.cr,
+CSON,data,,.cson,
+Csound,programming,csound-orc,.orc; .udo,
+Csound Document,programming,csound-csd,.csd,
+Csound Score,programming,csound-sco,.sco,
+CSS,markup,,.css,
+CSV,data,,.csv,
+Cuda,programming,,.cu; .cuh,
+CUE,programming,,.cue,
+Cue Sheet,data,,.cue,
+cURL Config,data,curlrc,,.curlrc; _curlrc
+Curry,programming,,.curry,
+CWeb,programming,,.w,
+Cycript,programming,,.cy,
+Cylc,data,,.cylc,suite.rc
+Cypher,programming,,.cyp; .cypher,
+Cython,programming,pyrex,.pyx; .pxd; .pxi,
+D,programming,Dlang,.d; .di,
+D-ObjDump,data,,.d-objdump,
+D2,markup,d2lang,.d2,
+Dafny,programming,,.dfy,
+Darcs Patch,data,dpatch,.darcspatch; .dpatch,
+Dart,programming,,.dart,
+Daslang,programming,,.das,
+DataWeave,programming,,.dwl,
+Debian Package Control File,data,,.dsc,
+DenizenScript,programming,,.dsc,
+desktop,data,,.desktop; .desktop.in; .service,
+Dhall,programming,,.dhall,
+Diff,data,udiff,.diff; .patch,
+DIGITAL Command Language,programming,dcl,.com,
+dircolors,data,,.dircolors,.dir_colors; .dircolors; DIR_COLORS; _dir_colors; _dircolors; dir_colors
+DirectX 3D File,data,,.x,
+DM,programming,byond,.dm,
+DNS Zone,data,,.zone; .arpa,
+Dockerfile,programming,Containerfile,.dockerfile; .containerfile,Containerfile; Dockerfile
+Dogescript,programming,,.djs,
+Dotenv,data,,.env,.env; .env.ci; .env.dev; .env.development; .env.development.local; .env.example; .env.local; .env.prod; .env.production; .env.sample; .env.staging; .env.template; .env.test; .env.testing
+DTrace,programming,dtrace-script,.d,
+Dune,programming,,,dune-project
+Dylan,programming,,.dylan; .dyl; .intr; .lid,
+E,programming,,.e,
+E-mail,data,email; eml; mail; mbox,.eml; .mbox,
+Eagle,data,,.sch; .brd,
+Earthly,programming,Earthfile,,Earthfile
+Easybuild,data,,.eb,
+EBNF,data,,.ebnf,
+eC,programming,,.ec; .eh,
+Ecere Projects,data,,.epj,
+ECL,programming,,.ecl; .eclxml,
+ECLiPSe,programming,,.ecl,
+Ecmarkup,markup,ecmarkdown,.html,
+Edge,markup,,.edge,
+EdgeQL,programming,esdl,.edgeql; .esdl,
 EditorConfig,data,editor-config,.editorconfig,.editorconfig
-Edje Data Collection,data,,,.edc
-edn,data,,,.edn
-Eiffel,programming,,,.e
-EJS,markup,,,.ejs; .ect; .ejs.t; .jst
-Elixir,programming,,mix.lock,.ex; .exs
-Elm,programming,,,.elm
-Elvish,programming,,,.elv
+Edje Data Collection,data,,.edc,
+edn,data,,.edn,
+Eiffel,programming,,.e,
+EJS,markup,,.ejs; .ect; .ejs.t; .jst,
+Elixir,programming,,.ex; .exs,mix.lock
+Elm,programming,,.elm,
+Elvish,programming,,.elv,
 Elvish Transcript,programming,,,
-Emacs Lisp,programming,cask; eask; elisp; emacs,.abbrev_defs; .emacs; .emacs.desktop; .gnus; .spacemacs; .viper; Cask; Eask; Project.ede; _emacs; abbrev_defs,.el; .emacs; .emacs.desktop
-EmberScript,programming,,,.em; .emberscript
-EQ,programming,,,.eq
-Erlang,programming,,Emakefile; rebar.config; rebar.config.lock; rebar.lock,.erl; .app; .app.src; .es; .escript; .hrl; .xrl; .yrl
-Euphoria,programming,,,.e; .ex
-F#,programming,fsharp,,.fs; .fsi; .fsx
-F*,programming,fstar,,.fst; .fsti
-Factor,programming,,.factor-boot-rc; .factor-rc,.factor
-Fancy,programming,,Fakefile,.fy; .fancypack
-Fantom,programming,,,.fan
-Faust,programming,,,.dsp
-Fennel,programming,,,.fnl
-FIGlet Font,data,FIGfont,,.flf
-Filebench WML,programming,,,.f
-Filterscript,programming,,,.fs
-FIRRTL,programming,,,.fir
-fish,programming,,,.fish
-FlatBuffers,data,,,.fbs
-Flix,programming,,,.flix
-Fluent,programming,,,.ftl
-FLUX,programming,,,.fx; .flux
-Formatted,data,,,.for; .eam.fs
-Forth,programming,,,.fth; .4th; .f; .for; .forth; .fr; .frt; .fs
-Fortran,programming,,,.f; .f77; .for; .fpp
-Fortran Free Form,programming,,,.f90; .f03; .f08; .f95
-FreeBASIC,programming,fb,,.bi; .bas
-FreeMarker,programming,ftl,,.ftl; .ftlh
-Frege,programming,,,.fr
-Futhark,programming,,,.fut
-G-code,programming,,,.g; .cnc; .gco; .gcode
-Game Maker Language,programming,,,.gml
-GAML,programming,,,.gaml
-GAMS,programming,,,.gms
-GAP,programming,,,.g; .gap; .gd; .gi; .tst
-GCC Machine Description,programming,,,.md
-GDB,programming,,,.gdb; .gdbinit
-GDScript,programming,,,.gd
-GDShader,programming,,,.gdshader; .gdshaderinc
-GEDCOM,data,,,.ged
-Gemfile.lock,data,,Gemfile.lock,
-Gemini,prose,gemtext,,.gmi
-Genero 4gl,programming,,,.4gl
-Genero per,markup,,,.per
-Genie,programming,,,.gs
-Genshi,programming,xml+genshi; xml+kid,,.kid
-Gentoo Ebuild,programming,,,.ebuild
-Gentoo Eclass,programming,,,.eclass
-Gerber Image,data,rs-274x,,.gbr; .cmp; .gbl; .gbo; .gbp; .gbs; .gko; .gml; .gpb; .gpt; .gtl; .gto; .gtp; .gts; .ncl; .sol
-Gettext Catalog,prose,pot,,.po; .pot
-Gherkin,programming,cucumber,,.feature; .story
-Git Attributes,data,gitattributes,.gitattributes,
-Git Commit,data,commit,COMMIT_EDITMSG,
-Git Config,data,gitconfig; gitmodules,.gitconfig; .gitmodules,.gitconfig
-Git Revision List,data,Git Blame Ignore Revs,.git-blame-ignore-revs,
-Gleam,programming,,,.gleam
-Glimmer JS,programming,gjs,,.gjs
-Glimmer TS,programming,gts,,.gts
-GLSL,programming,,,.glsl; .fp; .frag; .frg; .fs; .fsh; .fshader; .geo; .geom; .glslf; .glslv; .gs; .gshader; .rchit; .rmiss; .shader; .tesc; .tese; .vert; .vrx; .vs; .vsh; .vshader
-Glyph,programming,,,.glf
-Glyph Bitmap Distribution Format,data,,,.bdf
-GN,data,,.gn,.gn; .gni
-Gnuplot,programming,,,.gp; .gnu; .gnuplot; .p; .plot; .plt
-Go,programming,golang,,.go
-Go Checksums,data,go.sum; go sum; go.work.sum; go work sum,go.sum; go.work.sum,
-Go Module,data,go.mod; go mod,go.mod,
-Go Template,markup,gotmpl,_helpers.tpl,.gohtml; .gotmpl; .html.tmpl; .tmpl; .tpl
-Go Workspace,data,go.work; go work,go.work,
-Godot Resource,data,,project.godot,.gdnlib; .gdns; .tres; .tscn
-Golo,programming,,,.golo
-Gosu,programming,,,.gs; .gst; .gsx; .vark
-Grace,programming,,,.grace
-Gradle,data,,,.gradle
-Gradle Kotlin DSL,data,,,.gradle.kts
-Grammatical Framework,programming,gf,,.gf
-Graph Modeling Language,data,,,.gml
-GraphQL,data,,,.graphql; .gql; .graphqls
-Graphviz (DOT),data,,,.dot; .gv
-Groovy,programming,,Jenkinsfile,.groovy; .grt; .gtpl; .gvy
-Groovy Server Pages,programming,gsp; java server page,,.gsp
-GSC,programming,,,.gsc; .csc; .gsh
-Hack,programming,,,.hack; .hh; .hhi; .php
-Haml,markup,,,.haml; .haml.deface
-Handlebars,markup,hbs; htmlbars,,.handlebars; .hbs
-HAProxy,data,,haproxy.cfg,.cfg
-Harbour,programming,,,.hb
-Hare,programming,,,.ha
-Haskell,programming,,,.hs; .hs-boot; .hsc
-Haxe,programming,,,.hx; .hxsl
-HCL,programming,HashiCorp Configuration Language; opentofu; terraform,,.hcl; .nomad; .tf; .tfvars; .tofu; .workflow
-HIP,programming,,,.hip
-HiveQL,programming,,,.q; .hql
-HLSL,programming,,,.hlsl; .cginc; .fx; .fxh; .hlsli
-HOCON,data,,.scalafix.conf; .scalafmt.conf,.hocon
-HolyC,programming,,,.hc
-hoon,programming,,,.hoon
-Hosts File,data,hosts,HOSTS; hosts; hosts.txt,
-HTML,markup,xhtml,,.html; .hta; .htm; .html.hl; .inc; .xht; .xhtml
-HTML+ECR,markup,ecr,,.ecr
-HTML+EEX,markup,eex; heex; leex,,.html.eex; .heex; .leex
-HTML+ERB,markup,erb; rhtml; html+ruby,,.erb; .erb.deface; .rhtml
-HTML+PHP,markup,,,.phtml
-HTML+Razor,markup,razor,,.cshtml; .razor
-HTTP,data,,,.http
-Hurl,programming,,,.hurl
-HXML,data,,,.hxml
-Hy,programming,hylang,,.hy
-HyPhy,programming,,,.bf
-iCalendar,data,iCal,,.ics; .ical
-IDL,programming,,,.pro; .dlm
-Idris,programming,,,.idr; .lidr
-Ignore List,data,ignore; gitignore; git-ignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global,.gitignore
-IGOR Pro,programming,igor; igorpro,,.ipf
-ImageJ Macro,programming,ijm,,.ijm
-Imba,programming,,,.imba
-Inform 7,programming,i7; inform7,,.ni; .i7x
-INI,data,dosini,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc,.ini; .cfg; .cnf; .dof; .frm; .lektorproject; .prefs; .pro; .properties; .url
-Ink,programming,,,.ink
-Inno Setup,programming,,,.iss; .isl
-Io,programming,,,.io
-Ioke,programming,,,.ik
-IRC log,data,irc; irc logs,,.irclog; .weechatlog
-Isabelle,programming,,,.thy
-Isabelle ROOT,programming,,ROOT,
-ISPC,programming,,,.ispc
-J,programming,,,.ijs
-Jac,programming,,,.jac
-Jai,programming,,,.jai
-Janet,programming,,,.janet
-JAR Manifest,data,,MANIFEST.MF,
-Jasmin,programming,,,.j
-Java,programming,,,.java; .jav; .jsh
-Java Properties,data,,,.properties
-Java Server Pages,programming,jsp,,.jsp; .tag
-Java Template Engine,programming,jte,,.jte
-JavaScript,programming,js; node,Jakefile,.js; ._js; .bones; .cjs; .es; .es6; .frag; .gs; .jake; .javascript; .jsb; .jscad; .jsfl; .jslib; .jsm; .jspre; .jss; .jsx; .mjs; .njs; .pac; .sjs; .ssjs; .xsjs; .xsjslib
-JavaScript+ERB,programming,,,.js.erb
-JCL,programming,,,.jcl
-Jest Snapshot,data,,,.snap
-JetBrains MPS,programming,mps,,.mps; .mpl; .msd
-JFlex,programming,,,.flex; .jflex
-Jinja,markup,django; html+django; html+jinja; htmldjango,,.jinja; .j2; .jinja2
-Jison,programming,,,.jison
-Jison Lex,programming,,,.jisonlex
-Jolie,programming,,,.ol; .iol
-jq,programming,,,.jq
-JSON,data,geojson; jsonl; sarif; topojson,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp
-JSON with Comments,data,jsonc,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json
-JSON5,data,,,.json5
-JSONiq,programming,,,.jq
-JSONLD,data,,,.jsonld
-Jsonnet,programming,,,.jsonnet; .libsonnet
-Julia,programming,,,.jl
+Emacs Lisp,programming,cask; eask; elisp; emacs,.el; .emacs; .emacs.desktop,.abbrev_defs; .emacs; .emacs.desktop; .gnus; .spacemacs; .viper; Cask; Eask; Project.ede; _emacs; abbrev_defs
+EmberScript,programming,,.em; .emberscript,
+EQ,programming,,.eq,
+Erlang,programming,,.erl; .app; .app.src; .es; .escript; .hrl; .xrl; .yrl,Emakefile; rebar.config; rebar.config.lock; rebar.lock
+Euphoria,programming,,.e; .ex,
+F#,programming,fsharp,.fs; .fsi; .fsx,
+F*,programming,fstar,.fst; .fsti,
+Factor,programming,,.factor,.factor-boot-rc; .factor-rc
+Fancy,programming,,.fy; .fancypack,Fakefile
+Fantom,programming,,.fan,
+Faust,programming,,.dsp,
+Fennel,programming,,.fnl,
+FIGlet Font,data,FIGfont,.flf,
+Filebench WML,programming,,.f,
+Filterscript,programming,,.fs,
+FIRRTL,programming,,.fir,
+fish,programming,,.fish,
+FlatBuffers,data,,.fbs,
+Flix,programming,,.flix,
+Fluent,programming,,.ftl,
+FLUX,programming,,.fx; .flux,
+Formatted,data,,.for; .eam.fs,
+Forth,programming,,.fth; .4th; .f; .for; .forth; .fr; .frt; .fs,
+Fortran,programming,,.f; .f77; .for; .fpp,
+Fortran Free Form,programming,,.f90; .f03; .f08; .f95,
+FreeBASIC,programming,fb,.bi; .bas,
+FreeMarker,programming,ftl,.ftl; .ftlh,
+Frege,programming,,.fr,
+Futhark,programming,,.fut,
+G-code,programming,,.g; .cnc; .gco; .gcode,
+Game Maker Language,programming,,.gml,
+GAML,programming,,.gaml,
+GAMS,programming,,.gms,
+GAP,programming,,.g; .gap; .gd; .gi; .tst,
+GCC Machine Description,programming,,.md,
+GDB,programming,,.gdb; .gdbinit,
+GDScript,programming,,.gd,
+GDShader,programming,,.gdshader; .gdshaderinc,
+GEDCOM,data,,.ged,
+Gemfile.lock,data,,,Gemfile.lock
+Gemini,prose,gemtext,.gmi,
+Genero 4gl,programming,,.4gl,
+Genero per,markup,,.per,
+Genie,programming,,.gs,
+Genshi,programming,xml+genshi; xml+kid,.kid,
+Gentoo Ebuild,programming,,.ebuild,
+Gentoo Eclass,programming,,.eclass,
+Gerber Image,data,rs-274x,.gbr; .cmp; .gbl; .gbo; .gbp; .gbs; .gko; .gml; .gpb; .gpt; .gtl; .gto; .gtp; .gts; .ncl; .sol,
+Gettext Catalog,prose,pot,.po; .pot,
+Gherkin,programming,cucumber,.feature; .story,
+Git Attributes,data,gitattributes,,.gitattributes
+Git Commit,data,commit,,COMMIT_EDITMSG
+Git Config,data,gitconfig; gitmodules,.gitconfig,.gitconfig; .gitmodules
+Git Revision List,data,Git Blame Ignore Revs,,.git-blame-ignore-revs
+Gleam,programming,,.gleam,
+Glimmer JS,programming,gjs,.gjs,
+Glimmer TS,programming,gts,.gts,
+GLSL,programming,,.glsl; .fp; .frag; .frg; .fs; .fsh; .fshader; .geo; .geom; .glslf; .glslv; .gs; .gshader; .rchit; .rmiss; .shader; .tesc; .tese; .vert; .vrx; .vs; .vsh; .vshader,
+Glyph,programming,,.glf,
+Glyph Bitmap Distribution Format,data,,.bdf,
+GN,data,,.gn; .gni,.gn
+Gnuplot,programming,,.gp; .gnu; .gnuplot; .p; .plot; .plt,
+Go,programming,golang,.go,
+Go Checksums,data,go.sum; go sum; go.work.sum; go work sum,,go.sum; go.work.sum
+Go Module,data,go.mod; go mod,,go.mod
+Go Template,markup,gotmpl,.gohtml; .gotmpl; .html.tmpl; .tmpl; .tpl,_helpers.tpl
+Go Workspace,data,go.work; go work,,go.work
+Godot Resource,data,,.gdnlib; .gdns; .tres; .tscn,project.godot
+Golo,programming,,.golo,
+Gosu,programming,,.gs; .gst; .gsx; .vark,
+Grace,programming,,.grace,
+Gradle,data,,.gradle,
+Gradle Kotlin DSL,data,,.gradle.kts,
+Grammatical Framework,programming,gf,.gf,
+Graph Modeling Language,data,,.gml,
+GraphQL,data,,.graphql; .gql; .graphqls,
+Graphviz (DOT),data,,.dot; .gv,
+Groovy,programming,,.groovy; .grt; .gtpl; .gvy,Jenkinsfile
+Groovy Server Pages,programming,gsp; java server page,.gsp,
+GSC,programming,,.gsc; .csc; .gsh,
+Hack,programming,,.hack; .hh; .hhi; .php,
+Haml,markup,,.haml; .haml.deface,
+Handlebars,markup,hbs; htmlbars,.handlebars; .hbs,
+HAProxy,data,,.cfg,haproxy.cfg
+Harbour,programming,,.hb,
+Hare,programming,,.ha,
+Haskell,programming,,.hs; .hs-boot; .hsc,
+Haxe,programming,,.hx; .hxsl,
+HCL,programming,HashiCorp Configuration Language; opentofu; terraform,.hcl; .nomad; .tf; .tfvars; .tofu; .workflow,
+HIP,programming,,.hip,
+HiveQL,programming,,.q; .hql,
+HLSL,programming,,.hlsl; .cginc; .fx; .fxh; .hlsli,
+HOCON,data,,.hocon,.scalafix.conf; .scalafmt.conf
+HolyC,programming,,.hc,
+hoon,programming,,.hoon,
+Hosts File,data,hosts,,HOSTS; hosts; hosts.txt
+HTML,markup,xhtml,.html; .hta; .htm; .html.hl; .inc; .xht; .xhtml,
+HTML+ECR,markup,ecr,.ecr,
+HTML+EEX,markup,eex; heex; leex,.html.eex; .heex; .leex,
+HTML+ERB,markup,erb; rhtml; html+ruby,.erb; .erb.deface; .rhtml,
+HTML+PHP,markup,,.phtml,
+HTML+Razor,markup,razor,.cshtml; .razor,
+HTTP,data,,.http,
+Hurl,programming,,.hurl,
+HXML,data,,.hxml,
+Hy,programming,hylang,.hy,
+HyPhy,programming,,.bf,
+iCalendar,data,iCal,.ics; .ical,
+IDL,programming,,.pro; .dlm,
+Idris,programming,,.idr; .lidr,
+Ignore List,data,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
+IGOR Pro,programming,igor; igorpro,.ipf,
+ImageJ Macro,programming,ijm,.ijm,
+Imba,programming,,.imba,
+Inform 7,programming,i7; inform7,.ni; .i7x,
+INI,data,dosini,.ini; .cfg; .cnf; .dof; .frm; .lektorproject; .prefs; .pro; .properties; .url,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc
+Ink,programming,,.ink,
+Inno Setup,programming,,.iss; .isl,
+Io,programming,,.io,
+Ioke,programming,,.ik,
+IRC log,data,irc; irc logs,.irclog; .weechatlog,
+Isabelle,programming,,.thy,
+Isabelle ROOT,programming,,,ROOT
+ISPC,programming,,.ispc,
+J,programming,,.ijs,
+Jac,programming,,.jac,
+Jai,programming,,.jai,
+Janet,programming,,.janet,
+JAR Manifest,data,,,MANIFEST.MF
+Jasmin,programming,,.j,
+Java,programming,,.java; .jav; .jsh,
+Java Properties,data,,.properties,
+Java Server Pages,programming,jsp,.jsp; .tag,
+Java Template Engine,programming,jte,.jte,
+JavaScript,programming,js; node,.js; ._js; .bones; .cjs; .es; .es6; .frag; .gs; .jake; .javascript; .jsb; .jscad; .jsfl; .jslib; .jsm; .jspre; .jss; .jsx; .mjs; .njs; .pac; .sjs; .ssjs; .xsjs; .xsjslib,Jakefile
+JavaScript+ERB,programming,,.js.erb,
+JCL,programming,,.jcl,
+Jest Snapshot,data,,.snap,
+JetBrains MPS,programming,mps,.mps; .mpl; .msd,
+JFlex,programming,,.flex; .jflex,
+Jinja,markup,django; html+django; html+jinja; htmldjango,.jinja; .j2; .jinja2,
+Jison,programming,,.jison,
+Jison Lex,programming,,.jisonlex,
+Jolie,programming,,.ol; .iol,
+jq,programming,,.jq,
+JSON,data,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
+JSON with Comments,data,jsonc,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json
+JSON5,data,,.json5,
+JSONiq,programming,,.jq,
+JSONLD,data,,.jsonld,
+Jsonnet,programming,,.jsonnet; .libsonnet,
+Julia,programming,,.jl,
 Julia REPL,programming,,,
-Jupyter Notebook,markup,IPython Notebook,Notebook,.ipynb
-Just,programming,Justfile,.JUSTFILE; .Justfile; .justfile; JUSTFILE; Justfile; justfile,.just
-Kaitai Struct,programming,ksy,,.ksy
-KakouneScript,programming,kak; kakscript,kakrc,.kak
-KCL,programming,,kcl.mod; kcl.mod.lock,.k
-KDL,data,,,.kdl
-KerboScript,programming,,,.ks
-KFramework,programming,,,.k
-KiCad Layout,data,pcbnew,fp-lib-table,.kicad_pcb; .kicad_mod; .kicad_wks
-KiCad Legacy Layout,data,,,.brd
-KiCad Schematic,data,eeschema schematic,,.kicad_sch; .kicad_sym; .sch
-Kickstart,data,,,.ks
-Kit,markup,,,.kit
-Koka,programming,,,.kk
-KoLmafia ASH,programming,,,.ash
-Kotlin,programming,,,.kt; .ktm; .kts
-KRL,programming,,,.krl
-Kusto,data,,,.csl; .kql
-kvlang,markup,,,.kv
-LabVIEW,programming,,,.lvproj; .lvclass; .lvlib
-Lambdapi,programming,,,.lp
-Langium,programming,,,.langium
-Lark,data,,,.lark
-Lasso,programming,lassoscript,,.lasso; .las; .lasso8; .lasso9
-Latte,markup,,,.latte
-Lean,programming,,,.lean; .hlean
-Lean 4,programming,lean4,,.lean
-Leo,programming,,,.leo
-Less,markup,less-css,,.less
-Lex,programming,flex,Lexer.x; lexer.x,.l; .lex
-LFE,programming,,,.lfe
-LigoLANG,programming,,,.ligo
-LilyPond,programming,,,.ly; .ily
-Limbo,programming,,,.b; .m
-Linear Programming,programming,,,.lp
-Linker Script,programming,,ld.script,.ld; .lds; .x
-Linux Kernel Module,data,,,.mod
-Liquid,markup,,,.liquid
-Liquidsoap,programming,,,.liq
-Literate Agda,programming,,,.lagda
-Literate CoffeeScript,programming,litcoffee,,.litcoffee; .coffee.md
-Literate Haskell,programming,lhaskell; lhs,,.lhs
-LiveCode Script,programming,,,.livecodescript
-LiveScript,programming,live-script; ls,Slakefile,.ls; ._ls
-LLVM,programming,,,.ll
-Logos,programming,,,.xm; .x; .xi
-Logtalk,programming,,,.lgt; .logtalk
-LOLCODE,programming,,,.lol
-LookML,programming,,,.lkml; .lookml
-LoomScript,programming,,,.ls
-LSL,programming,,,.lsl; .lslp
-LTspice Symbol,data,,,.asy
-Lua,programming,,.luacheckrc,.lua; .fcgi; .nse; .p8; .pd_lua; .rbxs; .rockspec; .wlua
-Luau,programming,,,.luau
-M,programming,mumps,,.mumps; .m
-M3U,data,hls playlist; m3u playlist,,.m3u; .m3u8
-M4,programming,,,.m4; .mc
-M4Sugar,programming,autoconf,configure.ac,.m4
-Macaulay2,programming,m2,,.m2
-Makefile,programming,bsdmake; make; mf,BSDmakefile; GNUmakefile; Kbuild; Makefile; Makefile.am; Makefile.boot; Makefile.frag; Makefile.in; Makefile.inc; Makefile.wat; makefile; makefile.sco; mkfile,.mak; .d; .make; .makefile; .mk; .mkfile
-Mako,programming,,,.mako; .mao
-Markdown,prose,md; pandoc,contents.lr,.md; .livemd; .markdown; .mdown; .mdwn; .mkd; .mkdn; .mkdown; .ronn; .scd; .workbook
-Marko,markup,markojs,,.marko
-Mask,markup,,,.mask
-Mathematical Programming System,programming,,,.mps
-MATLAB,programming,octave,,.matlab; .m
-Maven POM,data,,pom.xml,
-Max,programming,max/msp; maxmsp,,.maxpat; .maxhelp; .maxproj; .mxt; .pat
-MAXScript,programming,,,.ms; .mcr
-mcfunction,programming,,,.mcfunction
-mdsvex,markup,,,.svx
-MDX,markup,,,.mdx
-Mercury,programming,,,.m; .moo
-Mermaid,markup,mermaid example,,.mmd; .mermaid
-Meson,programming,,meson.build; meson_options.txt,
-Metal,programming,,,.metal
-MeTTa,programming,,,.metta
-Microsoft Developer Studio Project,data,,,.dsp
-Microsoft Visual Studio Solution,data,,,.sln
-MiniD,programming,,,.minid
-MiniYAML,data,,,.yaml; .yml
-MiniZinc,programming,,,.mzn
-MiniZinc Data,data,,,.dzn
-Mint,programming,,,.mint
-Mirah,programming,,,.druby; .duby; .mirah
-mIRC Script,programming,,,.mrc
-MLIR,programming,,,.mlir
-Modelica,programming,,,.mo
-Modula-2,programming,,,.mod
-Modula-3,programming,,,.i3; .ig; .m3; .mg
-Module Management System,programming,,descrip.mmk; descrip.mms,.mms; .mmk
-Mojo,programming,,,.mojo
-Monkey,programming,,,.monkey; .monkey2
-Monkey C,programming,,,.mc
-Moocode,programming,,,.moo
-MoonBit,programming,,,.mbt
-MoonScript,programming,,,.moon
-Motoko,programming,,,.mo
-Motorola 68K Assembly,programming,m68k,,.asm; .i; .inc; .s; .x68
-Move,programming,,,.move
-MQL4,programming,,,.mq4; .mqh
-MQL5,programming,,,.mq5; .mqh
-MTML,markup,,,.mtml
-MUF,programming,,,.muf; .m
-mupad,programming,,,.mu
-Muse,prose,amusewiki; emacs muse,,.muse
-Mustache,markup,,,.mustache
-Myghty,programming,,,.myt
-nanorc,data,,.nanorc; nanorc,.nanorc
-Nasal,programming,,,.nas
-NASL,programming,,,.nasl; .inc
-NCL,programming,,,.ncl
-Nearley,programming,,,.ne; .nearley
-Nemerle,programming,,,.n
-NEON,data,nette object notation; ne-on,,.neon
-nesC,programming,,,.nc
-NetLinx,programming,,,.axs; .axi
-NetLinx+ERB,programming,,,.axs.erb; .axi.erb
-NetLogo,programming,,,.nlogo
-NewLisp,programming,,,.nl; .lisp; .lsp
-Nextflow,programming,,nextflow.config,.nf
-Nginx,data,nginx configuration file,nginx.conf,.nginx; .nginxconf; .vhost
-Nickel,programming,,,.ncl
-Nim,programming,,nim.cfg,.nim; .nim.cfg; .nimble; .nimrod; .nims
-Ninja,data,,,.ninja
-Nit,programming,,,.nit
-Nix,programming,nixos,,.nix
-NL,data,,,.nl
-NMODL,programming,,,.mod
-Noir,programming,nargo,,.nr
-NPM Config,data,npmrc,.npmrc,
-NSIS,programming,,,.nsi; .nsh
-Nu,programming,nush,Nukefile,.nu
-NumPy,programming,,,.numpy; .numpyw; .numsc
-Nunjucks,markup,njk,,.njk
-Nushell,programming,nu-script; nushell-script,,.nu
-NWScript,programming,,,.nss
-OASv2-json,data,,,.json
-OASv2-yaml,data,,,.yaml; .yml
-OASv3-json,data,,,.json
-OASv3-yaml,data,,,.yaml; .yml
-Oberon,programming,,,.ob2
-ObjDump,data,,,.objdump
-Object Data Instance Notation,data,,,.odin
-Objective-C,programming,obj-c; objc; objectivec,,.m; .h
-Objective-C++,programming,obj-c++; objc++; objectivec++,,.mm
-Objective-J,programming,obj-j; objectivej; objj,,.j; .sj
-ObjectScript,programming,,,.cls
-OCaml,programming,,,.ml; .eliom; .eliomi; .ml4; .mli; .mll; .mly
-Odin,programming,odinlang; odin-lang,,.odin
-Omgrofl,programming,,,.omgrofl
-OMNeT++ MSG,programming,omnetpp-msg,,.msg
-OMNeT++ NED,programming,omnetpp-ned,,.ned
-ooc,programming,,,.ooc
-Opa,programming,,,.opa
-Opal,programming,,,.opal
-Open Policy Agent,programming,,,.rego
+Jupyter Notebook,markup,IPython Notebook,.ipynb,Notebook
+Just,programming,Justfile,.just,.JUSTFILE; .Justfile; .justfile; JUSTFILE; Justfile; justfile
+Kaitai Struct,programming,ksy,.ksy,
+KakouneScript,programming,kak; kakscript,.kak,kakrc
+KCL,programming,,.k,kcl.mod; kcl.mod.lock
+KDL,data,,.kdl,
+KerboScript,programming,,.ks,
+KFramework,programming,,.k,
+KiCad Layout,data,pcbnew,.kicad_pcb; .kicad_mod; .kicad_wks,fp-lib-table
+KiCad Legacy Layout,data,,.brd,
+KiCad Schematic,data,eeschema schematic,.kicad_sch; .kicad_sym; .sch,
+Kickstart,data,,.ks,
+Kit,markup,,.kit,
+Koka,programming,,.kk,
+KoLmafia ASH,programming,,.ash,
+Kotlin,programming,,.kt; .ktm; .kts,
+KRL,programming,,.krl,
+Kusto,data,,.csl; .kql,
+kvlang,markup,,.kv,
+LabVIEW,programming,,.lvproj; .lvclass; .lvlib,
+Lambdapi,programming,,.lp,
+Langium,programming,,.langium,
+Lark,data,,.lark,
+Lasso,programming,lassoscript,.lasso; .las; .lasso8; .lasso9,
+Latte,markup,,.latte,
+Lean,programming,,.lean; .hlean,
+Lean 4,programming,lean4,.lean,
+Leo,programming,,.leo,
+Less,markup,less-css,.less,
+Lex,programming,flex,.l; .lex,Lexer.x; lexer.x
+LFE,programming,,.lfe,
+LigoLANG,programming,,.ligo,
+LilyPond,programming,,.ly; .ily,
+Limbo,programming,,.b; .m,
+Linear Programming,programming,,.lp,
+Linker Script,programming,,.ld; .lds; .x,ld.script
+Linux Kernel Module,data,,.mod,
+Liquid,markup,,.liquid,
+Liquidsoap,programming,,.liq,
+Literate Agda,programming,,.lagda,
+Literate CoffeeScript,programming,litcoffee,.litcoffee; .coffee.md,
+Literate Haskell,programming,lhaskell; lhs,.lhs,
+LiveCode Script,programming,,.livecodescript,
+LiveScript,programming,live-script; ls,.ls; ._ls,Slakefile
+LLVM,programming,,.ll,
+Logos,programming,,.xm; .x; .xi,
+Logtalk,programming,,.lgt; .logtalk,
+LOLCODE,programming,,.lol,
+LookML,programming,,.lkml; .lookml,
+LoomScript,programming,,.ls,
+LSL,programming,,.lsl; .lslp,
+LTspice Symbol,data,,.asy,
+Lua,programming,,.lua; .fcgi; .nse; .p8; .pd_lua; .rbxs; .rockspec; .wlua,.luacheckrc
+Luau,programming,,.luau,
+M,programming,mumps,.mumps; .m,
+M3U,data,hls playlist; m3u playlist,.m3u; .m3u8,
+M4,programming,,.m4; .mc,
+M4Sugar,programming,autoconf,.m4,configure.ac
+Macaulay2,programming,m2,.m2,
+Makefile,programming,bsdmake; make; mf,.mak; .d; .make; .makefile; .mk; .mkfile,BSDmakefile; GNUmakefile; Kbuild; Makefile; Makefile.am; Makefile.boot; Makefile.frag; Makefile.in; Makefile.inc; Makefile.wat; makefile; makefile.sco; mkfile
+Mako,programming,,.mako; .mao,
+Markdown,prose,md; pandoc,.md; .livemd; .markdown; .mdown; .mdwn; .mkd; .mkdn; .mkdown; .ronn; .scd; .workbook,contents.lr
+Marko,markup,markojs,.marko,
+Mask,markup,,.mask,
+Mathematical Programming System,programming,,.mps,
+MATLAB,programming,octave,.matlab; .m,
+Maven POM,data,,,pom.xml
+Max,programming,max/msp; maxmsp,.maxpat; .maxhelp; .maxproj; .mxt; .pat,
+MAXScript,programming,,.ms; .mcr,
+mcfunction,programming,,.mcfunction,
+mdsvex,markup,,.svx,
+MDX,markup,,.mdx,
+Mercury,programming,,.m; .moo,
+Mermaid,markup,mermaid example,.mmd; .mermaid,
+Meson,programming,,,meson.build; meson_options.txt
+Metal,programming,,.metal,
+MeTTa,programming,,.metta,
+Microsoft Developer Studio Project,data,,.dsp,
+Microsoft Visual Studio Solution,data,,.sln,
+MiniD,programming,,.minid,
+MiniYAML,data,,.yaml; .yml,
+MiniZinc,programming,,.mzn,
+MiniZinc Data,data,,.dzn,
+Mint,programming,,.mint,
+Mirah,programming,,.druby; .duby; .mirah,
+mIRC Script,programming,,.mrc,
+MLIR,programming,,.mlir,
+Modelica,programming,,.mo,
+Modula-2,programming,,.mod,
+Modula-3,programming,,.i3; .ig; .m3; .mg,
+Module Management System,programming,,.mms; .mmk,descrip.mmk; descrip.mms
+Mojo,programming,,.mojo,
+Monkey,programming,,.monkey; .monkey2,
+Monkey C,programming,,.mc,
+Moocode,programming,,.moo,
+MoonBit,programming,,.mbt,
+MoonScript,programming,,.moon,
+Motoko,programming,,.mo,
+Motorola 68K Assembly,programming,m68k,.asm; .i; .inc; .s; .x68,
+Move,programming,,.move,
+MQL4,programming,,.mq4; .mqh,
+MQL5,programming,,.mq5; .mqh,
+MTML,markup,,.mtml,
+MUF,programming,,.muf; .m,
+mupad,programming,,.mu,
+Muse,prose,amusewiki; emacs muse,.muse,
+Mustache,markup,,.mustache,
+Myghty,programming,,.myt,
+nanorc,data,,.nanorc,.nanorc; nanorc
+Nasal,programming,,.nas,
+NASL,programming,,.nasl; .inc,
+NCL,programming,,.ncl,
+Nearley,programming,,.ne; .nearley,
+Nemerle,programming,,.n,
+NEON,data,nette object notation; ne-on,.neon,
+nesC,programming,,.nc,
+NetLinx,programming,,.axs; .axi,
+NetLinx+ERB,programming,,.axs.erb; .axi.erb,
+NetLogo,programming,,.nlogo,
+NewLisp,programming,,.nl; .lisp; .lsp,
+Nextflow,programming,,.nf,nextflow.config
+Nginx,data,nginx configuration file,.nginx; .nginxconf; .vhost,nginx.conf
+Nickel,programming,,.ncl,
+Nim,programming,,.nim; .nim.cfg; .nimble; .nimrod; .nims,nim.cfg
+Ninja,data,,.ninja,
+Nit,programming,,.nit,
+Nix,programming,nixos,.nix,
+NL,data,,.nl,
+NMODL,programming,,.mod,
+Noir,programming,nargo,.nr,
+NPM Config,data,npmrc,,.npmrc
+NSIS,programming,,.nsi; .nsh,
+Nu,programming,nush,.nu,Nukefile
+NumPy,programming,,.numpy; .numpyw; .numsc,
+Nunjucks,markup,njk,.njk,
+Nushell,programming,nu-script; nushell-script,.nu,
+NWScript,programming,,.nss,
+OASv2-json,data,,.json,
+OASv2-yaml,data,,.yaml; .yml,
+OASv3-json,data,,.json,
+OASv3-yaml,data,,.yaml; .yml,
+Oberon,programming,,.ob2,
+ObjDump,data,,.objdump,
+Object Data Instance Notation,data,,.odin,
+Objective-C,programming,obj-c; objc; objectivec,.m; .h,
+Objective-C++,programming,obj-c++; objc++; objectivec++,.mm,
+Objective-J,programming,obj-j; objectivej; objj,.j; .sj,
+ObjectScript,programming,,.cls,
+OCaml,programming,,.ml; .eliom; .eliomi; .ml4; .mli; .mll; .mly,
+Odin,programming,odinlang; odin-lang,.odin,
+Omgrofl,programming,,.omgrofl,
+OMNeT++ MSG,programming,omnetpp-msg,.msg,
+OMNeT++ NED,programming,omnetpp-ned,.ned,
+ooc,programming,,.ooc,
+Opa,programming,,.opa,
+Opal,programming,,.opal,
+Open Policy Agent,programming,,.rego,
 OpenAPI Specification v2,data,oasv2,,
 OpenAPI Specification v3,data,oasv3,,
-OpenCL,programming,,,.cl; .opencl
-OpenEdge ABL,programming,progress; openedge; abl,,.p; .cls; .w
-OpenQASM,programming,,,.qasm
+OpenCL,programming,,.cl; .opencl,
+OpenEdge ABL,programming,progress; openedge; abl,.p; .cls; .w,
+OpenQASM,programming,,.qasm,
 OpenRC runscript,programming,openrc,,
-OpenSCAD,programming,,,.scad
-OpenStep Property List,data,,,.plist; .glyphs
-OpenType Feature File,data,AFDKO,,.fea
-Option List,data,opts; ackrc,.ackrc; .rspec; .yardopts; ackrc; mocha.opts,
-Org,prose,,,.org
-OverpassQL,programming,,,.overpassql
-Ox,programming,,,.ox; .oxh; .oxo
-Oxygene,programming,,,.oxygene
-Oz,programming,,,.oz
-P4,programming,,,.p4
-Pact,programming,,,.pact
-Pan,programming,,,.pan
-Papyrus,programming,,,.psc
-Parrot,programming,,,.parrot
-Parrot Assembly,programming,pasm,,.pasm
-Parrot Internal Representation,programming,pir,,.pir
-Pascal,programming,delphi; objectpascal,,.pas; .dfm; .dpr; .inc; .lpr; .pascal; .pp
-Pawn,programming,,,.pwn; .inc; .sma
-PDDL,programming,,,.pddl
-PEG.js,programming,,,.pegjs; .peggy
-Pep8,programming,,,.pep
-Perl,programming,cperl,.latexmkrc; Makefile.PL; Rexfile; ack; cpanfile; latexmkrc,.pl; .al; .cgi; .fcgi; .perl; .ph; .plx; .pm; .psgi; .t
-PHP,programming,inc,.php; .php_cs; .php_cs.dist; Phakefile,.php; .aw; .ctp; .fcgi; .inc; .php3; .php4; .php5; .phps; .phpt
-Pic,markup,pikchr,,.pic; .chem
-Pickle,data,,,.pkl
-PicoLisp,programming,,,.l
-PigLatin,programming,,,.pig
-Pike,programming,,,.pike; .pmod
-Pip Requirements,data,,dev-requirements.txt; requirements-dev.txt; requirements.lock.txt; requirements.txt,
-Pkl,programming,,,.pkl
-PlantUML,data,,,.puml; .iuml; .plantuml
-PLpgSQL,programming,,,.pgsql; .sql
-PLSQL,programming,,,.pls; .bdy; .ddl; .fnc; .pck; .pkb; .pks; .plb; .plsql; .prc; .spc; .sql; .tpb; .tps; .trg; .vw
-Pod,prose,,,.pod
-Pod 6,prose,,,.pod; .pod6
-PogoScript,programming,,,.pogo
-Polar,programming,,,.polar
-Pony,programming,,,.pony
-Portugol,programming,,,.por
-PostCSS,markup,,,.pcss; .postcss
-PostScript,markup,postscr,,.ps; .eps; .epsi; .pfa
-POV-Ray SDL,programming,pov-ray; povray,,.pov; .inc
-PowerBuilder,programming,,,.pbt; .sra; .sru; .srw
-PowerShell,programming,posh; pwsh,,.ps1; .psd1; .psm1
-Praat,programming,,,.praat
-Prisma,data,,,.prisma
-Processing,programming,,,.pde
-Procfile,programming,,Procfile,
-Proguard,data,,,.pro
-Prolog,programming,,,.pl; .plt; .pro; .prolog; .yap
-Promela,programming,,,.pml
-Propeller Spin,programming,,,.spin
-Protocol Buffer,data,proto; protobuf; Protocol Buffers,,.proto
-Protocol Buffer Text Format,data,text proto; protobuf text format,,.textproto; .pbt; .pbtxt; .txtpb
-Public Key,data,,,.asc; .pub
-Pug,markup,,,.jade; .pug
-Puppet,programming,,Modulefile,.pp
-Pure Data,data,,,.pd
-PureBasic,programming,,,.pb; .pbi
-PureScript,programming,,,.purs
-Pyret,programming,,,.arr
-Python,programming,py; py3; python3; rusthon,.gclient; DEPS; SConscript; SConstruct; wscript,.py; .cgi; .fcgi; .gyp; .gypi; .lmi; .py3; .pyde; .pyi; .pyp; .pyt; .pyw; .rpy; .spec; .tac; .wsgi; .xpy
+OpenSCAD,programming,,.scad,
+OpenStep Property List,data,,.plist; .glyphs,
+OpenType Feature File,data,AFDKO,.fea,
+Option List,data,opts; ackrc,,.ackrc; .rspec; .yardopts; ackrc; mocha.opts
+Org,prose,,.org,
+OverpassQL,programming,,.overpassql,
+Ox,programming,,.ox; .oxh; .oxo,
+Oxygene,programming,,.oxygene,
+Oz,programming,,.oz,
+P4,programming,,.p4,
+Pact,programming,,.pact,
+Pan,programming,,.pan,
+Papyrus,programming,,.psc,
+Parrot,programming,,.parrot,
+Parrot Assembly,programming,pasm,.pasm,
+Parrot Internal Representation,programming,pir,.pir,
+Pascal,programming,delphi; objectpascal,.pas; .dfm; .dpr; .inc; .lpr; .pascal; .pp,
+Pawn,programming,,.pwn; .inc; .sma,
+PDDL,programming,,.pddl,
+PEG.js,programming,,.pegjs; .peggy,
+Pep8,programming,,.pep,
+Perl,programming,cperl,.pl; .al; .cgi; .fcgi; .perl; .ph; .plx; .pm; .psgi; .t,.latexmkrc; Makefile.PL; Rexfile; ack; cpanfile; latexmkrc
+PHP,programming,inc,.php; .aw; .ctp; .fcgi; .inc; .php3; .php4; .php5; .phps; .phpt,.php; .php_cs; .php_cs.dist; Phakefile
+Pic,markup,pikchr,.pic; .chem,
+Pickle,data,,.pkl,
+PicoLisp,programming,,.l,
+PigLatin,programming,,.pig,
+Pike,programming,,.pike; .pmod,
+Pip Requirements,data,,,dev-requirements.txt; requirements-dev.txt; requirements.lock.txt; requirements.txt
+Pkl,programming,,.pkl,
+PlantUML,data,,.puml; .iuml; .plantuml,
+PLpgSQL,programming,,.pgsql; .sql,
+PLSQL,programming,,.pls; .bdy; .ddl; .fnc; .pck; .pkb; .pks; .plb; .plsql; .prc; .spc; .sql; .tpb; .tps; .trg; .vw,
+Pod,prose,,.pod,
+Pod 6,prose,,.pod; .pod6,
+PogoScript,programming,,.pogo,
+Polar,programming,,.polar,
+Pony,programming,,.pony,
+Portugol,programming,,.por,
+PostCSS,markup,,.pcss; .postcss,
+PostScript,markup,postscr,.ps; .eps; .epsi; .pfa,
+POV-Ray SDL,programming,pov-ray; povray,.pov; .inc,
+PowerBuilder,programming,,.pbt; .sra; .sru; .srw,
+PowerShell,programming,posh; pwsh,.ps1; .psd1; .psm1,
+Praat,programming,,.praat,
+Prisma,data,,.prisma,
+Processing,programming,,.pde,
+Procfile,programming,,,Procfile
+Proguard,data,,.pro,
+Prolog,programming,,.pl; .plt; .pro; .prolog; .yap,
+Promela,programming,,.pml,
+Propeller Spin,programming,,.spin,
+Protocol Buffer,data,proto; protobuf; Protocol Buffers,.proto,
+Protocol Buffer Text Format,data,text proto; protobuf text format,.textproto; .pbt; .pbtxt; .txtpb,
+Public Key,data,,.asc; .pub,
+Pug,markup,,.jade; .pug,
+Puppet,programming,,.pp,Modulefile
+Pure Data,data,,.pd,
+PureBasic,programming,,.pb; .pbi,
+PureScript,programming,,.purs,
+Pyret,programming,,.arr,
+Python,programming,py; py3; python3; rusthon,.py; .cgi; .fcgi; .gyp; .gypi; .lmi; .py3; .pyde; .pyi; .pyp; .pyt; .pyw; .rpy; .spec; .tac; .wsgi; .xpy,.gclient; DEPS; SConscript; SConstruct; wscript
 Python console,programming,pycon,,
-Python traceback,data,,,.pytb
-q,programming,,,.q
-Q#,programming,qsharp,,.qs
-QMake,programming,,,.pro; .pri
-QML,programming,,,.qml; .qbs
-Qt Script,programming,,installscript.qs; toolchain_installscript.qs,.qs
-Quake,programming,,m3makefile; m3overrides,
-QuakeC,programming,,,.qc
-QuickBASIC,programming,qb; qbasic; qb64; classic qbasic; classic quickbasic,,.bas; .bi
-R,programming,Rscript; splus,.Rprofile; expr-dist,.r; .rd; .rsx
-Racket,programming,,,.rkt; .rktd; .rktl; .scrbl
-Ragel,programming,ragel-rb; ragel-ruby,,.rl
-Raku,programming,perl6; perl-6,,.6pl; .6pm; .nqp; .p6; .p6l; .p6m; .pl; .pl6; .pm; .pm6; .raku; .rakumod; .t
-RAML,markup,,,.raml
-Rascal,programming,,,.rsc
-RAScript,programming,,,.rascript
-Raw token data,data,raw,,.raw
-RBS,data,,,.rbs
-RDoc,prose,,,.rdoc
-Readline Config,data,inputrc; readline,.inputrc; inputrc,
-REALbasic,programming,,,.rbbas; .rbfrm; .rbmnu; .rbres; .rbtbar; .rbuistate
-Reason,programming,,,.re; .rei
-ReasonLIGO,programming,,,.religo
-Rebol,programming,,,.reb; .r; .r2; .r3; .rebol
-Record Jar,data,,language-subtag-registry.txt,
-Red,programming,red/system,,.red; .reds
-Redcode,programming,,,.cw
-Redirect Rules,data,redirects,_redirects,
-Regular Expression,data,regexp; regex,,.regexp; .regex
-Ren'Py,programming,renpy,,.rpy
-RenderScript,programming,,,.rs; .rsh
-ReScript,programming,,,.res; .resi
-reStructuredText,prose,rst,,.rst; .rest; .rest.txt; .rst.txt
-REXX,programming,arexx,,.rexx; .pprx; .rex
-Rez,programming,,,.r
-Rich Text Format,markup,,,.rtf
-Ring,programming,,,.ring
-Riot,markup,,,.riot
-RMarkdown,prose,,,.qmd; .rmd
-RobotFramework,programming,,,.robot; .resource
-robots.txt,data,robots; robots txt,robots.txt,
-Roc,programming,,,.roc
-Rocq Prover,programming,coq; rocq,,.v; .coq
-Roff,markup,groff; man; manpage; man page; man-page; mdoc; nroff; troff,eqnrc; mmn; mmt; troffrc; troffrc-end,.roff; .1; .1in; .1m; .1x; .2; .3; .3in; .3m; .3p; .3pm; .3qt; .3x; .4; .5; .6; .7; .8; .9; .l; .man; .mdoc; .me; .ms; .n; .nr; .rno; .tmac
-Roff Manpage,markup,,,.1; .1in; .1m; .1x; .2; .3; .3in; .3m; .3p; .3pm; .3qt; .3x; .4; .5; .6; .7; .8; .9; .man; .mdoc
-RON,data,,,.ron
-ROS Interface,data,rosmsg,,.msg; .action; .srv
-Rouge,programming,,,.rg
-RouterOS Script,programming,,,.rsc
-RPC,programming,rpcgen; oncrpc; xdr,,.x
-RPGLE,programming,ile rpg; sqlrpgle,,.rpgle; .sqlrpgle
-RPM Spec,data,specfile,,.spec
-Ruby,programming,jruby; macruby; rake; rb; rbx,.irbrc; .pryrc; .simplecov; Appraisals; Berksfile; Brewfile; Buildfile; Capfile; Dangerfile; Deliverfile; Fastfile; Gemfile; Guardfile; Jarfile; Mavenfile; Podfile; Puppetfile; Rakefile; Snapfile; Steepfile; Thorfile; Vagrantfile; buildfile,.rb; .builder; .eye; .fcgi; .gemspec; .god; .jbuilder; .mspec; .pluginspec; .podspec; .prawn; .rabl; .rake; .rbi; .rbuild; .rbw; .rbx; .ru; .ruby; .spec; .thor; .watchr
-RUNOFF,markup,,,.rnh; .rno
-Rust,programming,rs,,.rs; .rs.in
-Sage,programming,,,.sage; .sagews
-Sail,programming,,,.sail
-SaltStack,programming,saltstate; salt,,.sls
-SAS,programming,,,.sas
-Sass,markup,,,.sass
-Scala,programming,,,.scala; .kojo; .sbt; .sc
-Scaml,markup,,,.scaml
-Scenic,programming,,,.scenic
-Scheme,programming,,,.scm; .sch; .sld; .sls; .sps; .ss
-Scilab,programming,,,.sci; .sce; .tst
-SCSS,markup,,,.scss
-sed,programming,,,.sed
-Self,programming,,,.self
-SELinux Policy,data,SELinux Kernel Policy Language; sepolicy,file_contexts; genfs_contexts; initial_sids; port_contexts; security_classes,.te
-ShaderLab,programming,,,.shader
-Shell,programming,sh; shell-script; bash; zsh; envrc,.bash_aliases; .bash_functions; .bash_history; .bash_logout; .bash_profile; .bashrc; .cshrc; .envrc; .flaskenv; .kshrc; .login; .profile; .tmux.conf; .xinitrc; .xsession; .zlogin; .zlogout; .zprofile; .zshenv; .zshrc; 9fs; PKGBUILD; bash_aliases; bash_logout; bash_profile; bashrc; cshrc; gradlew; kshrc; login; man; mvnw; profile; tmux.conf; xinitrc; xsession; zlogin; zlogout; zprofile; zshenv; zshrc,.sh; .bash; .bats; .cgi; .command; .fcgi; .ksh; .sbatch; .sh.in; .slurm; .tmux; .tool; .trigger; .zsh; .zsh-theme
-ShellCheck Config,data,shellcheckrc,.shellcheckrc,
-ShellSession,programming,bash session; console,,.sh-session
-Shen,programming,,,.shen
-Sieve,programming,,,.sieve
-Simple File Verification,data,sfv,,.sfv
-Singularity,programming,,Singularity,
-Slang,programming,,,.slang
-Slash,programming,,,.sl
-Slice,programming,,,.ice
-Slim,markup,,,.slim
-Slint,markup,,,.slint
-Smali,programming,,,.smali
-Smalltalk,programming,squeak,,.st; .cs
-Smarty,programming,,,.tpl
-Smithy,programming,,,.smithy
-SmPL,programming,coccinelle,,.cocci
-SMT,programming,,,.smt2; .smt; .z3
-Snakemake,programming,snakefile,Snakefile,.smk; .snakefile
-Solidity,programming,,,.sol
-Soong,data,,Android.bp,
-SourcePawn,programming,sourcemod,,.sp; .inc
-SPARQL,data,,,.sparql; .rq
-Spline Font Database,data,,,.sfd
-SQF,programming,,,.sqf; .hqf
-SQL,data,,,.sql; .ddl; .inc; .mysql; .prc; .tab; .udf; .viw
-SQLPL,programming,,,.sql; .db2
-Squirrel,programming,,,.nut
-SRecode Template,markup,,,.srt
-SSH Config,data,sshconfig; sshdconfig; ssh_config; sshd_config,ssh-config; ssh_config; sshconfig; sshconfig.snip; sshd-config; sshd_config,
-Stan,programming,,,.stan
-Standard ML,programming,sml,,.ml; .fun; .sig; .sml
-STAR,data,,,.star
-Starlark,programming,bazel; bzl,BUCK; BUILD; BUILD.bazel; MODULE.bazel; Tiltfile; WORKSPACE; WORKSPACE.bazel; WORKSPACE.bzlmod,.bzl; .star
-Stata,programming,,,.do; .ado; .doh; .ihlp; .mata; .matah; .sthlp
-STL,data,ascii stl; stla,,.stl
-STON,data,,,.ston
-StringTemplate,markup,,,.st
-Stylus,markup,,,.styl
-SubRip Text,data,,,.srt
-SugarSS,markup,,,.sss
-SuperCollider,programming,,,.sc; .scd
-SurrealQL,programming,surql,,.surql
-Survex data,data,,,.svx
-Svelte,markup,,,.svelte
-SVG,data,,,.svg
-Sway,programming,,,.sw
-Sweave,prose,,,.rnw
-Swift,programming,,,.swift
-SWIG,programming,,,.i; .swg; .swig
-SystemVerilog,programming,,,.sv; .svh; .vh
-Tact,programming,,,.tact
-Talon,programming,,,.talon
-Tcl,programming,sdc; xdc,owh; starfield,.tcl; .adp; .sdc; .tcl.in; .tm; .xdc
-Tcsh,programming,,,.tcsh; .csh
-Tea,markup,,,.tea
-Teal,programming,,,.tl
-templ,markup,,,.templ
-Terra,programming,,,.t
-Terraform Template,markup,,,.tftpl
-TeX,markup,latex,,.tex; .aux; .bbx; .cbx; .cls; .dtx; .ins; .lbx; .ltx; .mkii; .mkiv; .mkvi; .sty; .toc
-Texinfo,prose,,,.texinfo; .texi; .txi
-Text,prose,fundamental; plain text,CITATION; CITATIONS; COPYING; COPYING.regex; COPYRIGHT.regex; FONTLOG; INSTALL; INSTALL.mysql; LICENSE; LICENSE.mysql; NEWS; README.me; README.mysql; README.nss; click.me; delete.me; keep.me; package.mask; package.use.mask; package.use.stable.mask; read.me; readme.1st; test.me; use.mask; use.stable.mask,.txt; .fr; .nb; .ncl; .no
-TextGrid,data,,,.TextGrid
-Textile,prose,,,.textile
-TextMate Properties,data,tm-properties,.tm_properties,
-Thrift,programming,,,.thrift
-TI Program,programming,,,.8xp; .8xp.txt
-TL-Verilog,programming,,,.tlv
-TLA,programming,,,.tla
-TMDL,data,Tabular Model Definition Language,,.tmdl
-Toit,programming,,,.toit
-TOML,data,,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; pdm.lock; poetry.lock; uv.lock,.toml; .toml.example
-Tor Config,data,torrc,torrc,
-Tree-sitter Query,programming,tsq,,.scm
-TSPLIB data,data,travelling salesman problem; traveling salesman problem,,.tsp
-TSQL,programming,,,.sql
-TSV,data,tab-seperated values,,.tsv; .vcf
-TSX,programming,typescriptreact,,.tsx
-Turing,programming,,,.t; .tu
-Turtle,data,,,.ttl
-Twig,markup,,,.twig
-TXL,programming,,,.txl
-Type Language,data,tl,,.tl
-TypeScript,programming,ts,,.ts; .cts; .mts
-TypeSpec,programming,tsp,,.tsp
-Typst,programming,typ,,.typ
-Unified Parallel C,programming,,,.upc
-Unity3D Asset,data,,,.anim; .asset; .mask; .mat; .meta; .prefab; .unity
-Unix Assembly,programming,gas; gnu asm; unix asm,,.s; .ms
-Uno,programming,,,.uno
-UnrealScript,programming,,,.uc
-Untyped Plutus Core,programming,,,.uplc
-UrWeb,programming,Ur/Web; Ur,,.ur; .urs
-V,programming,vlang,,.v
-Vala,programming,,,.vala; .vapi
-Valve Data Format,data,keyvalues; vdf,,.vdf
-VBA,programming,visual basic for applications,,.bas; .cls; .frm; .vba
-VBScript,programming,,,.vbs
-vCard,data,virtual contact file; electronic business card,,.vcf
-VCL,programming,,,.vcl
-Velocity Template Language,markup,vtl; velocity,,.vtl
-Vento,markup,,,.vto
-Verilog,programming,,,.v; .veo
-VHDL,programming,,,.vhdl; .vhd; .vhf; .vhi; .vho; .vhs; .vht; .vhw
-Vim Help File,prose,help; vimhelp,,.txt
-Vim Script,programming,vim; viml; nvim; vimscript,.exrc; .gvimrc; .nvimrc; .vimrc; _vimrc; gvimrc; nvimrc; vimrc,.vim; .vba; .vimrc; .vmb
-Vim Snippet,markup,SnipMate; UltiSnip; UltiSnips; NeoSnippet,,.snip; .snippet; .snippets
-Visual Basic .NET,programming,visual basic; vbnet; vb .net; vb.net,,.vb; .vbhtml
-Visual Basic 6.0,programming,vb6; vb 6; visual basic 6; visual basic classic; classic visual basic,,.bas; .cls; .ctl; .Dsr; .frm
-Volt,programming,,,.volt
-Vue,markup,,,.vue
-Vyper,programming,,,.vy
-Wavefront Material,data,,,.mtl
-Wavefront Object,data,,,.obj
-WDL,programming,Workflow Description Language,,.wdl
-Web Ontology Language,data,,,.owl
-WebAssembly,programming,wast; wasm,,.wast; .wat
-WebAssembly Interface Type,data,wit,,.wit
-WebIDL,programming,,,.webidl
-WebVTT,data,vtt,,.vtt
-Wget Config,data,wgetrc,.wgetrc,
-WGSL,programming,,,.wgsl
-Whiley,programming,,,.whiley
-Wikitext,prose,mediawiki; wiki,,.mediawiki; .wiki; .wikitext
-Win32 Message File,data,,,.mc
-Windows Registry Entries,data,,,.reg
-wisp,programming,,,.wisp
-Witcher Script,programming,,,.ws
-Wolfram Language,programming,mathematica; mma; wolfram; wolfram lang; wl,,.mathematica; .cdf; .m; .ma; .mt; .nb; .nbp; .wl; .wls; .wlt
-Wollok,programming,,,.wlk
-World of Warcraft Addon Data,data,,,.toc
-Wren,programming,wrenlang,,.wren
-X BitMap,data,xbm,,.xbm
-X Font Directory Index,data,,encodings.dir; fonts.alias; fonts.dir; fonts.scale,
-X PixMap,data,xpm,,.xpm; .pm
-X10,programming,xten,,.x10
-xBase,programming,advpl; clipper; foxpro,,.prg; .ch; .prw
-XC,programming,,,.xc
-XCompose,data,,.XCompose; XCompose; xcompose,
-Xmake,programming,,xmake.lua,
-XML,data,rss; xsd; wsdl,.classpath; .cproject; .project; App.config; NuGet.config; Settings.StyleCop; Web.Debug.config; Web.Release.config; Web.config; packages.config,.xml; .adml; .admx; .ant; .axaml; .axml; .builds; .ccproj; .ccxml; .clixml; .cproject; .cscfg; .csdef; .csl; .csproj; .ct; .depproj; .dita; .ditamap; .ditaval; .dll.config; .dotsettings; .filters; .fsproj; .fxml; .glade; .gml; .gmx; .gpx; .grxml; .gst; .hzp; .icls; .iml; .ivy; .jelly; .jsproj; .kml; .launch; .mdpolicy; .mjml; .mm; .mod; .mojo; .mxml; .natvis; .ncl; .ndproj; .nproj; .nuspec; .odd; .osm; .pkgproj; .pluginspec; .proj; .props; .ps1xml; .psc1; .pt; .pubxml; .qhelp; .rdf; .res; .resx; .rs; .rss; .sch; .scxml; .sfproj; .shproj; .slnx; .srdf; .storyboard; .sublime-snippet; .sw; .targets; .tml; .ts; .tsx; .typ; .ui; .urdf; .ux; .vbproj; .vcxproj; .vsixmanifest; .vssettings; .vstemplate; .vxml; .wixproj; .workflow; .wsdl; .wsf; .wxi; .wxl; .wxs; .x3d; .xacro; .xaml; .xib; .xlf; .xliff; .xmi; .xml.dist; .xmp; .xproj; .xsd; .xspec; .xul; .zcml
-XML Property List,data,,,.plist; .stTheme; .tmCommand; .tmLanguage; .tmPreferences; .tmSnippet; .tmTheme
-Xojo,programming,,,.xojo_code; .xojo_menu; .xojo_report; .xojo_script; .xojo_toolbar; .xojo_window
-Xonsh,programming,,,.xsh
-XPages,data,,,.xsp-config; .xsp.metadata
-XProc,programming,,,.xpl; .xproc
-XQuery,programming,,,.xquery; .xq; .xql; .xqm; .xqy
-XS,programming,,,.xs
-XSLT,programming,xsl,,.xslt; .xsl
-Xtend,programming,,,.xtend
-Yacc,programming,,,.y; .yacc; .yy
-YAML,data,yml,.clang-format; .clang-tidy; .clangd; .gemrc; CITATION.cff; glide.lock; pixi.lock; yarn.lock,.yml; .mir; .reek; .rviz; .sublime-syntax; .syntax; .yaml; .yaml-tmlanguage; .yaml.sed; .yml.mysql
-YANG,data,,,.yang
-YARA,programming,,,.yar; .yara
-YASnippet,markup,snippet; yas,,.yasnippet
-Yul,programming,,,.yul
-ZAP,programming,,,.zap; .xzap
-Zeek,programming,bro,,.zeek; .bro
-ZenScript,programming,,,.zs
-Zephir,programming,,,.zep
-Zig,programming,,,.zig; .zig.zon
-ZIL,programming,,,.zil; .mud
-Zimpl,programming,,,.zimpl; .zmpl; .zpl
-Zmodel,data,,,.zmodel
+Python traceback,data,,.pytb,
+q,programming,,.q,
+Q#,programming,qsharp,.qs,
+QMake,programming,,.pro; .pri,
+QML,programming,,.qml; .qbs,
+Qt Script,programming,,.qs,installscript.qs; toolchain_installscript.qs
+Quake,programming,,,m3makefile; m3overrides
+QuakeC,programming,,.qc,
+QuickBASIC,programming,qb; qbasic; qb64; classic qbasic; classic quickbasic,.bas; .bi,
+R,programming,Rscript; splus,.r; .rd; .rsx,.Rprofile; expr-dist
+Racket,programming,,.rkt; .rktd; .rktl; .scrbl,
+Ragel,programming,ragel-rb; ragel-ruby,.rl,
+Raku,programming,perl6; perl-6,.6pl; .6pm; .nqp; .p6; .p6l; .p6m; .pl; .pl6; .pm; .pm6; .raku; .rakumod; .t,
+RAML,markup,,.raml,
+Rascal,programming,,.rsc,
+RAScript,programming,,.rascript,
+Raw token data,data,raw,.raw,
+RBS,data,,.rbs,
+RDoc,prose,,.rdoc,
+Readline Config,data,inputrc; readline,,.inputrc; inputrc
+REALbasic,programming,,.rbbas; .rbfrm; .rbmnu; .rbres; .rbtbar; .rbuistate,
+Reason,programming,,.re; .rei,
+ReasonLIGO,programming,,.religo,
+Rebol,programming,,.reb; .r; .r2; .r3; .rebol,
+Record Jar,data,,,language-subtag-registry.txt
+Red,programming,red/system,.red; .reds,
+Redcode,programming,,.cw,
+Redirect Rules,data,redirects,,_redirects
+Regular Expression,data,regexp; regex,.regexp; .regex,
+Ren'Py,programming,renpy,.rpy,
+RenderScript,programming,,.rs; .rsh,
+ReScript,programming,,.res; .resi,
+reStructuredText,prose,rst,.rst; .rest; .rest.txt; .rst.txt,
+REXX,programming,arexx,.rexx; .pprx; .rex,
+Rez,programming,,.r,
+Rich Text Format,markup,,.rtf,
+Ring,programming,,.ring,
+Riot,markup,,.riot,
+RMarkdown,prose,,.qmd; .rmd,
+RobotFramework,programming,,.robot; .resource,
+robots.txt,data,robots; robots txt,,robots.txt
+Roc,programming,,.roc,
+Rocq Prover,programming,coq; rocq,.v; .coq,
+Roff,markup,groff; man; manpage; man page; man-page; mdoc; nroff; troff,.roff; .1; .1in; .1m; .1x; .2; .3; .3in; .3m; .3p; .3pm; .3qt; .3x; .4; .5; .6; .7; .8; .9; .l; .man; .mdoc; .me; .ms; .n; .nr; .rno; .tmac,eqnrc; mmn; mmt; troffrc; troffrc-end
+Roff Manpage,markup,,.1; .1in; .1m; .1x; .2; .3; .3in; .3m; .3p; .3pm; .3qt; .3x; .4; .5; .6; .7; .8; .9; .man; .mdoc,
+RON,data,,.ron,
+ROS Interface,data,rosmsg,.msg; .action; .srv,
+Rouge,programming,,.rg,
+RouterOS Script,programming,,.rsc,
+RPC,programming,rpcgen; oncrpc; xdr,.x,
+RPGLE,programming,ile rpg; sqlrpgle,.rpgle; .sqlrpgle,
+RPM Spec,data,specfile,.spec,
+Ruby,programming,jruby; macruby; rake; rb; rbx,.rb; .builder; .eye; .fcgi; .gemspec; .god; .jbuilder; .mspec; .pluginspec; .podspec; .prawn; .rabl; .rake; .rbi; .rbuild; .rbw; .rbx; .ru; .ruby; .spec; .thor; .watchr,.irbrc; .pryrc; .simplecov; Appraisals; Berksfile; Brewfile; Buildfile; Capfile; Dangerfile; Deliverfile; Fastfile; Gemfile; Guardfile; Jarfile; Mavenfile; Podfile; Puppetfile; Rakefile; Snapfile; Steepfile; Thorfile; Vagrantfile; buildfile
+RUNOFF,markup,,.rnh; .rno,
+Rust,programming,rs,.rs; .rs.in,
+Sage,programming,,.sage; .sagews,
+Sail,programming,,.sail,
+SaltStack,programming,saltstate; salt,.sls,
+SAS,programming,,.sas,
+Sass,markup,,.sass,
+Scala,programming,,.scala; .kojo; .sbt; .sc,
+Scaml,markup,,.scaml,
+Scenic,programming,,.scenic,
+Scheme,programming,,.scm; .sch; .sld; .sls; .sps; .ss,
+Scilab,programming,,.sci; .sce; .tst,
+SCSS,markup,,.scss,
+sed,programming,,.sed,
+Self,programming,,.self,
+SELinux Policy,data,SELinux Kernel Policy Language; sepolicy,.te,file_contexts; genfs_contexts; initial_sids; port_contexts; security_classes
+ShaderLab,programming,,.shader,
+Shell,programming,sh; shell-script; bash; zsh; envrc,.sh; .bash; .bats; .cgi; .command; .fcgi; .ksh; .sbatch; .sh.in; .slurm; .tmux; .tool; .trigger; .zsh; .zsh-theme,.bash_aliases; .bash_functions; .bash_history; .bash_logout; .bash_profile; .bashrc; .cshrc; .envrc; .flaskenv; .kshrc; .login; .profile; .tmux.conf; .xinitrc; .xsession; .zlogin; .zlogout; .zprofile; .zshenv; .zshrc; 9fs; PKGBUILD; bash_aliases; bash_logout; bash_profile; bashrc; cshrc; gradlew; kshrc; login; man; mvnw; profile; tmux.conf; xinitrc; xsession; zlogin; zlogout; zprofile; zshenv; zshrc
+ShellCheck Config,data,shellcheckrc,,.shellcheckrc
+ShellSession,programming,bash session; console,.sh-session,
+Shen,programming,,.shen,
+Sieve,programming,,.sieve,
+Simple File Verification,data,sfv,.sfv,
+Singularity,programming,,,Singularity
+Slang,programming,,.slang,
+Slash,programming,,.sl,
+Slice,programming,,.ice,
+Slim,markup,,.slim,
+Slint,markup,,.slint,
+Smali,programming,,.smali,
+Smalltalk,programming,squeak,.st; .cs,
+Smarty,programming,,.tpl,
+Smithy,programming,,.smithy,
+SmPL,programming,coccinelle,.cocci,
+SMT,programming,,.smt2; .smt; .z3,
+Snakemake,programming,snakefile,.smk; .snakefile,Snakefile
+Solidity,programming,,.sol,
+Soong,data,,,Android.bp
+SourcePawn,programming,sourcemod,.sp; .inc,
+SPARQL,data,,.sparql; .rq,
+Spline Font Database,data,,.sfd,
+SQF,programming,,.sqf; .hqf,
+SQL,data,,.sql; .ddl; .inc; .mysql; .prc; .tab; .udf; .viw,
+SQLPL,programming,,.sql; .db2,
+Squirrel,programming,,.nut,
+SRecode Template,markup,,.srt,
+SSH Config,data,sshconfig; sshdconfig; ssh_config; sshd_config,,ssh-config; ssh_config; sshconfig; sshconfig.snip; sshd-config; sshd_config
+Stan,programming,,.stan,
+Standard ML,programming,sml,.ml; .fun; .sig; .sml,
+STAR,data,,.star,
+Starlark,programming,bazel; bzl,.bzl; .star,BUCK; BUILD; BUILD.bazel; MODULE.bazel; Tiltfile; WORKSPACE; WORKSPACE.bazel; WORKSPACE.bzlmod
+Stata,programming,,.do; .ado; .doh; .ihlp; .mata; .matah; .sthlp,
+STL,data,ascii stl; stla,.stl,
+STON,data,,.ston,
+StringTemplate,markup,,.st,
+Stylus,markup,,.styl,
+SubRip Text,data,,.srt,
+SugarSS,markup,,.sss,
+SuperCollider,programming,,.sc; .scd,
+SurrealQL,programming,surql,.surql,
+Survex data,data,,.svx,
+Svelte,markup,,.svelte,
+SVG,data,,.svg,
+Sway,programming,,.sw,
+Sweave,prose,,.rnw,
+Swift,programming,,.swift,
+SWIG,programming,,.i; .swg; .swig,
+SystemVerilog,programming,,.sv; .svh; .vh,
+Tact,programming,,.tact,
+Talon,programming,,.talon,
+Tcl,programming,sdc; xdc,.tcl; .adp; .sdc; .tcl.in; .tm; .xdc,owh; starfield
+Tcsh,programming,,.tcsh; .csh,
+Tea,markup,,.tea,
+Teal,programming,,.tl,
+templ,markup,,.templ,
+Terra,programming,,.t,
+Terraform Template,markup,,.tftpl,
+TeX,markup,latex,.tex; .aux; .bbx; .cbx; .cls; .dtx; .ins; .lbx; .ltx; .mkii; .mkiv; .mkvi; .sty; .toc,
+Texinfo,prose,,.texinfo; .texi; .txi,
+Text,prose,fundamental; plain text,.txt; .fr; .nb; .ncl; .no,CITATION; CITATIONS; COPYING; COPYING.regex; COPYRIGHT.regex; FONTLOG; INSTALL; INSTALL.mysql; LICENSE; LICENSE.mysql; NEWS; README.me; README.mysql; README.nss; click.me; delete.me; keep.me; package.mask; package.use.mask; package.use.stable.mask; read.me; readme.1st; test.me; use.mask; use.stable.mask
+TextGrid,data,,.TextGrid,
+Textile,prose,,.textile,
+TextMate Properties,data,tm-properties,,.tm_properties
+Thrift,programming,,.thrift,
+TI Program,programming,,.8xp; .8xp.txt,
+TL-Verilog,programming,,.tlv,
+TLA,programming,,.tla,
+TMDL,data,Tabular Model Definition Language,.tmdl,
+Toit,programming,,.toit,
+TOML,data,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; pdm.lock; poetry.lock; uv.lock
+Tor Config,data,torrc,,torrc
+Tree-sitter Query,programming,tsq,.scm,
+TSPLIB data,data,travelling salesman problem; traveling salesman problem,.tsp,
+TSQL,programming,,.sql,
+TSV,data,tab-seperated values,.tsv; .vcf,
+TSX,programming,typescriptreact,.tsx,
+Turing,programming,,.t; .tu,
+Turtle,data,,.ttl,
+Twig,markup,,.twig,
+TXL,programming,,.txl,
+Type Language,data,tl,.tl,
+TypeScript,programming,ts,.ts; .cts; .mts,
+TypeSpec,programming,tsp,.tsp,
+Typst,programming,typ,.typ,
+Unified Parallel C,programming,,.upc,
+Unity3D Asset,data,,.anim; .asset; .mask; .mat; .meta; .prefab; .unity,
+Unix Assembly,programming,gas; gnu asm; unix asm,.s; .ms,
+Uno,programming,,.uno,
+UnrealScript,programming,,.uc,
+Untyped Plutus Core,programming,,.uplc,
+UrWeb,programming,Ur/Web; Ur,.ur; .urs,
+V,programming,vlang,.v,
+Vala,programming,,.vala; .vapi,
+Valve Data Format,data,keyvalues; vdf,.vdf,
+VBA,programming,visual basic for applications,.bas; .cls; .frm; .vba,
+VBScript,programming,,.vbs,
+vCard,data,virtual contact file; electronic business card,.vcf,
+VCL,programming,,.vcl,
+Velocity Template Language,markup,vtl; velocity,.vtl,
+Vento,markup,,.vto,
+Verilog,programming,,.v; .veo,
+VHDL,programming,,.vhdl; .vhd; .vhf; .vhi; .vho; .vhs; .vht; .vhw,
+Vim Help File,prose,help; vimhelp,.txt,
+Vim Script,programming,vim; viml; nvim; vimscript,.vim; .vba; .vimrc; .vmb,.exrc; .gvimrc; .nvimrc; .vimrc; _vimrc; gvimrc; nvimrc; vimrc
+Vim Snippet,markup,SnipMate; UltiSnip; UltiSnips; NeoSnippet,.snip; .snippet; .snippets,
+Visual Basic .NET,programming,visual basic; vbnet; vb .net; vb.net,.vb; .vbhtml,
+Visual Basic 6.0,programming,vb6; vb 6; visual basic 6; visual basic classic; classic visual basic,.bas; .cls; .ctl; .Dsr; .frm,
+Volt,programming,,.volt,
+Vue,markup,,.vue,
+Vyper,programming,,.vy,
+Wavefront Material,data,,.mtl,
+Wavefront Object,data,,.obj,
+WDL,programming,Workflow Description Language,.wdl,
+Web Ontology Language,data,,.owl,
+WebAssembly,programming,wast; wasm,.wast; .wat,
+WebAssembly Interface Type,data,wit,.wit,
+WebIDL,programming,,.webidl,
+WebVTT,data,vtt,.vtt,
+Wget Config,data,wgetrc,,.wgetrc
+WGSL,programming,,.wgsl,
+Whiley,programming,,.whiley,
+Wikitext,prose,mediawiki; wiki,.mediawiki; .wiki; .wikitext,
+Win32 Message File,data,,.mc,
+Windows Registry Entries,data,,.reg,
+wisp,programming,,.wisp,
+Witcher Script,programming,,.ws,
+Wolfram Language,programming,mathematica; mma; wolfram; wolfram lang; wl,.mathematica; .cdf; .m; .ma; .mt; .nb; .nbp; .wl; .wls; .wlt,
+Wollok,programming,,.wlk,
+World of Warcraft Addon Data,data,,.toc,
+Wren,programming,wrenlang,.wren,
+X BitMap,data,xbm,.xbm,
+X Font Directory Index,data,,,encodings.dir; fonts.alias; fonts.dir; fonts.scale
+X PixMap,data,xpm,.xpm; .pm,
+X10,programming,xten,.x10,
+xBase,programming,advpl; clipper; foxpro,.prg; .ch; .prw,
+XC,programming,,.xc,
+XCompose,data,,,.XCompose; XCompose; xcompose
+Xmake,programming,,,xmake.lua
+XML,data,rss; xsd; wsdl,.xml; .adml; .admx; .ant; .axaml; .axml; .builds; .ccproj; .ccxml; .clixml; .cproject; .cscfg; .csdef; .csl; .csproj; .ct; .depproj; .dita; .ditamap; .ditaval; .dll.config; .dotsettings; .filters; .fsproj; .fxml; .glade; .gml; .gmx; .gpx; .grxml; .gst; .hzp; .icls; .iml; .ivy; .jelly; .jsproj; .kml; .launch; .mdpolicy; .mjml; .mm; .mod; .mojo; .mxml; .natvis; .ncl; .ndproj; .nproj; .nuspec; .odd; .osm; .pkgproj; .pluginspec; .proj; .props; .ps1xml; .psc1; .pt; .pubxml; .qhelp; .rdf; .res; .resx; .rs; .rss; .sch; .scxml; .sfproj; .shproj; .slnx; .srdf; .storyboard; .sublime-snippet; .sw; .targets; .tml; .ts; .tsx; .typ; .ui; .urdf; .ux; .vbproj; .vcxproj; .vsixmanifest; .vssettings; .vstemplate; .vxml; .wixproj; .workflow; .wsdl; .wsf; .wxi; .wxl; .wxs; .x3d; .xacro; .xaml; .xib; .xlf; .xliff; .xmi; .xml.dist; .xmp; .xproj; .xsd; .xspec; .xul; .zcml,.classpath; .cproject; .project; App.config; NuGet.config; Settings.StyleCop; Web.Debug.config; Web.Release.config; Web.config; packages.config
+XML Property List,data,,.plist; .stTheme; .tmCommand; .tmLanguage; .tmPreferences; .tmSnippet; .tmTheme,
+Xojo,programming,,.xojo_code; .xojo_menu; .xojo_report; .xojo_script; .xojo_toolbar; .xojo_window,
+Xonsh,programming,,.xsh,
+XPages,data,,.xsp-config; .xsp.metadata,
+XProc,programming,,.xpl; .xproc,
+XQuery,programming,,.xquery; .xq; .xql; .xqm; .xqy,
+XS,programming,,.xs,
+XSLT,programming,xsl,.xslt; .xsl,
+Xtend,programming,,.xtend,
+Yacc,programming,,.y; .yacc; .yy,
+YAML,data,yml,.yml; .mir; .reek; .rviz; .sublime-syntax; .syntax; .yaml; .yaml-tmlanguage; .yaml.sed; .yml.mysql,.clang-format; .clang-tidy; .clangd; .gemrc; CITATION.cff; glide.lock; pixi.lock; yarn.lock
+YANG,data,,.yang,
+YARA,programming,,.yar; .yara,
+YASnippet,markup,snippet; yas,.yasnippet,
+Yul,programming,,.yul,
+ZAP,programming,,.zap; .xzap,
+Zeek,programming,bro,.zeek; .bro,
+ZenScript,programming,,.zs,
+Zephir,programming,,.zep,
+Zig,programming,,.zig; .zig.zon,
+ZIL,programming,,.zil; .mud,
+Zimpl,programming,,.zimpl; .zmpl; .zpl,
+Zmodel,data,,.zmodel,

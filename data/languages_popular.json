@@ -58,15 +58,15 @@
       "coffee",
       "coffee-script"
     ],
-    "filenames": [
-      "Cakefile"
-    ],
     "extensions": [
       ".coffee",
       "._coffee",
       ".cake",
       ".cjsx",
       ".iced"
+    ],
+    "filenames": [
+      "Cakefile"
     ]
   },
   "CSS": {
@@ -92,12 +92,12 @@
   },
   "Elixir": {
     "type": "programming",
-    "filenames": [
-      "mix.lock"
-    ],
     "extensions": [
       ".ex",
       ".exs"
+    ],
+    "filenames": [
+      "mix.lock"
     ]
   },
   "Go": {
@@ -111,14 +111,14 @@
   },
   "Groovy": {
     "type": "programming",
-    "filenames": [
-      "Jenkinsfile"
-    ],
     "extensions": [
       ".groovy",
       ".grt",
       ".gtpl",
       ".gvy"
+    ],
+    "filenames": [
+      "Jenkinsfile"
     ]
   },
   "HTML": {
@@ -150,9 +150,6 @@
       "js",
       "node"
     ],
-    "filenames": [
-      "Jakefile"
-    ],
     "extensions": [
       ".js",
       "._js",
@@ -179,6 +176,9 @@
       ".ssjs",
       ".xsjs",
       ".xsjslib"
+    ],
+    "filenames": [
+      "Jakefile"
     ]
   },
   "Kotlin": {
@@ -206,14 +206,6 @@
     "aliases": [
       "cperl"
     ],
-    "filenames": [
-      ".latexmkrc",
-      "Makefile.PL",
-      "Rexfile",
-      "ack",
-      "cpanfile",
-      "latexmkrc"
-    ],
     "extensions": [
       ".pl",
       ".al",
@@ -225,18 +217,20 @@
       ".pm",
       ".psgi",
       ".t"
+    ],
+    "filenames": [
+      ".latexmkrc",
+      "Makefile.PL",
+      "Rexfile",
+      "ack",
+      "cpanfile",
+      "latexmkrc"
     ]
   },
   "PHP": {
     "type": "programming",
     "aliases": [
       "inc"
-    ],
-    "filenames": [
-      ".php",
-      ".php_cs",
-      ".php_cs.dist",
-      "Phakefile"
     ],
     "extensions": [
       ".php",
@@ -249,6 +243,12 @@
       ".php5",
       ".phps",
       ".phpt"
+    ],
+    "filenames": [
+      ".php",
+      ".php_cs",
+      ".php_cs.dist",
+      "Phakefile"
     ]
   },
   "PowerShell": {
@@ -271,13 +271,6 @@
       "python3",
       "rusthon"
     ],
-    "filenames": [
-      ".gclient",
-      "DEPS",
-      "SConscript",
-      "SConstruct",
-      "wscript"
-    ],
     "extensions": [
       ".py",
       ".cgi",
@@ -296,6 +289,13 @@
       ".tac",
       ".wsgi",
       ".xpy"
+    ],
+    "filenames": [
+      ".gclient",
+      "DEPS",
+      "SConscript",
+      "SConstruct",
+      "wscript"
     ]
   },
   "Ruby": {
@@ -306,6 +306,30 @@
       "rake",
       "rb",
       "rbx"
+    ],
+    "extensions": [
+      ".rb",
+      ".builder",
+      ".eye",
+      ".fcgi",
+      ".gemspec",
+      ".god",
+      ".jbuilder",
+      ".mspec",
+      ".pluginspec",
+      ".podspec",
+      ".prawn",
+      ".rabl",
+      ".rake",
+      ".rbi",
+      ".rbuild",
+      ".rbw",
+      ".rbx",
+      ".ru",
+      ".ruby",
+      ".spec",
+      ".thor",
+      ".watchr"
     ],
     "filenames": [
       ".irbrc",
@@ -331,30 +355,6 @@
       "Thorfile",
       "Vagrantfile",
       "buildfile"
-    ],
-    "extensions": [
-      ".rb",
-      ".builder",
-      ".eye",
-      ".fcgi",
-      ".gemspec",
-      ".god",
-      ".jbuilder",
-      ".mspec",
-      ".pluginspec",
-      ".podspec",
-      ".prawn",
-      ".rabl",
-      ".rake",
-      ".rbi",
-      ".rbuild",
-      ".rbw",
-      ".rbx",
-      ".ru",
-      ".ruby",
-      ".spec",
-      ".thor",
-      ".watchr"
     ]
   },
   "Rust": {
@@ -384,6 +384,23 @@
       "bash",
       "zsh",
       "envrc"
+    ],
+    "extensions": [
+      ".sh",
+      ".bash",
+      ".bats",
+      ".cgi",
+      ".command",
+      ".fcgi",
+      ".ksh",
+      ".sbatch",
+      ".sh.in",
+      ".slurm",
+      ".tmux",
+      ".tool",
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -427,23 +444,6 @@
       "zprofile",
       "zshenv",
       "zshrc"
-    ],
-    "extensions": [
-      ".sh",
-      ".bash",
-      ".bats",
-      ".cgi",
-      ".command",
-      ".fcgi",
-      ".ksh",
-      ".sbatch",
-      ".sh.in",
-      ".slurm",
-      ".tmux",
-      ".tool",
-      ".trigger",
-      ".zsh",
-      ".zsh-theme"
     ]
   },
   "Swift": {

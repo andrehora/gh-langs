@@ -122,7 +122,7 @@ def test_lang_entry_filenames_order(parsed_data):
     entry = data.get("Makefile")
     if entry and "filenames" in entry:
         keys = list(entry.keys())
-        assert keys.index("filenames") < keys.index("extensions")
+        assert keys.index("extensions") < keys.index("filenames")
 
 
 def test_lang_csv_columns(parsed_data):
@@ -131,7 +131,7 @@ def test_lang_csv_columns(parsed_data):
     with open(tmp / "languages.csv") as f:
         reader = csv.reader(f)
         header = next(reader)
-    assert header == ["language", "type", "aliases", "filenames", "extensions"]
+    assert header == ["language", "type", "aliases", "extensions", "filenames"]
 
 
 def test_lang_type_entry_fields(parsed_data):
@@ -151,7 +151,7 @@ def test_lang_type_entry_filenames(parsed_data):
     if makefile_entry:
         assert "filenames" in makefile_entry
         keys = list(makefile_entry.keys())
-        assert keys.index("filenames") < keys.index("extensions")
+        assert keys.index("extensions") < keys.index("filenames")
 
 
 def test_lang_type_csv_columns(parsed_data):
@@ -160,7 +160,7 @@ def test_lang_type_csv_columns(parsed_data):
     with open(tmp / "languages_programming.csv") as f:
         reader = csv.reader(f)
         header = next(reader)
-    assert header == ["language", "aliases", "filenames", "extensions"]
+    assert header == ["language", "aliases", "extensions", "filenames"]
 
 
 def test_lang_stats_csv_columns(parsed_data):
@@ -178,20 +178,19 @@ def test_lang_popular_csv_columns(parsed_data):
     with open(tmp / "languages_popular.csv") as f:
         reader = csv.reader(f)
         header = next(reader)
-    assert header == ["language", "type", "aliases", "filenames", "extensions"]
+    assert header == ["language", "type", "aliases", "extensions", "filenames"]
 
 
 def test_lang_popular_json_fields(parsed_data):
     import json
     _, _, _, _, tmp = parsed_data
     data = json.loads((tmp / "languages_popular.json").read_text())
-    # Python is a popular language
     assert "extensions" in data["Python"]
     assert "type" in data["Python"]
-    # filenames key, if present, should come before extensions
+    # if filenames present, extensions must come first
     if "filenames" in data["Python"]:
         keys = list(data["Python"].keys())
-        assert keys.index("filenames") < keys.index("extensions")
+        assert keys.index("extensions") < keys.index("filenames")
 
 
 JSON_FILES = [

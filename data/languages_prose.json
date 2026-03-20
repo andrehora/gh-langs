@@ -33,9 +33,6 @@
       "md",
       "pandoc"
     ],
-    "filenames": [
-      "contents.lr"
-    ],
     "extensions": [
       ".md",
       ".livemd",
@@ -48,6 +45,9 @@
       ".ronn",
       ".scd",
       ".workbook"
+    ],
+    "filenames": [
+      "contents.lr"
     ]
   },
   "Muse": {
@@ -114,6 +114,13 @@
       "fundamental",
       "plain text"
     ],
+    "extensions": [
+      ".txt",
+      ".fr",
+      ".nb",
+      ".ncl",
+      ".no"
+    ],
     "filenames": [
       "CITATION",
       "CITATIONS",
@@ -140,13 +147,6 @@
       "test.me",
       "use.mask",
       "use.stable.mask"
-    ],
-    "extensions": [
-      ".txt",
-      ".fr",
-      ".nb",
-      ".ncl",
-      ".no"
     ]
   },
   "Textile": {
