@@ -88,7 +88,6 @@ In `languages.json`, each entry includes the type (`programming`, `data`, `marku
 To regenerate the files from the source `languages.yml`:
 
 ```bash
-pip install pyyaml
 python parse_languages.py
 ```
 
