@@ -4,7 +4,7 @@ Comprehensive dataset of 800+ languages and their extensions extracted from GitH
 
 All data is extracted from GitHub Linguist's [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml):
 
-# Basic
+## Basic
 
 <!-- gh:start -->
 | File | Count | Description |
@@ -13,7 +13,7 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 | [`gh_extensions.csv`](data/gh_extensions.csv) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
-# Language and Extensions
+## Language and Extensions
 
 <!-- summary:start -->
 | File | Count | Description |
@@ -24,7 +24,7 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 
 Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
-# Language and Extensions per Type
+## Language and Extensions per Type
 
 
 <!-- types:start -->
@@ -36,7 +36,7 @@ Popular GitHub languages: [popular.yml](https://github.com/github-linguist/lingu
 | [`languages_prose.json`](data/languages_prose.json) / [`csv`](data/languages_prose.csv) | 18 | Prose languages |
 <!-- types:end -->
 
-### Language Entry
+## Language Entry
 
 In `languages.json`, each entry includes the type (`programming`, `data`, `markup`, or `prose`), aliases (if any), and file extensions:
 
