@@ -257,9 +257,9 @@ def write_readme(type_counts, popular_names, all_langs):
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
         f"| [`gh_languages.txt`](data/gh_languages.txt) | {gh_languages_count} | Languages known to GitHub |\n"
-        f"| [`gh_extensions.txt`](data/gh_extensions.txt) | {gh_extensions_count} | Extensions known to GitHub |\n"
+        f"| [`gh_extensions.txt`](data/gh_extensions.txt) | {gh_extensions_count} | Language extensions known to GitHub |\n"
         f"| [`gh_aliases.txt`](data/gh_aliases.txt) | {gh_aliases_count} | Language aliases known to GitHub |\n"
-        f"| [`gh_filenames.txt`](data/gh_filenames.txt) | {gh_filenames_count} | Filenames known to GitHub |"
+        f"| [`gh_filenames.txt`](data/gh_filenames.txt) | {gh_filenames_count} | Language filenames known to GitHub |"
     )
     content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", gh_rows)
 

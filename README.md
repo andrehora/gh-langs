@@ -12,9 +12,9 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | File | Count | Description |
 |------|-------|-------------|
 | [`gh_languages.txt`](data/gh_languages.txt) | 804 | Languages known to GitHub |
-| [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Extensions known to GitHub |
+| [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Language extensions known to GitHub |
 | [`gh_aliases.txt`](data/gh_aliases.txt) | 413 | Language aliases known to GitHub |
-| [`gh_filenames.txt`](data/gh_filenames.txt) | 399 | Filenames known to GitHub |
+| [`gh_filenames.txt`](data/gh_filenames.txt) | 399 | Language filenames known to GitHub |
 <!-- gh:end -->
 
 ### Languages
