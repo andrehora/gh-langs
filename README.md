@@ -99,7 +99,7 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 
 ## Examples
 
-#### type: programming
+### type: programming
 
 ```json
 {
@@ -112,7 +112,7 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 }
 ```
 
-#### type: data
+### type: data
 
 ```json
 {
@@ -125,7 +125,7 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 }
 ```
 
-#### type: markup
+### type: markup
 
 ```json
 {
