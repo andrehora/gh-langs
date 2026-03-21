@@ -188,7 +188,7 @@ def write_stats_languages_csv(all_langs):
     filepath = Path(OUTPUT_DIR) / filename
     rows = sorted(
         [(lang["name"], lang["type"], len(lang["extensions"]), len(lang["aliases"]), len(lang["filenames"])) for lang in all_langs],
-        key=lambda r: (-(r[2] + r[3]), r[0].lower())
+        key=lambda r: (-r[2], r[0].lower())
     )
     _write_csv(filepath, ["language", "type", "extensions_count", "aliases_count", "filenames_count"], rows)
     print(f"Wrote {filepath} ({len(rows)} languages)")
