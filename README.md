@@ -139,7 +139,7 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 }
 ```
 
-#### type: prose
+### type: prose
 
 ```json
 {
