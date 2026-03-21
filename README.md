@@ -97,6 +97,59 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 }
 ```
 
+## Fun Facts
+
+### Languages with the most extensions
+
+See: [`stats_languages_by_extensions.csv`](data/stats_languages_by_extensions.csv)
+
+| Language | Type | Extensions |
+|----------|------|------------|
+| XML | data | 110 |
+| Roff | markup | 28 |
+| JavaScript | programming | 25 |
+| GLSL | programming | 23 |
+| Ruby | programming | 22 |
+| JSON | data | 21 |
+| C++ | programming | 20 |
+| Roff Manpage | markup | 20 |
+| JSON with Comments | data | 18 |
+| Python | programming | 17 |
+
+### Languages with the most filenames
+
+See: [`stats_languages_by_filenames.csv`](data/stats_languages_by_filenames.csv)
+
+| Language | Type | Filenames |
+|----------|------|-----------|
+| Shell | programming | 41 |
+| Text | prose | 25 |
+| Ruby | programming | 23 |
+| Ignore List | data | 20 |
+| JSON | data | 18 |
+| Dotenv | data | 14 |
+| JSON with Comments | data | 14 |
+| Makefile | programming | 13 |
+| Emacs Lisp | programming | 11 |
+| XML | data | 10 |
+
+### Languages with the most aliases
+
+See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
+
+| Language | Type | Aliases |
+|----------|------|----------|
+| Roff | markup | 8 |
+| Checksums | data | 5 |
+| QuickBASIC | programming | 5 |
+| Ruby | programming | 5 |
+| Shell | programming | 5 |
+| Visual Basic 6.0 | programming | 5 |
+| Wolfram Language | programming | 5 |
+| Adblock Filter List | data | 4 |
+| Adobe Font Metrics | data | 4 |
+| Batchfile | programming | 4 |
+
 ## Generating the Dataset
 
 To regenerate the files from the source `languages.yml`:
