@@ -99,7 +99,6 @@
       "abuild",
       "apkbuild"
     ],
-    "extensions": [],
     "filenames": [
       "APKBUILD"
     ]
@@ -960,7 +959,6 @@
   },
   "Dune": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "dune-project"
     ]
@@ -985,7 +983,6 @@
     "aliases": [
       "Earthfile"
     ],
-    "extensions": [],
     "filenames": [
       "Earthfile"
     ]
@@ -1049,8 +1046,7 @@
     ]
   },
   "Elvish Transcript": {
-    "type": "programming",
-    "extensions": []
+    "type": "programming"
   },
   "Emacs Lisp": {
     "type": "programming",
@@ -1719,7 +1715,6 @@
   },
   "Isabelle ROOT": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "ROOT"
     ]
@@ -1899,8 +1894,7 @@
     ]
   },
   "Julia REPL": {
-    "type": "programming",
-    "extensions": []
+    "type": "programming"
   },
   "Just": {
     "type": "programming",
@@ -2349,7 +2343,6 @@
   },
   "Meson": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "meson.build",
       "meson_options.txt"
@@ -2846,8 +2839,7 @@
     "type": "programming",
     "aliases": [
       "openrc"
-    ],
-    "extensions": []
+    ]
   },
   "OpenSCAD": {
     "type": "programming",
@@ -3145,7 +3137,6 @@
   },
   "Procfile": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "Procfile"
     ]
@@ -3239,8 +3230,7 @@
     "type": "programming",
     "aliases": [
       "pycon"
-    ],
-    "extensions": []
+    ]
   },
   "q": {
     "type": "programming",
@@ -3283,7 +3273,6 @@
   },
   "Quake": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "m3makefile",
       "m3overrides"
@@ -3776,7 +3765,6 @@
   },
   "Singularity": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "Singularity"
     ]
@@ -4426,7 +4414,6 @@
   },
   "Xmake": {
     "type": "programming",
-    "extensions": [],
     "filenames": [
       "xmake.lua"
     ]
@@ -4609,7 +4596,6 @@
   },
   "Ant Build System": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "ant.xml",
       "build.xml"
@@ -4646,7 +4632,6 @@
   },
   "Browserslist": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       ".browserslistrc",
       "browserslist"
@@ -4731,14 +4716,12 @@
   },
   "Cloud Firestore Security Rules": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "firestore.rules"
     ]
   },
   "CODEOWNERS": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "CODEOWNERS"
     ]
@@ -4779,7 +4762,6 @@
       "cron",
       "cron table"
     ],
-    "extensions": [],
     "filenames": [
       "crontab"
     ]
@@ -4807,7 +4789,6 @@
     "aliases": [
       "curlrc"
     ],
-    "extensions": [],
     "filenames": [
       ".curlrc",
       "_curlrc"
@@ -5003,7 +4984,6 @@
   },
   "Gemfile.lock": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "Gemfile.lock"
     ]
@@ -5037,7 +5017,6 @@
     "aliases": [
       "gitattributes"
     ],
-    "extensions": [],
     "filenames": [
       ".gitattributes"
     ]
@@ -5047,7 +5026,6 @@
     "aliases": [
       "commit"
     ],
-    "extensions": [],
     "filenames": [
       "COMMIT_EDITMSG"
     ]
@@ -5071,7 +5049,6 @@
     "aliases": [
       "Git Blame Ignore Revs"
     ],
-    "extensions": [],
     "filenames": [
       ".git-blame-ignore-revs"
     ]
@@ -5100,7 +5077,6 @@
       "go.work.sum",
       "go work sum"
     ],
-    "extensions": [],
     "filenames": [
       "go.sum",
       "go.work.sum"
@@ -5112,7 +5088,6 @@
       "go.mod",
       "go mod"
     ],
-    "extensions": [],
     "filenames": [
       "go.mod"
     ]
@@ -5123,7 +5098,6 @@
       "go.work",
       "go work"
     ],
-    "extensions": [],
     "filenames": [
       "go.work"
     ]
@@ -5197,7 +5171,6 @@
     "aliases": [
       "hosts"
     ],
-    "extensions": [],
     "filenames": [
       "HOSTS",
       "hosts",
@@ -5301,7 +5274,6 @@
   },
   "JAR Manifest": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "MANIFEST.MF"
     ]
@@ -5505,7 +5477,6 @@
   },
   "Maven POM": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "pom.xml"
     ]
@@ -5586,7 +5557,6 @@
     "aliases": [
       "npmrc"
     ],
-    "extensions": [],
     "filenames": [
       ".npmrc"
     ]
@@ -5633,15 +5603,13 @@
     "type": "data",
     "aliases": [
       "oasv2"
-    ],
-    "extensions": []
+    ]
   },
   "OpenAPI Specification v3": {
     "type": "data",
     "aliases": [
       "oasv3"
-    ],
-    "extensions": []
+    ]
   },
   "OpenStep Property List": {
     "type": "data",
@@ -5665,7 +5633,6 @@
       "opts",
       "ackrc"
     ],
-    "extensions": [],
     "filenames": [
       ".ackrc",
       ".rspec",
@@ -5682,7 +5649,6 @@
   },
   "Pip Requirements": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "dev-requirements.txt",
       "requirements-dev.txt",
@@ -5774,7 +5740,6 @@
       "inputrc",
       "readline"
     ],
-    "extensions": [],
     "filenames": [
       ".inputrc",
       "inputrc"
@@ -5782,7 +5747,6 @@
   },
   "Record Jar": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "language-subtag-registry.txt"
     ]
@@ -5792,7 +5756,6 @@
     "aliases": [
       "redirects"
     ],
-    "extensions": [],
     "filenames": [
       "_redirects"
     ]
@@ -5814,7 +5777,6 @@
       "robots",
       "robots txt"
     ],
-    "extensions": [],
     "filenames": [
       "robots.txt"
     ]
@@ -5867,7 +5829,6 @@
     "aliases": [
       "shellcheckrc"
     ],
-    "extensions": [],
     "filenames": [
       ".shellcheckrc"
     ]
@@ -5883,7 +5844,6 @@
   },
   "Soong": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "Android.bp"
     ]
@@ -5922,7 +5882,6 @@
       "ssh_config",
       "sshd_config"
     ],
-    "extensions": [],
     "filenames": [
       "ssh-config",
       "ssh_config",
@@ -5983,7 +5942,6 @@
     "aliases": [
       "tm-properties"
     ],
-    "extensions": [],
     "filenames": [
       ".tm_properties"
     ]
@@ -6018,7 +5976,6 @@
     "aliases": [
       "torrc"
     ],
-    "extensions": [],
     "filenames": [
       "torrc"
     ]
@@ -6131,7 +6088,6 @@
     "aliases": [
       "wgetrc"
     ],
-    "extensions": [],
     "filenames": [
       ".wgetrc"
     ]
@@ -6165,7 +6121,6 @@
   },
   "X Font Directory Index": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       "encodings.dir",
       "fonts.alias",
@@ -6185,7 +6140,6 @@
   },
   "XCompose": {
     "type": "data",
-    "extensions": [],
     "filenames": [
       ".XCompose",
       "XCompose",

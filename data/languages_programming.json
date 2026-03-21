@@ -85,7 +85,6 @@
       "abuild",
       "apkbuild"
     ],
-    "extensions": [],
     "filenames": [
       "APKBUILD"
     ]
@@ -842,7 +841,6 @@
     ]
   },
   "Dune": {
-    "extensions": [],
     "filenames": [
       "dune-project"
     ]
@@ -864,7 +862,6 @@
     "aliases": [
       "Earthfile"
     ],
-    "extensions": [],
     "filenames": [
       "Earthfile"
     ]
@@ -919,9 +916,7 @@
       ".elv"
     ]
   },
-  "Elvish Transcript": {
-    "extensions": []
-  },
+  "Elvish Transcript": {},
   "Emacs Lisp": {
     "aliases": [
       "cask",
@@ -1508,7 +1503,6 @@
     ]
   },
   "Isabelle ROOT": {
-    "extensions": [],
     "filenames": [
       "ROOT"
     ]
@@ -1666,9 +1660,7 @@
       ".jl"
     ]
   },
-  "Julia REPL": {
-    "extensions": []
-  },
+  "Julia REPL": {},
   "Just": {
     "aliases": [
       "Justfile"
@@ -2064,7 +2056,6 @@
     ]
   },
   "Meson": {
-    "extensions": [],
     "filenames": [
       "meson.build",
       "meson_options.txt"
@@ -2495,8 +2486,7 @@
   "OpenRC runscript": {
     "aliases": [
       "openrc"
-    ],
-    "extensions": []
+    ]
   },
   "OpenSCAD": {
     "extensions": [
@@ -2759,7 +2749,6 @@
     ]
   },
   "Procfile": {
-    "extensions": [],
     "filenames": [
       "Procfile"
     ]
@@ -2844,8 +2833,7 @@
   "Python console": {
     "aliases": [
       "pycon"
-    ],
-    "extensions": []
+    ]
   },
   "q": {
     "extensions": [
@@ -2882,7 +2870,6 @@
     ]
   },
   "Quake": {
-    "extensions": [],
     "filenames": [
       "m3makefile",
       "m3overrides"
@@ -3330,7 +3317,6 @@
     ]
   },
   "Singularity": {
-    "extensions": [],
     "filenames": [
       "Singularity"
     ]
@@ -3904,7 +3890,6 @@
     ]
   },
   "Xmake": {
-    "extensions": [],
     "filenames": [
       "xmake.lua"
     ]
