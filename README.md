@@ -1,9 +1,9 @@
-# GitHub Languages and Extensions
+# gh-langs
 
-See: https://andrehora.github.io/gh-langs/
+Comprehensive dataset of 800+ language names, extensions, aliases, and filenames extracted from [GitHub Linguist](https://github.com/github-linguist/linguist).
+Data is extracted from [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
-Comprehensive dataset of 800+ languages and their extensions, aliases, and filenames extracted from [GitHub Linguist](https://github.com/github-linguist/linguist).
-Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
+Explore the data: https://andrehora.github.io/gh-langs/
 
 ## Data
 
