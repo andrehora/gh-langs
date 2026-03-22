@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Languages Explorer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f6f8fa;
+      color: #24292f;
+      min-height: 100vh;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 80px 20px 24px;
+      background: #fff;
+      min-height: 100vh;
+    }
+    .page h1 {
+      font-size: 1.7rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #656d76;
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+    }
+
+    /* Search */
+    .search-wrap {
+      position: relative;
+      width: 100%;
+    }
+    .search-wrap input {
+      display: block;
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 16px;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      background: #fff;
+      color: #24292f;
+      outline: none;
+      -webkit-appearance: none;
+    }
+    .search-wrap input:focus {
+      border-color: #0969da;
+      box-shadow: 0 0 0 3px rgba(9,105,218,0.12);
+    }
+    .search-wrap input::placeholder { color: #8b949e; }
+
+    /* Suggestions */
+    .sg-list {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      right: 0;
+      background: #fff;
+      border: 1px solid #d0d7de;
+      border-radius: 8px;
+      max-height: 320px;
+      overflow-y: auto;
+      display: none;
+      z-index: 50;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      -webkit-overflow-scrolling: touch;
+    }
+    .sg-list.open { display: block; }
+
+    .sg-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 12px;
+      cursor: pointer;
+      gap: 8px;
+    }
+    .sg-item:not(:last-child) { border-bottom: 1px solid #eef0f2; }
+    .sg-item:hover, .sg-item.on { background: #f6f8fa; }
+    .sg-item-left {
+      display: flex;
+      align-items: baseline;
+      min-width: 0;
+      gap: 6px;
+    }
+    .sg-name { font-weight: 500; font-size: 0.95rem; white-space: nowrap; }
+    .sg-hint { color: #8b949e; font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+    .pill {
+      font-size: 0.73rem;
+      font-weight: 500;
+      padding: 2px 7px;
+      border-radius: 12px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .pill-programming { background: #ddf4ff; color: #0969da; }
+    .pill-data        { background: #dafbe1; color: #1a7f37; }
+    .pill-markup      { background: #fff8c5; color: #9a6700; }
+    .pill-prose       { background: #ffeff7; color: #bf3989; }
+
+
+    /* Overlay modal (no Bootstrap) */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      background: rgba(0,0,0,0.4);
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+    .overlay.open {
+      display: flex;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 480px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      border-bottom: 1px solid #eef0f2;
+    }
+    .card-head h2 { font-size: 1.1rem; font-weight: 600; margin: 0; }
+    .card-close {
+      background: none;
+      border: none;
+      font-size: 1.4rem;
+      color: #656d76;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0 0 0 12px;
+    }
+    .card-close:hover { color: #24292f; }
+    .card-body { padding: 4px 20px 20px; }
+
+    .field { padding: 10px 0; }
+    .field + .field { border-top: 1px solid #eef0f2; }
+    .field-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #656d76;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .copy-btn {
+      background: none;
+      border: 1px solid #d0d7de;
+      border-radius: 4px;
+      color: #656d76;
+      cursor: pointer;
+      font-size: 0.65rem;
+      padding: 1px 6px;
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 500;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .copy-btn:hover { color: #24292f; border-color: #24292f; }
+    .copy-btn.copied { color: #1a7f37; border-color: #1a7f37; }
+    .field-value { font-size: 0.93rem; line-height: 1.7; word-break: break-word; }
+
+    .tag {
+      display: inline-block;
+      background: #f6f8fa;
+      border: 1px solid #e8ebef;
+      color: #24292f;
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 0.84rem;
+      margin: 2px 3px 2px 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    .empty { color: #8b949e; font-style: italic; font-size: 0.84rem; }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    .stat {
+      text-align: center;
+    }
+    .stat-num {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #24292f;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: #656d76;
+      margin-top: 2px;
+    }
+
+    .foot {
+      text-align: center;
+      color: #8b949e;
+      font-size: 0.78rem;
+      padding: 28px 16px 16px;
+    }
+    .foot a { color: #656d76; }
+
+    @media (max-width: 500px) {
+      .page { padding: 50px 14px 16px; }
+      .page h1 { font-size: 1.2rem; }
+      .subtitle { font-size: 0.8rem; margin-bottom: 18px; }
+      .sg-list { max-height: 50vh; }
+      .sg-hint { display: none; }
+      .card-head { padding: 14px 16px; }
+      .card-body { padding: 4px 16px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+  <p style="text-align: center; margin-bottom: 16px;"><a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener" style="color: #24292f; text-decoration: none; font-size: 1.1rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><svg height="20" width="20" viewBox="0 0 16 16" fill="#24292f" style="vertical-align: middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>andrehora/gh-langs</a></p>
+  <h1>GitHub Languages Explorer</h1>
+  <p class="subtitle">Search languages by name, extension, alias, and filename</p>
+
+  <div class="search-wrap" id="sw">
+    <input type="text" id="q" placeholder="Type to search... e.g. python, .js, Markdown" autocomplete="off">
+    <div class="sg-list" id="sg"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="foot">Data from <a href="https://github.com/github-linguist/linguist" target="_blank" rel="noopener">GitHub Linguist</a> and <a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener">gh-langs</a></div>
+
+</div>
+
+<!-- Custom overlay modal -->
+<div class="overlay" id="overlay">
+  <div class="card">
+    <div class="card-head">
+      <h2 id="cTitle"></h2>
+      <button class="card-close" id="cClose">&times;</button>
+    </div>
+    <div class="card-body" id="cBody"></div>
+  </div>
+</div>
+
+</div>
+
+<script>
+var data = [], idx = -1, results = [];
+
+function parseCSV(txt) {
+  var lines = txt.split('\n'), hdr = csvSplit(lines[0]), out = [];
+  for (var i = 1; i < lines.length; i++) {
+    var l = lines[i].trim();
+    if (!l) continue;
+    var v = csvSplit(l), row = {};
+    hdr.forEach(function(h, j) { row[h.trim()] = (v[j] || '').trim(); });
+    out.push(row);
+  }
+  return out;
+}
+
+function csvSplit(line) {
+  var r = [], c = '', q = false;
+  for (var i = 0; i < line.length; i++) {
+    var ch = line[i];
+    if (ch === '"') { if (q && line[i+1] === '"') { c += '"'; i++; } else q = !q; }
+    else if (ch === ',' && !q) { r.push(c); c = ''; }
+    else c += ch;
+  }
+  r.push(c); return r;
+}
+
+function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function pill(t) {
+  var v = (t || '').toLowerCase();
+  var cls = v === 'programming' ? 'pill-programming' : v === 'data' ? 'pill-data' : v === 'markup' ? 'pill-markup' : v === 'prose' ? 'pill-prose' : 'pill-data';
+  return '<span class="pill ' + cls + '">' + esc(t) + '</span>';
+}
+
+function matchToken(field, q) {
+  var parts = field.split(';');
+  for (var i = 0; i < parts.length; i++) {
+    var t = parts[i].trim();
+    if (t && t.toLowerCase().indexOf(q) !== -1) return t;
+  }
+  return field;
+}
+
+function search(q) {
+  if (!q) return [];
+  var ql = q.toLowerCase(), res = [];
+  for (var i = 0; i < data.length; i++) {
+    var r = data[i], m = null;
+    if ((r.language || '').toLowerCase().indexOf(ql) !== -1) m = '';
+    else if ((r.aliases || '').toLowerCase().indexOf(ql) !== -1) m = 'alias: ' + matchToken(r.aliases, ql);
+    else if ((r.extensions || '').toLowerCase().indexOf(ql) !== -1) m = 'ext: ' + matchToken(r.extensions, ql);
+    else if ((r.filenames || '').toLowerCase().indexOf(ql) !== -1) m = 'file: ' + matchToken(r.filenames, ql);
+    if (m !== null) res.push({ r: r, m: m });
+    if (res.length >= 15) break;
+  }
+  return res;
+}
+
+var input = document.getElementById('q');
+var sg = document.getElementById('sg');
+
+function render(list) {
+  idx = -1; results = list;
+  if (!list.length) { sg.innerHTML = ''; sg.classList.remove('open'); return; }
+  var html = '';
+  for (var i = 0; i < list.length; i++) {
+    var it = list[i];
+    var hint = it.m ? '<span class="sg-hint">' + esc(it.m) + '</span>' : '';
+    html += '<div class="sg-item" data-i="' + i + '">'
+      + '<div class="sg-item-left"><span class="sg-name">' + esc(it.r.language) + '</span>' + hint + '</div>'
+      + pill(it.r.type) + '</div>';
+  }
+  sg.innerHTML = html;
+  sg.classList.add('open');
+  var rows = sg.querySelectorAll('.sg-item');
+  for (var j = 0; j < rows.length; j++) {
+    rows[j].addEventListener('click', (function(k) {
+      return function() { show(results[k].r); sg.classList.remove('open'); };
+    })(j));
+  }
+}
+
+function tags(field) {
+  if (!field) return '<span class="empty">None</span>';
+  var parts = field.split(';'), out = '';
+  for (var i = 0; i < parts.length; i++) {
+    var t = parts[i].trim();
+    if (t) out += '<span class="tag">' + esc(t) + '</span>';
+  }
+  return out || '<span class="empty">None</span>';
+}
+
+function formatForCopy(field) {
+  if (!field) return '';
+  var parts = field.split(';'), out = [];
+  for (var i = 0; i < parts.length; i++) {
+    var t = parts[i].trim();
+    if (t) out.push('"' + t + '"');
+  }
+  return out.join(', ');
+}
+
+function copyField(btn, field) {
+  var text = formatForCopy(field);
+  if (!text) return;
+  navigator.clipboard.writeText(text).then(function() {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function() { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+function show(r) {
+  document.getElementById('cTitle').textContent = r.language;
+  currentLang = r;
+  var items = [
+    { l: 'Type', v: pill(r.type), copy: false },
+    { l: 'Aliases', v: tags(r.aliases), copy: !!r.aliases, key: 'aliases' },
+    { l: 'Extensions', v: tags(r.extensions), copy: !!r.extensions, key: 'extensions' },
+    { l: 'Filenames', v: tags(r.filenames), copy: !!r.filenames, key: 'filenames' }
+  ];
+  var html = '';
+  for (var i = 0; i < items.length; i++) {
+    var copyBtn = items[i].copy ? '<button class="copy-btn" data-key="' + items[i].key + '">Copy</button>' : '';
+    html += '<div class="field"><div class="field-label"><span>' + items[i].l + '</span>' + copyBtn + '</div><div class="field-value">' + items[i].v + '</div></div>';
+  }
+  document.getElementById('cBody').innerHTML = html;
+  var btns = document.getElementById('cBody').querySelectorAll('.copy-btn');
+  for (var j = 0; j < btns.length; j++) {
+    btns[j].addEventListener('click', (function(btn) {
+      return function() { copyField(btn, currentLang[btn.dataset.key]); };
+    })(btns[j]));
+  }
+  document.getElementById('overlay').classList.add('open');
+}
+var currentLang = null;
+
+function countItems(key) {
+  var seen = {};
+  for (var i = 0; i < data.length; i++) {
+    var v = data[i][key];
+    if (v) { var parts = v.split(';'); for (var j = 0; j < parts.length; j++) { var t = parts[j].trim(); if (t) seen[t] = 1; } }
+  }
+  return Object.keys(seen).length;
+}
+
+function showStats() {
+  var stats = [
+    { n: data.length, l: 'Languages' },
+    { n: countItems('extensions'), l: 'Extensions' },
+    { n: countItems('aliases'), l: 'Aliases' },
+    { n: countItems('filenames'), l: 'Filenames' }
+  ];
+  var html = '';
+  for (var i = 0; i < stats.length; i++) {
+    html += '<div class="stat"><div class="stat-num">' + stats[i].n + '</div><div class="stat-label">' + stats[i].l + '</div></div>';
+  }
+  document.getElementById('stats').innerHTML = html;
+}
+
+function closeModal() { document.getElementById('overlay').classList.remove('open'); }
+
+document.getElementById('cClose').addEventListener('click', closeModal);
+document.getElementById('overlay').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+
+input.addEventListener('input', function() { render(search(input.value.trim())); });
+
+input.addEventListener('keydown', function(e) {
+  var items = sg.querySelectorAll('.sg-item');
+  if (!items.length) return;
+  if (e.key === 'ArrowDown') { e.preventDefault(); idx = Math.min(idx + 1, items.length - 1); hi(items); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); idx = Math.max(idx - 1, 0); hi(items); }
+  else if (e.key === 'Enter' && idx >= 0) { e.preventDefault(); show(results[idx].r); sg.classList.remove('open'); }
+  else if (e.key === 'Escape') sg.classList.remove('open');
+});
+
+function hi(items) {
+  for (var i = 0; i < items.length; i++) {
+    if (i === idx) { items[i].classList.add('on'); items[i].scrollIntoView({ block: 'nearest' }); }
+    else items[i].classList.remove('on');
+  }
+}
+
+document.addEventListener('click', function(e) {
+  if (!document.getElementById('sw').contains(e.target)) sg.classList.remove('open');
+});
+
+fetch('data/languages.csv')
+  .then(function(r) { if (!r.ok) throw new Error('Failed to load'); return r.text(); })
+  .then(function(t) { data = parseCSV(t); showStats(); input.focus(); })
+  .catch(function(e) { console.error('Error loading data:', e.message); });
+</script>
+</body>
+</html>
