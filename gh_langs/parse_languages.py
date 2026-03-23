@@ -251,7 +251,7 @@ def write_readme(type_counts, popular_names, all_langs):
     content = readme.read_text()
 
     today = date.today().strftime("%Y-%m-%d")
-    content = _replace_between(content, "<!-- updated -->", "<!-- /updated -->", f"Updated: {today}")
+    content = _replace_between(content, "<!-- updated -->", "<!-- /updated -->", f"\nUpdated: {today}\n")
 
     gh_languages_count = len({lang["name"] for lang in all_langs})
     gh_extensions_count = len({ext for lang in all_langs for ext in lang["extensions"]})
@@ -265,7 +265,7 @@ def write_readme(type_counts, popular_names, all_langs):
         f"| [`gh_aliases.txt`](data/gh_aliases.txt) | {gh_aliases_count} | Language aliases known to GitHub |\n"
         f"| [`gh_filenames.txt`](data/gh_filenames.txt) | {gh_filenames_count} | Language filenames known to GitHub |"
     )
-    content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", gh_rows)
+    content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", "\n" + gh_rows + "\n")
 
     summary_rows = (
         "| File | Count | Description |\n"
@@ -273,7 +273,7 @@ def write_readme(type_counts, popular_names, all_langs):
         f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | All languages |\n"
         f"| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | {len(popular_names)} | Popular languages |"
     )
-    content = _replace_between(content, "<!-- summary:start -->", "<!-- summary:end -->", summary_rows)
+    content = _replace_between(content, "<!-- summary:start -->", "<!-- summary:end -->", "\n" + summary_rows + "\n")
 
     type_descriptions = {"programming": "Programming", "data": "Data", "markup": "Markup", "prose": "Prose"}
     types_rows = (
@@ -284,7 +284,7 @@ def write_readme(type_counts, popular_names, all_langs):
             for t in TYPES
         )
     )
-    content = _replace_between(content, "<!-- types:start -->", "<!-- types:end -->", types_rows)
+    content = _replace_between(content, "<!-- types:start -->", "<!-- types:end -->", "\n" + types_rows + "\n")
 
     readme.write_text(content)
     print("Wrote README.md")

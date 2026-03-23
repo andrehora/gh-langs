@@ -5,7 +5,7 @@ Data is extracted from [languages.yml](https://github.com/github-linguist/lingui
 
 Explore the data: https://andrehora.github.io/gh-langs/
 
-<!-- updated -->Last update: 2026-03-23<!-- /updated -->
+<!-- updated -->Updated: 2026-03-23<!-- /updated -->
 
 ## Data
 
