@@ -1,11 +1,11 @@
 # gh-langs
 
-<!-- updated -->Updated: 2026-03-23<!-- /updated -->
-
 Comprehensive dataset of language names, extensions, aliases, and filenames extracted from [GitHub Linguist](https://github.com/github-linguist/linguist).
 Data is extracted from [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
 Explore the data: https://andrehora.github.io/gh-langs/
+
+<!-- updated -->Last update: 2026-03-23<!-- /updated -->
 
 ## Data
 
