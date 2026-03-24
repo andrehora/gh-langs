@@ -150,6 +150,9 @@
       padding: 0 0 0 12px;
     }
     .card-close:hover { color: #24292f; }
+    .card-share { background: none; border: none; font-size: 0.78rem; color: #656d76; cursor: pointer; padding: 0 8px 0 0; display: flex; align-items: center; gap: 4px; }
+    .card-share:hover { color: #24292f; }
+    .card-actions { display: flex; align-items: center; }
     .card-body { padding: 4px 20px 20px; }
 
     .field { padding: 10px 0; }
@@ -224,6 +227,13 @@
     }
     .foot a { color: #656d76; }
 
+    #lang-list { padding: 0 0 32px; }
+    .lang-group { margin-top: 20px; text-align: center; }
+    .lang-group-title { margin-bottom: 8px; }
+    .lang-links { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+    .lang-link { background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-decoration: underline; color: #24292f; font-size: 0.85rem; }
+    .lang-link:hover { opacity: 0.7; }
+
     @media (max-width: 500px) {
       .page { padding: 50px 14px 16px; }
       .page h1 { font-size: 1.2rem; }
@@ -250,6 +260,8 @@
 
   <div class="foot">Data from <a href="https://github.com/github-linguist/linguist" target="_blank" rel="noopener">GitHub Linguist</a> and <a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener">gh-langs</a></div>
 
+  <div id="lang-list"></div>
+
 </div>
 
 <!-- Custom overlay modal -->
@@ -257,7 +269,10 @@
   <div class="card">
     <div class="card-head">
       <h2 id="cTitle"></h2>
-      <button class="card-close" id="cClose">&times;</button>
+      <div class="card-actions">
+        <button class="card-share" id="cShare"><svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg>Copy link</button>
+        <button class="card-close" id="cClose">&times;</button>
+      </div>
     </div>
     <div class="card-body" id="cBody"></div>
   </div>
@@ -399,6 +414,7 @@ function show(r) {
     })(btns[j]));
   }
   document.getElementById('overlay').classList.add('open');
+  history.replaceState(null, '', '#' + encodeURIComponent(r.language));
 }
 var currentLang = null;
 
@@ -423,11 +439,45 @@ function showStats() {
     html += '<div class="stat"><div class="stat-num">' + stats[i].n + '</div><div class="stat-label">' + stats[i].l + '</div></div>';
   }
   document.getElementById('stats').innerHTML = html;
+
+  var types = ['programming', 'data', 'markup', 'prose'];
+  var groups = {};
+  for (var i = 0; i < data.length; i++) {
+    var t = (data[i].type || '').toLowerCase();
+    if (!groups[t]) groups[t] = [];
+    groups[t].push({ r: data[i], idx: i });
+  }
+  var lhtml = '';
+  for (var ti = 0; ti < types.length; ti++) {
+    var type = types[ti];
+    var langs = groups[type];
+    if (!langs || !langs.length) continue;
+    lhtml += '<div class="lang-group"><div class="lang-group-title">' + pill(langs[0].r.type) + '</div><div class="lang-links">';
+    for (var li = 0; li < langs.length; li++) {
+      lhtml += '<button class="lang-link" data-i="' + langs[li].idx + '">' + esc(langs[li].r.language) + '</button>';
+    }
+    lhtml += '</div></div>';
+  }
+  var ll = document.getElementById('lang-list');
+  ll.innerHTML = lhtml;
+  var btns = ll.querySelectorAll('.lang-link');
+  for (var bi = 0; bi < btns.length; bi++) {
+    btns[bi].addEventListener('click', (function(btn) {
+      return function() { show(data[parseInt(btn.dataset.i)]); };
+    })(btns[bi]));
+  }
 }
 
-function closeModal() { document.getElementById('overlay').classList.remove('open'); }
+function closeModal() { document.getElementById('overlay').classList.remove('open'); history.replaceState(null, '', ' '); }
 
 document.getElementById('cClose').addEventListener('click', closeModal);
+document.getElementById('cShare').addEventListener('click', function() {
+  navigator.clipboard.writeText(location.href).then(function() {
+    var btn = document.getElementById('cShare');
+    btn.textContent = 'Copied!';
+    setTimeout(function() { btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg>Copy link'; }, 1500);
+  });
+});
 document.getElementById('overlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
@@ -459,7 +509,15 @@ document.addEventListener('click', function(e) {
 
 fetch('data/languages.csv')
   .then(function(r) { if (!r.ok) throw new Error('Failed to load'); return r.text(); })
-  .then(function(t) { data = parseCSV(t); showStats(); input.focus(); })
+  .then(function(t) {
+    data = parseCSV(t); showStats(); input.focus();
+    var hash = decodeURIComponent(location.hash.slice(1));
+    if (hash) {
+      for (var i = 0; i < data.length; i++) {
+        if (data[i].language.toLowerCase() === hash.toLowerCase()) { show(data[i]); break; }
+      }
+    }
+  })
   .catch(function(e) { console.error('Error loading data:', e.message); });
 </script>
 </body>
