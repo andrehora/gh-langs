@@ -18,9 +18,13 @@
       width: 100%;
       max-width: 600px;
       margin: 0 auto;
-      padding: 80px 20px 24px;
       background: #fff;
       min-height: 100vh;
+    }
+    .hero {
+      background: linear-gradient(180deg, #f0f6ff 0%, #ffffff 100%);
+      padding: 60px 20px 32px;
+      border-bottom: 1px solid #e8edf5;
     }
     .page h1 {
       font-size: 1.7rem;
@@ -94,6 +98,7 @@
     }
     .sg-name { font-weight: 500; font-size: 0.95rem; white-space: nowrap; }
     .sg-hint { color: #8b949e; font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .sg-empty { padding: 10px 14px; color: #8b949e; font-size: 0.875rem; }
 
     .pill {
       font-size: 0.73rem;
@@ -109,7 +114,6 @@
     .pill-prose       { background: #ffeff7; color: #bf3989; }
 
 
-    /* Overlay modal (no Bootstrap) */
     .overlay {
       display: none;
       position: fixed;
@@ -168,6 +172,7 @@
       align-items: center;
       justify-content: space-between;
     }
+    .field-count { font-weight: 400; text-transform: none; letter-spacing: 0; color: #8b949e; }
     .copy-btn {
       background: none;
       border: 1px solid #d0d7de;
@@ -203,6 +208,8 @@
       justify-content: center;
       gap: 24px;
       margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #e8edf5;
       flex-wrap: wrap;
     }
     .stat {
@@ -224,18 +231,24 @@
       color: #8b949e;
       font-size: 0.78rem;
       padding: 28px 16px 16px;
+      border-top: 1px solid #e8edf5;
     }
     .foot a { color: #656d76; }
 
-    #lang-list { padding: 0 0 32px; }
+    #recent-label { font-size: 0.75rem; color: #8b949e; margin-bottom: 6px; }
+    .recent-btn { background: none; border: 1px solid #d0d7de; border-radius: 20px; padding: 2px 10px; font-size: 0.8rem; color: #24292f; cursor: pointer; }
+    .recent-btn:hover { background: #f6f8fa; }
+    #lang-list { padding: 20px 20px 32px; }
     .lang-group { margin-top: 20px; text-align: center; }
-    .lang-group-title { margin-bottom: 8px; }
+    .lang-group-title { margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .pill-toggle { border: none; cursor: pointer; transition: opacity 0.15s; }
+    .lang-count { color: #8b949e; font-size: 0.8rem; }
     .lang-links { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
     .lang-link { background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-decoration: underline; color: #24292f; font-size: 0.85rem; }
     .lang-link:hover { opacity: 0.7; }
 
     @media (max-width: 500px) {
-      .page { padding: 50px 14px 16px; }
+      .hero { padding: 40px 14px 24px; }
       .page h1 { font-size: 1.2rem; }
       .subtitle { font-size: 0.8rem; margin-bottom: 18px; }
       .sg-list { max-height: 50vh; }
@@ -247,24 +260,27 @@
 <body>
 
 <div class="page">
-  <p style="text-align: center; margin-bottom: 16px;"><a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener" style="color: #24292f; text-decoration: none; font-size: 1.1rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><svg height="20" width="20" viewBox="0 0 16 16" fill="#24292f" style="vertical-align: middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>andrehora/gh-langs</a></p>
-  <h1>GitHub Languages Explorer</h1>
-  <p class="subtitle">Search languages by name, extension, alias, and filename</p>
+  <div class="hero">
+    <p style="text-align: center; margin-bottom: 16px;"><a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener" style="color: #24292f; text-decoration: none; font-size: 1.1rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><svg height="20" width="20" viewBox="0 0 16 16" fill="#24292f" style="vertical-align: middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>andrehora/gh-langs</a></p>
+    <h1>GitHub Languages Explorer</h1>
+    <p class="subtitle">Search languages by name, extension, alias, and filename</p>
 
-  <div class="search-wrap" id="sw">
-    <input type="text" id="q" placeholder="Type to search... e.g. python, .js, Markdown" autocomplete="off">
-    <div class="sg-list" id="sg"></div>
+    <div class="search-wrap" id="sw">
+      <input type="text" id="q" placeholder="Type to search... e.g. python, .js, Markdown" autocomplete="off">
+      <div class="sg-list" id="sg"></div>
+    </div>
+
+    <div id="recent" style="display:none; text-align:center; margin: 12px 0 0;"></div>
+
+    <div class="stats" id="stats"></div>
+
   </div>
-
-  <div class="stats" id="stats"></div>
-
-  <div class="foot">Data from <a href="https://github.com/github-linguist/linguist" target="_blank" rel="noopener">GitHub Linguist</a> and <a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener">gh-langs</a></div>
 
   <div id="lang-list"></div>
 
-</div>
+  <div class="foot">Data from <a href="https://github.com/github-linguist/linguist" target="_blank" rel="noopener">GitHub Linguist</a> and <a href="https://github.com/andrehora/gh-langs" target="_blank" rel="noopener">gh-langs</a></div>
 
-<!-- Custom overlay modal -->
+<!-- modal -->
 <div class="overlay" id="overlay">
   <div class="card">
     <div class="card-head">
@@ -276,8 +292,6 @@
     </div>
     <div class="card-body" id="cBody"></div>
   </div>
-</div>
-
 </div>
 
 <script>
@@ -307,6 +321,10 @@ function csvSplit(line) {
 }
 
 function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function highlight(s, q) {
+  if (!q || s.toLowerCase().indexOf(q.toLowerCase()) !== 0) return esc(s);
+  return '<strong>' + esc(s.slice(0, q.length)) + '</strong>' + esc(s.slice(q.length));
+}
 
 function pill(t) {
   var v = (t || '').toLowerCase();
@@ -328,10 +346,11 @@ function search(q) {
   var ql = q.toLowerCase(), res = [];
   for (var i = 0; i < data.length; i++) {
     var r = data[i], m = null;
+    var mt;
     if ((r.language || '').toLowerCase().indexOf(ql) === 0) m = '';
-    else if (matchToken(r.aliases || '', ql) !== null) m = 'alias: ' + matchToken(r.aliases, ql);
-    else if (matchToken(r.extensions || '', ql) !== null) m = 'ext: ' + matchToken(r.extensions, ql);
-    else if (matchToken(r.filenames || '', ql) !== null) m = 'file: ' + matchToken(r.filenames, ql);
+    else if ((mt = matchToken(r.aliases || '', ql)) !== null) m = 'alias: ' + mt;
+    else if ((mt = matchToken(r.extensions || '', ql)) !== null) m = 'ext: ' + mt;
+    else if ((mt = matchToken(r.filenames || '', ql)) !== null) m = 'file: ' + mt;
     if (m !== null) res.push({ r: r, m: m });
     if (res.length >= 15) break;
   }
@@ -341,15 +360,25 @@ function search(q) {
 var input = document.getElementById('q');
 var sg = document.getElementById('sg');
 
-function render(list) {
+function render(list, q) {
   idx = -1; results = list;
-  if (!list.length) { sg.innerHTML = ''; sg.classList.remove('open'); return; }
+  if (!list.length) {
+    if (q) {
+      var tip = /^[a-z0-9]+$/i.test(q) ? ' — try <strong>.' + esc(q) + '</strong> to search by extension' : '';
+      sg.innerHTML = '<div class="sg-empty">No results for "' + esc(q) + '"' + tip + '</div>';
+      sg.classList.add('open');
+    }
+    else { sg.innerHTML = ''; sg.classList.remove('open'); }
+    return;
+  }
   var html = '';
   for (var i = 0; i < list.length; i++) {
     var it = list[i];
-    var hint = it.m ? '<span class="sg-hint">' + esc(it.m) + '</span>' : '';
+    var hintText = it.m ? it.m.replace(/^(alias|ext|file): /, '') : '';
+    var hintPrefix = it.m ? it.m.match(/^(alias|ext|file): /) : null;
+    var hint = it.m ? '<span class="sg-hint">' + (hintPrefix ? esc(hintPrefix[0]) : '') + highlight(hintText, q) + '</span>' : '';
     html += '<div class="sg-item" data-i="' + i + '">'
-      + '<div class="sg-item-left"><span class="sg-name">' + esc(it.r.language) + '</span>' + hint + '</div>'
+      + '<div class="sg-item-left"><span class="sg-name">' + highlight(it.r.language, q) + '</span>' + hint + '</div>'
       + pill(it.r.type) + '</div>';
   }
   sg.innerHTML = html;
@@ -392,14 +421,59 @@ function copyField(btn, field) {
   });
 }
 
+var RECENT_KEY = 'gh-langs-recent';
+var RECENT_MAX = 5;
+
+function saveRecent(name) {
+  var list = JSON.parse(localStorage.getItem(RECENT_KEY) || '[]');
+  list = list.filter(function(n) { return n !== name; });
+  list.unshift(name);
+  if (list.length > RECENT_MAX) list = list.slice(0, RECENT_MAX);
+  localStorage.setItem(RECENT_KEY, JSON.stringify(list));
+  renderRecent();
+}
+
+function renderRecent() {
+  var list = JSON.parse(localStorage.getItem(RECENT_KEY) || '[]');
+  var el = document.getElementById('recent');
+  if (!list.length) { el.style.display = 'none'; return; }
+  var html = '<div id="recent-label">Recently viewed</div>';
+  for (var i = 0; i < list.length; i++) {
+    html += '<button class="recent-btn" data-name="' + esc(list[i]) + '">' + esc(list[i]) + '</button> ';
+  }
+  el.innerHTML = html;
+  el.style.display = 'block';
+  var btns = el.querySelectorAll('.recent-btn');
+  for (var j = 0; j < btns.length; j++) {
+    btns[j].addEventListener('click', (function(btn) {
+      return function() {
+        var name = btn.dataset.name;
+        for (var k = 0; k < data.length; k++) {
+          if (data[k].language === name) { show(data[k]); break; }
+        }
+      };
+    })(btns[j]));
+  }
+}
+
+function tokenCount(field) {
+  if (!field) return 0;
+  return field.split(';').filter(function(t) { return t.trim(); }).length;
+}
+
+function labelWithCount(label, field) {
+  var n = tokenCount(field);
+  return label + (n ? ' <span class="field-count">(' + n + ')</span>' : '');
+}
+
 function show(r) {
   document.getElementById('cTitle').textContent = r.language;
   currentLang = r;
   var items = [
     { l: 'Type', v: pill(r.type), copy: false },
-    { l: 'Aliases', v: tags(r.aliases), copy: !!r.aliases, key: 'aliases' },
-    { l: 'Extensions', v: tags(r.extensions), copy: !!r.extensions, key: 'extensions' },
-    { l: 'Filenames', v: tags(r.filenames), copy: !!r.filenames, key: 'filenames' }
+    { l: labelWithCount('Aliases', r.aliases), v: tags(r.aliases), copy: !!r.aliases, key: 'aliases' },
+    { l: labelWithCount('Extensions', r.extensions), v: tags(r.extensions), copy: !!r.extensions, key: 'extensions' },
+    { l: labelWithCount('Filenames', r.filenames), v: tags(r.filenames), copy: !!r.filenames, key: 'filenames' }
   ];
   var html = '';
   for (var i = 0; i < items.length; i++) {
@@ -415,6 +489,7 @@ function show(r) {
   }
   document.getElementById('overlay').classList.add('open');
   history.replaceState(null, '', '#' + encodeURIComponent(r.language));
+  saveRecent(r.language);
 }
 var currentLang = null;
 
@@ -452,7 +527,8 @@ function showStats() {
     var type = types[ti];
     var langs = groups[type];
     if (!langs || !langs.length) continue;
-    lhtml += '<div class="lang-group"><div class="lang-group-title">' + pill(langs[0].r.type) + '</div><div class="lang-links">';
+    langs.sort(function(a, b) { return a.r.language.localeCompare(b.r.language); });
+    lhtml += '<div class="lang-group" data-type="' + esc(type) + '"><div class="lang-group-title"><button class="pill-toggle ' + ('pill pill-' + type) + '" data-type="' + esc(type) + '" style="opacity:0.45">' + esc(langs[0].r.type) + '</button> <span class="lang-count">(' + langs.length + ')</span></div><div class="lang-links" style="display:none">';
     for (var li = 0; li < langs.length; li++) {
       lhtml += '<button class="lang-link" data-i="' + langs[li].idx + '">' + esc(langs[li].r.language) + '</button>';
     }
@@ -465,6 +541,18 @@ function showStats() {
     btns[bi].addEventListener('click', (function(btn) {
       return function() { show(data[parseInt(btn.dataset.i)]); };
     })(btns[bi]));
+  }
+  var toggles = ll.querySelectorAll('.pill-toggle');
+  for (var pi = 0; pi < toggles.length; pi++) {
+    toggles[pi].addEventListener('click', (function(btn) {
+      return function() {
+        var group = ll.querySelector('.lang-group[data-type="' + btn.dataset.type + '"]');
+        var links = group.querySelector('.lang-links');
+        var collapsed = links.style.display === 'none';
+        links.style.display = collapsed ? '' : 'none';
+        btn.style.opacity = collapsed ? '' : '0.45';
+      };
+    })(toggles[pi]));
   }
 }
 
@@ -485,7 +573,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModal();
 });
 
-input.addEventListener('input', function() { render(search(input.value.trim())); });
+input.addEventListener('input', function() { var q = input.value.trim(); render(search(q), q); });
 
 input.addEventListener('keydown', function(e) {
   var items = sg.querySelectorAll('.sg-item');
@@ -510,7 +598,7 @@ document.addEventListener('click', function(e) {
 fetch('data/languages.csv')
   .then(function(r) { if (!r.ok) throw new Error('Failed to load'); return r.text(); })
   .then(function(t) {
-    data = parseCSV(t); showStats(); input.focus();
+    data = parseCSV(t); showStats(); renderRecent(); input.focus();
     var hash = decodeURIComponent(location.hash.slice(1));
     if (hash) {
       for (var i = 0; i < data.length; i++) {
