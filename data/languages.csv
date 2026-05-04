@@ -661,6 +661,7 @@ Solidity,programming,,.sol,
 Soong,data,,,Android.bp
 SourcePawn,programming,sourcemod,.sp; .inc,
 SPARQL,data,,.sparql; .rq,
+SpiceDB Schema,data,,.zed,
 Spline Font Database,data,,.sfd,
 SQF,programming,,.sqf; .hqf,
 SQL,data,,.sql; .ddl; .inc; .mysql; .prc; .tab; .udf; .viw,
@@ -710,7 +711,7 @@ TL-Verilog,programming,,.tlv,
 TLA,programming,,.tla,
 TMDL,data,Tabular Model Definition Language,.tmdl,
 Toit,programming,,.toit,
-TOML,data,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; pdm.lock; poetry.lock; uv.lock
+TOML,data,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; mise.local.lock; mise.lock; pdm.lock; poetry.lock; uv.lock
 Tor Config,data,torrc,,torrc
 Tree-sitter Query,programming,tsq,.scm,
 TSPLIB data,data,travelling salesman problem; traveling salesman problem,.tsp,

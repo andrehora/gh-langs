@@ -660,6 +660,7 @@ Solidity
 Soong
 SourcePawn
 SPARQL
+SpiceDB Schema
 Spline Font Database
 SQF
 SQL
