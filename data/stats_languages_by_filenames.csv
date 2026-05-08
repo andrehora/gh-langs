@@ -10,11 +10,11 @@ Makefile,programming,3,6,13
 Emacs Lisp,programming,4,3,11
 XML,data,3,110,10
 INI,data,1,10,9
+TOML,data,0,2,9
 Checksums,data,5,12,8
 Starlark,programming,2,2,8
 Vim Script,programming,4,4,8
 YAML,data,1,10,8
-TOML,data,0,2,7
 dircolors,data,0,1,6
 Just,programming,1,1,6
 Perl,programming,1,10,6
@@ -675,6 +675,7 @@ SMT,programming,0,3,0
 Solidity,programming,0,1,0
 SourcePawn,programming,1,2,0
 SPARQL,data,0,2,0
+SpiceDB Schema,data,0,1,0
 Spline Font Database,data,0,1,0
 SQF,programming,0,2,0
 SQL,data,0,8,0

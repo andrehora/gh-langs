@@ -5855,6 +5855,12 @@
       ".rq"
     ]
   },
+  "SpiceDB Schema": {
+    "type": "data",
+    "extensions": [
+      ".zed"
+    ]
+  },
   "Spline Font Database": {
     "type": "data",
     "extensions": [
@@ -5966,6 +5972,8 @@
       "Cargo.toml.orig",
       "Gopkg.lock",
       "Pipfile",
+      "mise.local.lock",
+      "mise.lock",
       "pdm.lock",
       "poetry.lock",
       "uv.lock"
