@@ -137,6 +137,7 @@ ShellCheck Config,shellcheckrc,,.shellcheckrc
 Simple File Verification,sfv,.sfv,
 Soong,,,Android.bp
 SPARQL,,.sparql; .rq,
+SpiceDB Schema,,.zed,
 Spline Font Database,,.sfd,
 SQL,,.sql; .ddl; .inc; .mysql; .prc; .tab; .udf; .viw,
 SSH Config,sshconfig; sshdconfig; ssh_config; sshd_config,,ssh-config; ssh_config; sshconfig; sshconfig.snip; sshd-config; sshd_config
@@ -149,7 +150,7 @@ SVG,,.svg,
 TextGrid,,.TextGrid,
 TextMate Properties,tm-properties,,.tm_properties
 TMDL,Tabular Model Definition Language,.tmdl,
-TOML,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; pdm.lock; poetry.lock; uv.lock
+TOML,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; mise.local.lock; mise.lock; pdm.lock; poetry.lock; uv.lock
 Tor Config,torrc,,torrc
 TSPLIB data,travelling salesman problem; traveling salesman problem,.tsp,
 TSV,tab-seperated values,.tsv; .vcf,

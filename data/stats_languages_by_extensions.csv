@@ -264,7 +264,7 @@ Starlark,programming,2,2,8
 SuperCollider,programming,0,2,0
 Tcsh,programming,0,2,0
 TI Program,programming,0,2,0
-TOML,data,0,2,7
+TOML,data,0,2,9
 TSV,data,1,2,0
 Turing,programming,0,2,0
 Unix Assembly,programming,3,2,0
@@ -672,6 +672,7 @@ Smarty,programming,0,1,0
 Smithy,programming,0,1,0
 SmPL,programming,1,1,0
 Solidity,programming,0,1,0
+SpiceDB Schema,data,0,1,0
 Spline Font Database,data,0,1,0
 Squirrel,programming,0,1,0
 SRecode Template,markup,0,1,0

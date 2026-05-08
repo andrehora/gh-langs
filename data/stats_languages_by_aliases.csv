@@ -709,6 +709,7 @@ SMT,programming,0,3,0
 Solidity,programming,0,1,0
 Soong,data,0,0,1
 SPARQL,data,0,2,0
+SpiceDB Schema,data,0,1,0
 Spline Font Database,data,0,1,0
 SQF,programming,0,2,0
 SQL,data,0,8,0
@@ -748,7 +749,7 @@ TI Program,programming,0,2,0
 TL-Verilog,programming,0,1,0
 TLA,programming,0,1,0
 Toit,programming,0,1,0
-TOML,data,0,2,7
+TOML,data,0,2,9
 TSQL,programming,0,1,0
 Turing,programming,0,2,0
 Turtle,data,0,1,0

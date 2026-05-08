@@ -329,6 +329,8 @@ mcmod.info
 md5sum.txt
 meson.build
 meson_options.txt
+mise.local.lock
+mise.lock
 mix.lock
 mkfile
 mmn
