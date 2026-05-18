@@ -1656,6 +1656,16 @@
       ".ipf"
     ]
   },
+  "IL Assembly": {
+    "type": "programming",
+    "aliases": [
+      "ilasm",
+      "msil"
+    ],
+    "extensions": [
+      ".il"
+    ]
+  },
   "ImageJ Macro": {
     "type": "programming",
     "aliases": [

@@ -301,6 +301,7 @@ IDL,programming,,.pro; .dlm,
 Idris,programming,,.idr; .lidr,
 Ignore List,data,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
 IGOR Pro,programming,igor; igorpro,.ipf,
+IL Assembly,programming,ilasm; msil,.il,
 ImageJ Macro,programming,ijm,.ijm,
 Imba,programming,,.imba,
 Inform 7,programming,i7; inform7,.ni; .i7x,
