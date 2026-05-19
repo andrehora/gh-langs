@@ -1453,6 +1453,15 @@
       ".ipf"
     ]
   },
+  "IL Assembly": {
+    "aliases": [
+      "ilasm",
+      "msil"
+    ],
+    "extensions": [
+      ".il"
+    ]
+  },
   "ImageJ Macro": {
     "aliases": [
       "ijm"

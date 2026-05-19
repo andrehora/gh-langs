@@ -185,6 +185,7 @@ ignore
 igor
 igorpro
 ijm
+ilasm
 ile rpg
 inc
 inform7
@@ -235,6 +236,7 @@ mermaid example
 mf
 mma
 mps
+msil
 mumps
 nargo
 nasm

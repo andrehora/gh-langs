@@ -300,6 +300,7 @@ IDL
 Idris
 Ignore List
 IGOR Pro
+IL Assembly
 ImageJ Macro
 Imba
 Inform 7

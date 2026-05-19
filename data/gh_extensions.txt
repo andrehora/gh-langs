@@ -547,6 +547,7 @@
 .ijm
 .ijs
 .ik
+.il
 .ily
 .imba
 .iml
