@@ -112,6 +112,7 @@
 .axs.erb
 .b
 .bal
+.baml
 .bas
 .bash
 .bat
@@ -222,6 +223,7 @@
 .command
 .conll
 .conllu
+.container
 .containerfile
 .cook
 .coq
@@ -767,6 +769,7 @@
 .monkey2
 .moo
 .moon
+.mount
 .move
 .mpl
 .mps
@@ -810,6 +813,7 @@
 .nearley
 .ned
 .neon
+.network
 .nf
 .nginx
 .nginxconf
@@ -853,6 +857,7 @@
 .opa
 .opal
 .opencl
+.opy
 .orc
 .org
 .os
@@ -883,6 +888,8 @@
 .pbi
 .pbt
 .pbtxt
+.pc
+.pc.in
 .pck
 .pcss
 .pd
@@ -941,6 +948,7 @@
 .pov
 .pp
 .pprx
+.pq
 .praat
 .prawn
 .prc
@@ -991,6 +999,7 @@
 .qll
 .qmd
 .qml
+.qnt
 .qs
 .r
 .r2
@@ -1131,6 +1140,7 @@
 .slim
 .slint
 .sln
+.slnlaunch
 .slnx
 .sls
 .slurm
@@ -1146,6 +1156,7 @@
 .snip
 .snippet
 .snippets
+.socket
 .sol
 .soy
 .sp
@@ -1210,6 +1221,7 @@
 .tact
 .tag
 .talon
+.target
 .targets
 .tcc
 .tcl
@@ -1233,6 +1245,7 @@
 .thor
 .thrift
 .thy
+.timer
 .tl
 .tla
 .tlv
@@ -1319,6 +1332,7 @@
 .vimrc
 .viw
 .vmb
+.vmf
 .volt
 .vrx
 .vs

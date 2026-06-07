@@ -99,6 +99,7 @@ coffee
 coffee-script
 coldfusion html
 commit
+conf
 console
 coq
 cperl
@@ -274,6 +275,7 @@ openedge
 openrc
 opentofu
 opts
+opy
 osascript
 pandoc
 pasm
@@ -282,12 +284,14 @@ perl-6
 perl6
 pikchr
 pir
+pkgconf
 plain text
 posh
 postscr
 pot
 pov-ray
 povray
+powerquery
 progress
 proto
 protobuf
@@ -319,6 +323,7 @@ renpy
 rhtml
 robots
 robots txt
+robotx.txt
 rocq
 rosmsg
 rpcgen

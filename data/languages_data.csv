@@ -29,7 +29,7 @@ Cylc,,.cylc,suite.rc
 D-ObjDump,,.d-objdump,
 Darcs Patch,dpatch,.darcspatch; .dpatch,
 Debian Package Control File,,.dsc,
-desktop,,.desktop; .desktop.in; .service,
+desktop,,.desktop; .desktop.in,
 Diff,udiff,.diff; .patch,
 dircolors,,.dircolors,.dir_colors; .dircolors; DIR_COLORS; _dir_colors; _dircolors; dir_colors
 DirectX 3D File,,.x,
@@ -70,13 +70,13 @@ Hosts File,hosts,,HOSTS; hosts; hosts.txt
 HTTP,,.http,
 HXML,,.hxml,
 iCalendar,iCal,.ics; .ical,
-Ignore List,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
-INI,dosini,.ini; .cfg; .cnf; .dof; .frm; .lektorproject; .prefs; .pro; .properties; .url,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc
+Ignore List,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslint-ignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
+INI,conf; dosini,.ini; .cfg; .cnf; .container; .dof; .frm; .lektorproject; .mount; .network; .prefs; .pro; .properties; .service; .socket; .target; .timer; .url,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc
 IRC log,irc; irc logs,.irclog; .weechatlog,
 JAR Manifest,,,MANIFEST.MF
 Java Properties,,.properties,
 Jest Snapshot,,.snap,
-JSON,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
+JSON,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
 JSON with Comments,jsonc,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json
 JSON5,,.json5,
 JSONLD,,.jsonld,
@@ -114,6 +114,7 @@ OpenType Feature File,AFDKO,.fea,
 Option List,opts; ackrc,,.ackrc; .rspec; .yardopts; ackrc; mocha.opts
 Pickle,,.pkl,
 Pip Requirements,,,dev-requirements.txt; requirements-dev.txt; requirements.lock.txt; requirements.txt
+pkg-config,pkgconf,.pc; .pc.in,
 PlantUML,,.puml; .iuml; .plantuml,
 Prisma,,.prisma,
 Proguard,,.pro,
@@ -128,7 +129,7 @@ Readline Config,inputrc; readline,,.inputrc; inputrc
 Record Jar,,,language-subtag-registry.txt
 Redirect Rules,redirects,,_redirects
 Regular Expression,regexp; regex,.regexp; .regex,
-robots.txt,robots; robots txt,,robots.txt
+Robots Exclusion Rules,robots; robots txt; robotx.txt,,robots.txt
 RON,,.ron,
 ROS Interface,rosmsg,.msg; .action; .srv,
 RPM Spec,specfile,.spec,
@@ -157,7 +158,7 @@ TSV,tab-seperated values,.tsv; .vcf,
 Turtle,,.ttl,
 Type Language,tl,.tl,
 Unity3D Asset,,.anim; .asset; .mask; .mat; .meta; .prefab; .unity,
-Valve Data Format,keyvalues; vdf,.vdf,
+Valve Data Format,keyvalues; vdf,.vdf; .vmf,
 vCard,virtual contact file; electronic business card,.vcf,
 Wavefront Material,,.mtl,
 Wavefront Object,,.obj,

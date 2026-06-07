@@ -14,7 +14,7 @@ E-mail,data,4,2,0
 Emacs Lisp,programming,4,3,11
 Go Checksums,data,4,0,2
 Jinja,markup,4,3,0
-JSON,data,4,21,18
+JSON,data,4,22,18
 Python,programming,4,17,5
 SSH Config,data,4,0,6
 Vim Script,programming,4,4,8
@@ -27,13 +27,14 @@ ColdFusion,programming,3,2,0
 HCL,programming,3,6,0
 HTML+EEX,markup,3,3,0
 HTML+ERB,markup,3,3,0
-Ignore List,data,3,1,20
-Makefile,programming,3,6,13
+Ignore List,data,3,1,21
+Makefile,programming,3,6,14
 Objective-C,programming,3,2,0
 Objective-C++,programming,3,1,0
 Objective-J,programming,3,2,0
 OpenEdge ABL,programming,3,3,0
 Protocol Buffer,data,3,1,0
+Robots Exclusion Rules,data,3,0,1
 RPC,programming,3,1,0
 Unix Assembly,programming,3,2,0
 xBase,programming,3,3,0
@@ -58,6 +59,7 @@ Handlebars,markup,2,2,0
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 Inform 7,programming,2,2,0
+INI,data,2,17,9
 IRC log,data,2,2,0
 JavaScript,programming,2,25,1
 KakouneScript,programming,2,1,1
@@ -80,7 +82,6 @@ Ragel,programming,2,1,0
 Raku,programming,2,13,0
 Readline Config,data,2,0,2
 Regular Expression,data,2,2,0
-robots.txt,data,2,0,1
 Rocq Prover,programming,2,2,0
 RPGLE,programming,2,2,0
 SaltStack,programming,2,1,0
@@ -89,10 +90,10 @@ ShellSession,programming,2,1,0
 Starlark,programming,2,2,8
 STL,data,2,1,0
 Tcl,programming,2,6,2
-Text,prose,2,5,25
+Text,prose,2,5,26
 TSPLIB data,data,2,1,0
 UrWeb,programming,2,2,0
-Valve Data Format,data,2,1,0
+Valve Data Format,data,2,2,0
 vCard,data,2,1,0
 Velocity Template Language,markup,2,1,0
 Vim Help File,prose,2,1,0
@@ -161,7 +162,6 @@ HTML+Razor,markup,1,2,0
 Hy,programming,1,1,0
 iCalendar,data,1,2,0
 ImageJ Macro,programming,1,1,0
-INI,data,1,10,9
 Java Server Pages,programming,1,2,0
 Java Template Engine,programming,1,1,0
 JetBrains MPS,programming,1,3,0
@@ -195,12 +195,15 @@ OpenAPI Specification v2,data,1,0,0
 OpenAPI Specification v3,data,1,0,0
 OpenRC runscript,programming,1,0,0
 OpenType Feature File,data,1,1,0
+OverPy,programming,1,1,0
 Parrot Assembly,programming,1,1,0
 Parrot Internal Representation,programming,1,1,0
 Perl,programming,1,10,6
 PHP,programming,1,10,4
 Pic,markup,1,2,0
+pkg-config,data,1,2,0
 PostScript,markup,1,4,0
+Power Query,programming,1,1,0
 Python console,programming,1,0,0
 Q#,programming,1,1,0
 Raw token data,data,1,1,0
@@ -278,6 +281,7 @@ Avro IDL,data,0,1,0
 Awk,programming,0,5,0
 B (Formal Method),programming,0,1,0
 Ballerina,programming,0,1,0
+BAML,programming,0,1,0
 BASIC,programming,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
@@ -349,7 +353,7 @@ Daslang,programming,0,1,0
 DataWeave,programming,0,1,0
 Debian Package Control File,data,0,1,0
 DenizenScript,programming,0,1,0
-desktop,data,0,3,0
+desktop,data,0,2,0
 Dhall,programming,0,1,0
 dircolors,data,0,1,6
 DirectX 3D File,data,0,1,0
@@ -636,6 +640,7 @@ PostCSS,markup,0,2,0
 PowerBuilder,programming,0,4,0
 Praat,programming,0,1,0
 Prisma,data,0,1,0
+Pro*C,programming,0,1,0
 Processing,programming,0,1,0
 Procfile,programming,0,0,1
 Proguard,data,0,1,0
@@ -656,6 +661,7 @@ QML,programming,0,2,0
 Qt Script,programming,0,1,2
 Quake,programming,0,0,2
 QuakeC,programming,0,1,0
+Quint,programming,0,1,0
 Racket,programming,0,4,0
 RAML,markup,0,1,0
 Rascal,programming,0,1,0
@@ -668,6 +674,7 @@ ReasonLIGO,programming,0,1,0
 Rebol,programming,0,5,0
 Record Jar,data,0,0,1
 Redcode,programming,0,1,0
+Redscript,programming,0,1,0
 RenderScript,programming,0,2,0
 ReScript,programming,0,2,0
 Rez,programming,0,1,0

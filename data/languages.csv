@@ -48,6 +48,7 @@ Awk,programming,,.awk; .auk; .gawk; .mawk; .nawk,
 B (Formal Method),programming,,.mch,
 B4X,programming,basic for android,.bas,
 Ballerina,programming,,.bal,
+BAML,programming,,.baml,
 BASIC,programming,,.bas,
 Batchfile,programming,bat; batch; dosbatch; winbatch,.bat; .cmd,gradlew.bat; mvnw.cmd
 Beef,programming,,.bf,
@@ -153,7 +154,7 @@ Daslang,programming,,.das,
 DataWeave,programming,,.dwl,
 Debian Package Control File,data,,.dsc,
 DenizenScript,programming,,.dsc,
-desktop,data,,.desktop; .desktop.in; .service,
+desktop,data,,.desktop; .desktop.in,
 Dhall,programming,,.dhall,
 Diff,data,udiff,.diff; .patch,
 DIGITAL Command Language,programming,dcl,.com,
@@ -299,13 +300,13 @@ HyPhy,programming,,.bf,
 iCalendar,data,iCal,.ics; .ical,
 IDL,programming,,.pro; .dlm,
 Idris,programming,,.idr; .lidr,
-Ignore List,data,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
+Ignore List,data,ignore; gitignore; git-ignore,.gitignore,.atomignore; .babelignore; .bzrignore; .coffeelintignore; .cvsignore; .dockerignore; .easignore; .eleventyignore; .eslint-ignore; .eslintignore; .gitignore; .ignore; .markdownlintignore; .nodemonignore; .npmignore; .prettierignore; .stylelintignore; .vercelignore; .vscodeignore; gitignore-global; gitignore_global
 IGOR Pro,programming,igor; igorpro,.ipf,
 IL Assembly,programming,ilasm; msil,.il,
 ImageJ Macro,programming,ijm,.ijm,
 Imba,programming,,.imba,
 Inform 7,programming,i7; inform7,.ni; .i7x,
-INI,data,dosini,.ini; .cfg; .cnf; .dof; .frm; .lektorproject; .prefs; .pro; .properties; .url,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc
+INI,data,conf; dosini,.ini; .cfg; .cnf; .container; .dof; .frm; .lektorproject; .mount; .network; .prefs; .pro; .properties; .service; .socket; .target; .timer; .url,.buckconfig; .coveragerc; .flake8; .pylintrc; HOSTS; buildozer.spec; hosts; pylintrc; vlcrc
 Ink,programming,,.ink,
 Inno Setup,programming,,.iss; .isl,
 Io,programming,,.io,
@@ -335,7 +336,7 @@ Jison,programming,,.jison,
 Jison Lex,programming,,.jisonlex,
 Jolie,programming,,.ol; .iol,
 jq,programming,,.jq,
-JSON,data,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
+JSON,data,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
 JSON with Comments,data,jsonc,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json
 JSON5,data,,.json5,
 JSONiq,programming,,.jq,
@@ -402,7 +403,7 @@ M3U,data,hls playlist; m3u playlist,.m3u; .m3u8,
 M4,programming,,.m4; .mc,
 M4Sugar,programming,autoconf,.m4,configure.ac
 Macaulay2,programming,m2,.m2,
-Makefile,programming,bsdmake; make; mf,.mak; .d; .make; .makefile; .mk; .mkfile,BSDmakefile; GNUmakefile; Kbuild; Makefile; Makefile.am; Makefile.boot; Makefile.frag; Makefile.in; Makefile.inc; Makefile.wat; makefile; makefile.sco; mkfile
+Makefile,programming,bsdmake; make; mf,.mak; .d; .make; .makefile; .mk; .mkfile,BSDmakefile; GNUmakefile; Kbuild; Makefile; Makefile.am; Makefile.boot; Makefile.frag; Makefile.in; Makefile.inc; Makefile.pc; Makefile.wat; makefile; makefile.sco; mkfile
 Mako,programming,,.mako; .mao,
 Markdown,prose,md; pandoc,.md; .livemd; .markdown; .mdown; .mdwn; .mkd; .mkdn; .mkdown; .ronn; .scd; .workbook,contents.lr
 Marko,markup,markojs,.marko,
@@ -512,6 +513,7 @@ OpenType Feature File,data,AFDKO,.fea,
 Option List,data,opts; ackrc,,.ackrc; .rspec; .yardopts; ackrc; mocha.opts
 Org,prose,,.org,
 OverpassQL,programming,,.overpassql,
+OverPy,programming,opy,.opy,
 Ox,programming,,.ox; .oxh; .oxo,
 Oxygene,programming,,.oxygene,
 Oz,programming,,.oz,
@@ -535,6 +537,7 @@ PicoLisp,programming,,.l,
 PigLatin,programming,,.pig,
 Pike,programming,,.pike; .pmod,
 Pip Requirements,data,,,dev-requirements.txt; requirements-dev.txt; requirements.lock.txt; requirements.txt
+pkg-config,data,pkgconf,.pc; .pc.in,
 Pkl,programming,,.pkl,
 PlantUML,data,,.puml; .iuml; .plantuml,
 PLpgSQL,programming,,.pgsql; .sql,
@@ -548,10 +551,12 @@ Portugol,programming,,.por,
 PostCSS,markup,,.pcss; .postcss,
 PostScript,markup,postscr,.ps; .eps; .epsi; .pfa,
 POV-Ray SDL,programming,pov-ray; povray,.pov; .inc,
+Power Query,programming,powerquery,.pq,
 PowerBuilder,programming,,.pbt; .sra; .sru; .srw,
 PowerShell,programming,posh; pwsh,.ps1; .psd1; .psm1,
 Praat,programming,,.praat,
 Prisma,data,,.prisma,
+Pro*C,programming,,.pc,
 Processing,programming,,.pde,
 Procfile,programming,,,Procfile
 Proguard,data,,.pro,
@@ -578,6 +583,7 @@ Qt Script,programming,,.qs,installscript.qs; toolchain_installscript.qs
 Quake,programming,,,m3makefile; m3overrides
 QuakeC,programming,,.qc,
 QuickBASIC,programming,qb; qbasic; qb64; classic qbasic; classic quickbasic,.bas; .bi,
+Quint,programming,,.qnt,
 R,programming,Rscript; splus,.r; .rd; .rsx,.Rprofile; expr-dist
 Racket,programming,,.rkt; .rktd; .rktl; .scrbl,
 Ragel,programming,ragel-rb; ragel-ruby,.rl,
@@ -597,6 +603,7 @@ Record Jar,data,,,language-subtag-registry.txt
 Red,programming,red/system,.red; .reds,
 Redcode,programming,,.cw,
 Redirect Rules,data,redirects,,_redirects
+Redscript,programming,,.reds,
 Regular Expression,data,regexp; regex,.regexp; .regex,
 Ren'Py,programming,renpy,.rpy,
 RenderScript,programming,,.rs; .rsh,
@@ -609,7 +616,7 @@ Ring,programming,,.ring,
 Riot,markup,,.riot,
 RMarkdown,prose,,.qmd; .rmd,
 RobotFramework,programming,,.robot; .resource,
-robots.txt,data,robots; robots txt,,robots.txt
+Robots Exclusion Rules,data,robots; robots txt; robotx.txt,,robots.txt
 Roc,programming,,.roc,
 Rocq Prover,programming,coq; rocq,.v; .coq,
 Roff,markup,groff; man; manpage; man page; man-page; mdoc; nroff; troff,.roff; .1; .1in; .1m; .1x; .2; .3; .3in; .3m; .3p; .3pm; .3qt; .3x; .4; .5; .6; .7; .8; .9; .l; .man; .mdoc; .me; .ms; .n; .nr; .rno; .tmac,eqnrc; mmn; mmt; troffrc; troffrc-end
@@ -702,7 +709,7 @@ Terra,programming,,.t,
 Terraform Template,markup,,.tftpl,
 TeX,markup,latex,.tex; .aux; .bbx; .cbx; .cls; .dtx; .ins; .lbx; .ltx; .mkii; .mkiv; .mkvi; .sty; .toc,
 Texinfo,prose,,.texinfo; .texi; .txi,
-Text,prose,fundamental; plain text,.txt; .fr; .nb; .ncl; .no,CITATION; CITATIONS; COPYING; COPYING.regex; COPYRIGHT.regex; FONTLOG; INSTALL; INSTALL.mysql; LICENSE; LICENSE.mysql; NEWS; README.me; README.mysql; README.nss; click.me; delete.me; keep.me; package.mask; package.use.mask; package.use.stable.mask; read.me; readme.1st; test.me; use.mask; use.stable.mask
+Text,prose,fundamental; plain text,.txt; .fr; .nb; .ncl; .no,CITATION; CITATIONS; COPYING; COPYING.regex; COPYRIGHT.regex; FONTLOG; INSTALL; INSTALL.mysql; LICENSE; LICENSE.mysql; NEWS; README.me; README.mysql; README.nss; README.pc; click.me; delete.me; keep.me; package.mask; package.use.mask; package.use.stable.mask; read.me; readme.1st; test.me; use.mask; use.stable.mask
 TextGrid,data,,.TextGrid,
 Textile,prose,,.textile,
 TextMate Properties,data,tm-properties,,.tm_properties
@@ -736,7 +743,7 @@ Untyped Plutus Core,programming,,.uplc,
 UrWeb,programming,Ur/Web; Ur,.ur; .urs,
 V,programming,vlang,.v,
 Vala,programming,,.vala; .vapi,
-Valve Data Format,data,keyvalues; vdf,.vdf,
+Valve Data Format,data,keyvalues; vdf,.vdf; .vmf,
 VBA,programming,visual basic for applications,.bas; .cls; .frm; .vba,
 VBScript,programming,,.vbs,
 vCard,data,virtual contact file; electronic business card,.vcf,
