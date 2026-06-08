@@ -54,6 +54,7 @@
 .env.test
 .env.testing
 .envrc
+.eslint-ignore
 .eslintignore
 .eslintrc.json
 .exrc
@@ -194,6 +195,7 @@ Makefile.boot
 Makefile.frag
 Makefile.in
 Makefile.inc
+Makefile.pc
 Makefile.wat
 Mavenfile
 Modulefile
@@ -213,6 +215,7 @@ Puppetfile
 README.me
 README.mysql
 README.nss
+README.pc
 ROOT
 Rakefile
 Rexfile

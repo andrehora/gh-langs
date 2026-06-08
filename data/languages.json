@@ -286,6 +286,12 @@
       ".bal"
     ]
   },
+  "BAML": {
+    "type": "programming",
+    "extensions": [
+      ".baml"
+    ]
+  },
   "BASIC": {
     "type": "programming",
     "extensions": [
@@ -2288,6 +2294,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -2863,6 +2870,15 @@
       ".overpassql"
     ]
   },
+  "OverPy": {
+    "type": "programming",
+    "aliases": [
+      "opy"
+    ],
+    "extensions": [
+      ".opy"
+    ]
+  },
   "Ox": {
     "type": "programming",
     "extensions": [
@@ -3112,6 +3128,15 @@
       ".inc"
     ]
   },
+  "Power Query": {
+    "type": "programming",
+    "aliases": [
+      "powerquery"
+    ],
+    "extensions": [
+      ".pq"
+    ]
+  },
   "PowerBuilder": {
     "type": "programming",
     "extensions": [
@@ -3137,6 +3162,12 @@
     "type": "programming",
     "extensions": [
       ".praat"
+    ]
+  },
+  "Pro*C": {
+    "type": "programming",
+    "extensions": [
+      ".pc"
     ]
   },
   "Processing": {
@@ -3308,6 +3339,12 @@
       ".bi"
     ]
   },
+  "Quint": {
+    "type": "programming",
+    "extensions": [
+      ".qnt"
+    ]
+  },
   "R": {
     "type": "programming",
     "aliases": [
@@ -3425,6 +3462,12 @@
     "type": "programming",
     "extensions": [
       ".cw"
+    ]
+  },
+  "Redscript": {
+    "type": "programming",
+    "extensions": [
+      ".reds"
     ]
   },
   "Ren'Py": {
@@ -4839,8 +4882,7 @@
     "type": "data",
     "extensions": [
       ".desktop",
-      ".desktop.in",
-      ".service"
+      ".desktop.in"
     ]
   },
   "Diff": {
@@ -5228,6 +5270,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -5245,18 +5288,26 @@
   "INI": {
     "type": "data",
     "aliases": [
+      "conf",
       "dosini"
     ],
     "extensions": [
       ".ini",
       ".cfg",
       ".cnf",
+      ".container",
       ".dof",
       ".frm",
       ".lektorproject",
+      ".mount",
+      ".network",
       ".prefs",
       ".pro",
       ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
       ".url"
     ],
     "filenames": [
@@ -5322,6 +5373,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -5666,6 +5718,16 @@
       "requirements.txt"
     ]
   },
+  "pkg-config": {
+    "type": "data",
+    "aliases": [
+      "pkgconf"
+    ],
+    "extensions": [
+      ".pc",
+      ".pc.in"
+    ]
+  },
   "PlantUML": {
     "type": "data",
     "extensions": [
@@ -5781,11 +5843,12 @@
       ".regex"
     ]
   },
-  "robots.txt": {
+  "Robots Exclusion Rules": {
     "type": "data",
     "aliases": [
       "robots",
-      "robots txt"
+      "robots txt",
+      "robotx.txt"
     ],
     "filenames": [
       "robots.txt"
@@ -6052,7 +6115,8 @@
       "vdf"
     ],
     "extensions": [
-      ".vdf"
+      ".vdf",
+      ".vmf"
     ]
   },
   "vCard": {
@@ -7118,6 +7182,7 @@
       "README.me",
       "README.mysql",
       "README.nss",
+      "README.pc",
       "click.me",
       "delete.me",
       "keep.me",

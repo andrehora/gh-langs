@@ -251,8 +251,7 @@
   "desktop": {
     "extensions": [
       ".desktop",
-      ".desktop.in",
-      ".service"
+      ".desktop.in"
     ]
   },
   "Diff": {
@@ -599,6 +598,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -615,18 +615,26 @@
   },
   "INI": {
     "aliases": [
+      "conf",
       "dosini"
     ],
     "extensions": [
       ".ini",
       ".cfg",
       ".cnf",
+      ".container",
       ".dof",
       ".frm",
       ".lektorproject",
+      ".mount",
+      ".network",
       ".prefs",
       ".pro",
       ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
       ".url"
     ],
     "filenames": [
@@ -687,6 +695,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -994,6 +1003,15 @@
       "requirements.txt"
     ]
   },
+  "pkg-config": {
+    "aliases": [
+      "pkgconf"
+    ],
+    "extensions": [
+      ".pc",
+      ".pc.in"
+    ]
+  },
   "PlantUML": {
     "extensions": [
       ".puml",
@@ -1095,10 +1113,11 @@
       ".regex"
     ]
   },
-  "robots.txt": {
+  "Robots Exclusion Rules": {
     "aliases": [
       "robots",
-      "robots txt"
+      "robots txt",
+      "robotx.txt"
     ],
     "filenames": [
       "robots.txt"
@@ -1336,7 +1355,8 @@
       "vdf"
     ],
     "extensions": [
-      ".vdf"
+      ".vdf",
+      ".vmf"
     ]
   },
   "vCard": {

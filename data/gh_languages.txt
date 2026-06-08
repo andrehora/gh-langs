@@ -47,6 +47,7 @@ Awk
 B (Formal Method)
 B4X
 Ballerina
+BAML
 BASIC
 Batchfile
 Beef
@@ -511,6 +512,7 @@ OpenType Feature File
 Option List
 Org
 OverpassQL
+OverPy
 Ox
 Oxygene
 Oz
@@ -534,6 +536,7 @@ PicoLisp
 PigLatin
 Pike
 Pip Requirements
+pkg-config
 Pkl
 PlantUML
 PLpgSQL
@@ -547,10 +550,12 @@ Portugol
 PostCSS
 PostScript
 POV-Ray SDL
+Power Query
 PowerBuilder
 PowerShell
 Praat
 Prisma
+Pro*C
 Processing
 Procfile
 Proguard
@@ -577,6 +582,7 @@ Qt Script
 Quake
 QuakeC
 QuickBASIC
+Quint
 R
 Racket
 Ragel
@@ -596,6 +602,7 @@ Record Jar
 Red
 Redcode
 Redirect Rules
+Redscript
 Regular Expression
 Ren'Py
 RenderScript
@@ -608,7 +615,7 @@ Ring
 Riot
 RMarkdown
 RobotFramework
-robots.txt
+Robots Exclusion Rules
 Roc
 Rocq Prover
 Roff

@@ -1,15 +1,15 @@
 language,type,aliases_count,extensions_count,filenames_count
 Shell,programming,5,15,41
-Text,prose,2,5,25
+Text,prose,2,5,26
 Ruby,programming,5,22,23
-Ignore List,data,3,1,20
-JSON,data,4,21,18
+Ignore List,data,3,1,21
+JSON,data,4,22,18
 Dotenv,data,0,1,14
 JSON with Comments,data,1,18,14
-Makefile,programming,3,6,13
+Makefile,programming,3,6,14
 Emacs Lisp,programming,4,3,11
 XML,data,3,110,10
-INI,data,1,10,9
+INI,data,2,17,9
 TOML,data,0,2,9
 Checksums,data,5,12,8
 Starlark,programming,2,2,8
@@ -96,7 +96,7 @@ Procfile,programming,0,0,1
 Puppet,programming,0,1,1
 Record Jar,data,0,0,1
 Redirect Rules,data,1,0,1
-robots.txt,data,2,0,1
+Robots Exclusion Rules,data,3,0,1
 ShellCheck Config,data,1,0,1
 Singularity,programming,0,0,1
 Snakemake,programming,1,2,1
@@ -151,6 +151,7 @@ Awk,programming,0,5,0
 B (Formal Method),programming,0,1,0
 B4X,programming,1,1,0
 Ballerina,programming,0,1,0
+BAML,programming,0,1,0
 BASIC,programming,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
@@ -243,7 +244,7 @@ Daslang,programming,0,1,0
 DataWeave,programming,0,1,0
 Debian Package Control File,data,0,1,0
 DenizenScript,programming,0,1,0
-desktop,data,0,3,0
+desktop,data,0,2,0
 Dhall,programming,0,1,0
 Diff,data,1,2,0
 DIGITAL Command Language,programming,1,1,0
@@ -547,6 +548,7 @@ OpenStep Property List,data,0,2,0
 OpenType Feature File,data,1,1,0
 Org,prose,0,1,0
 OverpassQL,programming,0,1,0
+OverPy,programming,1,1,0
 Ox,programming,0,3,0
 Oxygene,programming,0,1,0
 Oz,programming,0,1,0
@@ -567,6 +569,7 @@ Pickle,data,0,1,0
 PicoLisp,programming,0,1,0
 PigLatin,programming,0,1,0
 Pike,programming,0,2,0
+pkg-config,data,1,2,0
 Pkl,programming,0,1,0
 PlantUML,data,0,3,0
 PLpgSQL,programming,0,2,0
@@ -580,10 +583,12 @@ Portugol,programming,0,1,0
 PostCSS,markup,0,2,0
 PostScript,markup,1,4,0
 POV-Ray SDL,programming,2,2,0
+Power Query,programming,1,1,0
 PowerBuilder,programming,0,4,0
 PowerShell,programming,2,3,0
 Praat,programming,0,1,0
 Prisma,data,0,1,0
+Pro*C,programming,0,1,0
 Processing,programming,0,1,0
 Proguard,data,0,1,0
 Prolog,programming,0,5,0
@@ -605,6 +610,7 @@ QMake,programming,0,2,0
 QML,programming,0,2,0
 QuakeC,programming,0,1,0
 QuickBASIC,programming,5,2,0
+Quint,programming,0,1,0
 Racket,programming,0,4,0
 Ragel,programming,2,1,0
 Raku,programming,2,13,0
@@ -620,6 +626,7 @@ ReasonLIGO,programming,0,1,0
 Rebol,programming,0,5,0
 Red,programming,1,2,0
 Redcode,programming,0,1,0
+Redscript,programming,0,1,0
 Regular Expression,data,2,2,0
 Ren'Py,programming,1,1,0
 RenderScript,programming,0,2,0
@@ -743,7 +750,7 @@ Untyped Plutus Core,programming,0,1,0
 UrWeb,programming,2,2,0
 V,programming,1,1,0
 Vala,programming,0,2,0
-Valve Data Format,data,2,1,0
+Valve Data Format,data,2,2,0
 VBA,programming,1,4,0
 VBScript,programming,0,1,0
 vCard,data,2,1,0

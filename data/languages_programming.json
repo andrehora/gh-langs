@@ -250,6 +250,11 @@
       ".bal"
     ]
   },
+  "BAML": {
+    "extensions": [
+      ".baml"
+    ]
+  },
   "BASIC": {
     "extensions": [
       ".bas"
@@ -2008,6 +2013,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -2507,6 +2513,14 @@
       ".overpassql"
     ]
   },
+  "OverPy": {
+    "aliases": [
+      "opy"
+    ],
+    "extensions": [
+      ".opy"
+    ]
+  },
   "Ox": {
     "extensions": [
       ".ox",
@@ -2728,6 +2742,14 @@
       ".inc"
     ]
   },
+  "Power Query": {
+    "aliases": [
+      "powerquery"
+    ],
+    "extensions": [
+      ".pq"
+    ]
+  },
   "PowerBuilder": {
     "extensions": [
       ".pbt",
@@ -2750,6 +2772,11 @@
   "Praat": {
     "extensions": [
       ".praat"
+    ]
+  },
+  "Pro*C": {
+    "extensions": [
+      ".pc"
     ]
   },
   "Processing": {
@@ -2902,6 +2929,11 @@
       ".bi"
     ]
   },
+  "Quint": {
+    "extensions": [
+      ".qnt"
+    ]
+  },
   "R": {
     "aliases": [
       "Rscript",
@@ -3007,6 +3039,11 @@
   "Redcode": {
     "extensions": [
       ".cw"
+    ]
+  },
+  "Redscript": {
+    "extensions": [
+      ".reds"
     ]
   },
   "Ren'Py": {
