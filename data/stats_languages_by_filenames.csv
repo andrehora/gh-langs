@@ -39,6 +39,7 @@ Dockerfile,programming,1,2,2
 Factor,programming,0,1,2
 Git Config,data,2,1,2
 Go Checksums,data,4,0,2
+GtkRC,data,3,1,2
 HOCON,data,0,1,2
 KCL,programming,0,1,2
 Lex,programming,1,2,2

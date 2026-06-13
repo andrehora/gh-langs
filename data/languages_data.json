@@ -534,6 +534,20 @@
       ".gv"
     ]
   },
+  "GtkRC": {
+    "aliases": [
+      "gtk",
+      "gtk 1",
+      "gtk 2"
+    ],
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ]
+  },
   "HAProxy": {
     "extensions": [
       ".cfg"

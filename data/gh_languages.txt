@@ -269,6 +269,7 @@ Graphviz (DOT)
 Groovy
 Groovy Server Pages
 GSC
+GtkRC
 Hack
 Haml
 Handlebars

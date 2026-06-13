@@ -302,6 +302,8 @@ go.work
 go.work.sum
 gradlew
 gradlew.bat
+gtkrc
+gtkrc-2.0
 gvimrc
 haproxy.cfg
 hosts

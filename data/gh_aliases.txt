@@ -166,6 +166,9 @@ golang
 gotmpl
 groff
 gsp
+gtk
+gtk 1
+gtk 2
 gts
 hash
 hashes
