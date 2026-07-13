@@ -134,6 +134,7 @@
 .bison
 .blade
 .blade.php
+.blp
 .bmx
 .bones
 .boo
@@ -479,6 +480,7 @@
 .gsp
 .gst
 .gsx
+.gtkrc
 .gtl
 .gto
 .gtp
