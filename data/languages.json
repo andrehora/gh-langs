@@ -5093,7 +5093,9 @@
     ],
     "filenames": [
       ".gitconfig",
-      ".gitmodules"
+      ".gitmodules",
+      ".tgitconfig",
+      "config.worktree"
     ]
   },
   "Git Revision List": {
@@ -5199,6 +5201,21 @@
       ".gv"
     ]
   },
+  "GtkRC": {
+    "type": "data",
+    "aliases": [
+      "gtk",
+      "gtk 1",
+      "gtk 2"
+    ],
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ]
+  },
   "HAProxy": {
     "type": "data",
     "extensions": [
@@ -5265,6 +5282,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -5278,6 +5296,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -6457,6 +6476,15 @@
     "extensions": [
       ".blade",
       ".blade.php"
+    ]
+  },
+  "Blueprint": {
+    "type": "markup",
+    "aliases": [
+      "blp"
+    ],
+    "extensions": [
+      ".blp"
     ]
   },
   "Bru": {

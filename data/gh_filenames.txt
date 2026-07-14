@@ -20,6 +20,7 @@
 .buckconfig
 .bzrignore
 .c8rc
+.ckignore
 .clang-format
 .clang-tidy
 .clangd
@@ -102,6 +103,7 @@
 .project
 .pryrc
 .pylintrc
+.rgignore
 .rspec
 .scalafix.conf
 .scalafmt.conf
@@ -112,6 +114,7 @@
 .swcrc
 .tern-config
 .tern-project
+.tgitconfig
 .tm_properties
 .tmux.conf
 .vercelignore
@@ -269,6 +272,7 @@ checksums.txt
 cksums
 click.me
 composer.lock
+config.worktree
 configure.ac
 contents.lr
 cpanfile
@@ -302,6 +306,8 @@ go.work
 go.work.sum
 gradlew
 gradlew.bat
+gtkrc
+gtkrc-2.0
 gvimrc
 haproxy.cfg
 hosts

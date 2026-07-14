@@ -70,6 +70,7 @@ be
 bh
 blitz3d
 blitzplus
+blp
 bluespec bsv
 bluespec classic
 bmax
@@ -166,6 +167,9 @@ golang
 gotmpl
 groff
 gsp
+gtk
+gtk 1
+gtk 2
 gts
 hash
 hashes

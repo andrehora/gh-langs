@@ -1,8 +1,8 @@
 language,type,aliases_count,extensions_count,filenames_count
 Shell,programming,5,15,41
 Text,prose,2,5,26
+Ignore List,data,3,1,23
 Ruby,programming,5,22,23
-Ignore List,data,3,1,21
 JSON,data,4,22,18
 Dotenv,data,0,1,14
 JSON with Comments,data,1,18,14
@@ -24,6 +24,7 @@ Python,programming,4,17,5
 Roff,markup,8,28,5
 SELinux Policy,data,2,1,5
 Erlang,programming,0,8,4
+Git Config,data,2,1,4
 PHP,programming,1,10,4
 Pip Requirements,data,0,0,4
 X Font Directory Index,data,0,0,4
@@ -37,8 +38,8 @@ Cabal Config,data,1,1,2
 cURL Config,data,1,0,2
 Dockerfile,programming,1,2,2
 Factor,programming,0,1,2
-Git Config,data,2,1,2
 Go Checksums,data,4,0,2
+GtkRC,data,3,1,2
 HOCON,data,0,1,2
 KCL,programming,0,1,2
 Lex,programming,1,2,2
@@ -165,6 +166,7 @@ BitBake,programming,0,4,0
 Blade,markup,0,2,0
 BlitzBasic,programming,4,2,0
 BlitzMax,programming,1,1,0
+Blueprint,markup,1,1,0
 Bluespec,programming,2,1,0
 Bluespec BH,programming,2,1,0
 Boo,programming,0,1,0

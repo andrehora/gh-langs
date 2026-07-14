@@ -24,10 +24,11 @@ ActionScript,programming,3,1,0
 AutoIt,programming,3,1,0
 C#,programming,3,5,0
 ColdFusion,programming,3,2,0
+GtkRC,data,3,1,2
 HCL,programming,3,6,0
 HTML+EEX,markup,3,3,0
 HTML+ERB,markup,3,3,0
-Ignore List,data,3,1,21
+Ignore List,data,3,1,23
 Makefile,programming,3,6,14
 Objective-C,programming,3,2,0
 Objective-C++,programming,3,1,0
@@ -51,7 +52,7 @@ CoffeeScript,programming,2,5,1
 CoNLL-U,data,2,2,0
 crontab,data,2,0,1
 Genshi,programming,2,1,0
-Git Config,data,2,1,2
+Git Config,data,2,1,4
 Go Module,data,2,0,1
 Go Workspace,data,2,0,1
 Groovy Server Pages,programming,2,1,0
@@ -107,6 +108,7 @@ AutoHotkey,programming,1,2,0
 B4X,programming,1,1,0
 Berry,programming,1,1,0
 BlitzMax,programming,1,1,0
+Blueprint,markup,1,1,0
 C++,programming,1,20,0
 C2hs Haskell,programming,1,1,0
 Cabal Config,data,1,1,2

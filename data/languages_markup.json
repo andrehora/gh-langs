@@ -33,6 +33,14 @@
       ".blade.php"
     ]
   },
+  "Blueprint": {
+    "aliases": [
+      "blp"
+    ],
+    "extensions": [
+      ".blp"
+    ]
+  },
   "Bru": {
     "extensions": [
       ".bru"

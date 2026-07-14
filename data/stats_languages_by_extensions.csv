@@ -320,6 +320,7 @@ BibTeX Style,programming,0,1,0
 Bikeshed,markup,0,1,0
 Bison,programming,0,1,0
 BlitzMax,programming,1,1,0
+Blueprint,markup,1,1,0
 Bluespec,programming,2,1,0
 Bluespec BH,programming,2,1,0
 Boo,programming,0,1,0
@@ -433,7 +434,7 @@ Genie,programming,0,1,0
 Genshi,programming,2,1,0
 Gentoo Ebuild,programming,0,1,0
 Gentoo Eclass,programming,0,1,0
-Git Config,data,2,1,2
+Git Config,data,2,1,4
 Gleam,programming,0,1,0
 Glimmer JS,programming,1,1,0
 Glimmer TS,programming,1,1,0
@@ -447,6 +448,7 @@ Gradle Kotlin DSL,data,0,1,0
 Grammatical Framework,programming,1,1,0
 Graph Modeling Language,data,0,1,0
 Groovy Server Pages,programming,2,1,0
+GtkRC,data,3,1,2
 HAProxy,data,0,1,1
 Harbour,programming,0,1,0
 Hare,programming,0,1,0
@@ -461,7 +463,7 @@ Hurl,programming,0,1,0
 HXML,data,0,1,0
 Hy,programming,1,1,0
 HyPhy,programming,0,1,0
-Ignore List,data,3,1,21
+Ignore List,data,3,1,23
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 ImageJ Macro,programming,1,1,0
