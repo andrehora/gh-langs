@@ -77,7 +77,7 @@ IRC log,irc; irc logs,.irclog; .weechatlog,
 JAR Manifest,,,MANIFEST.MF
 Java Properties,,.properties,
 Jest Snapshot,,.snap,
-JSON,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
+JSON,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .secrets.baseline; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
 JSON with Comments,jsonc,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json
 JSON5,,.json5,
 JSONLD,,.jsonld,

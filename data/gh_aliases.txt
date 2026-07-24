@@ -154,6 +154,7 @@ gitconfig
 gitignore
 gitmodules
 gjs
+gnolang
 gnu asm
 go mod
 go sum
