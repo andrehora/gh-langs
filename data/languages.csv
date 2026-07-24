@@ -252,6 +252,7 @@ GLSL,programming,,.glsl; .fp; .frag; .frg; .fs; .fsh; .fshader; .geo; .geom; .gl
 Glyph,programming,,.glf,
 Glyph Bitmap Distribution Format,data,,.bdf,
 GN,data,,.gn; .gni,.gn
+Gno,programming,gnolang,.gno,
 Gnuplot,programming,,.gp; .gnu; .gnuplot; .p; .plot; .plt,
 Go,programming,golang,.go,
 Go Checksums,data,go.sum; go sum; go.work.sum; go work sum,,go.sum; go.work.sum
@@ -338,7 +339,7 @@ Jison,programming,,.jison,
 Jison Lex,programming,,.jisonlex,
 Jolie,programming,,.ol; .iol,
 jq,programming,,.jq,
-JSON,data,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
+JSON,data,geojson; jsonl; sarif; topojson,.json; .4DForm; .4DProject; .avsc; .geojson; .gltf; .har; .ice; .JSON-tmLanguage; .json.example; .jsonl; .mcmeta; .sarif; .slnlaunch; .tact; .tfstate; .tfstate.backup; .topojson; .webapp; .webmanifest; .yy; .yyp,.all-contributorsrc; .arcconfig; .auto-changelog; .c8rc; .htmlhintrc; .imgbotconfig; .nycrc; .secrets.baseline; .tern-config; .tern-project; .watchmanconfig; MODULE.bazel.lock; Package.resolved; Pipfile.lock; bun.lock; composer.lock; deno.lock; flake.lock; mcmod.info
 JSON with Comments,data,jsonc,.jsonc; .code-snippets; .code-workspace; .sublime-build; .sublime-color-scheme; .sublime-commands; .sublime-completions; .sublime-keymap; .sublime-macro; .sublime-menu; .sublime-mousemap; .sublime-project; .sublime-settings; .sublime-theme; .sublime-workspace; .sublime_metrics; .sublime_session; .tsconfig.json,.babelrc; .devcontainer.json; .eslintrc.json; .jscsrc; .jshintrc; .jslintrc; .oxlintrc.json; .swcrc; api-extractor.json; devcontainer.json; jsconfig.json; language-configuration.json; tsconfig.json; tslint.json
 JSON5,data,,.json5,
 JSONiq,programming,,.jq,

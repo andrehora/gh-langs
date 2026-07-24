@@ -14,7 +14,7 @@ E-mail,data,4,2,0
 Emacs Lisp,programming,4,3,11
 Go Checksums,data,4,0,2
 Jinja,markup,4,3,0
-JSON,data,4,22,18
+JSON,data,4,22,19
 Python,programming,4,17,5
 SSH Config,data,4,0,6
 Vim Script,programming,4,4,8
@@ -154,6 +154,7 @@ Git Commit,data,1,0,1
 Git Revision List,data,1,0,1
 Glimmer JS,programming,1,1,0
 Glimmer TS,programming,1,1,0
+Gno,programming,1,1,0
 Go,programming,1,1,0
 Go Template,markup,1,5,1
 Grammatical Framework,programming,1,1,0
