@@ -107,6 +107,7 @@
 .rspec
 .scalafix.conf
 .scalafmt.conf
+.secrets.baseline
 .shellcheckrc
 .simplecov
 .spacemacs

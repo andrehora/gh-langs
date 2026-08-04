@@ -453,6 +453,7 @@
 .gmx
 .gn
 .gni
+.gno
 .gnu
 .gnuplot
 .go

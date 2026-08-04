@@ -1450,6 +1450,15 @@
       ".glf"
     ]
   },
+  "Gno": {
+    "type": "programming",
+    "aliases": [
+      "gnolang"
+    ],
+    "extensions": [
+      ".gno"
+    ]
+  },
   "Gnuplot": {
     "type": "programming",
     "extensions": [
@@ -5410,6 +5419,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".secrets.baseline",
       ".tern-config",
       ".tern-project",
       ".watchmanconfig",
