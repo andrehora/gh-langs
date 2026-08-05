@@ -1272,6 +1272,14 @@
       ".glf"
     ]
   },
+  "Gno": {
+    "aliases": [
+      "gnolang"
+    ],
+    "extensions": [
+      ".gno"
+    ]
+  },
   "Gnuplot": {
     "extensions": [
       ".gp",

@@ -3,7 +3,7 @@ XML,data,3,110,10
 Roff,markup,8,28,5
 JavaScript,programming,2,25,1
 GLSL,programming,0,23,0
-JSON,data,4,22,18
+JSON,data,4,22,19
 Ruby,programming,5,22,23
 C++,programming,1,20,0
 Roff Manpage,markup,0,20,0
@@ -440,6 +440,7 @@ Glimmer JS,programming,1,1,0
 Glimmer TS,programming,1,1,0
 Glyph,programming,0,1,0
 Glyph Bitmap Distribution Format,data,0,1,0
+Gno,programming,1,1,0
 Go,programming,1,1,0
 Golo,programming,0,1,0
 Grace,programming,0,1,0
