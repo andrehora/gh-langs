@@ -1,18 +1,18 @@
 language,type,aliases_count,extensions_count,filenames_count
-XML,data,3,110,10
+XML,data,3,112,10
 Roff,markup,8,28,5
 JavaScript,programming,2,25,1
 GLSL,programming,0,23,0
-JSON,data,4,22,19
+JSON,data,4,22,20
 Ruby,programming,5,22,23
 C++,programming,1,20,0
 Roff Manpage,markup,0,20,0
-JSON with Comments,data,1,18,14
-INI,data,2,17,9
+JSON with Comments,data,1,19,15
+INI,data,2,17,10
 Python,programming,4,17,5
 Gerber Image,data,1,16,0
 PLSQL,programming,0,16,0
-Shell,programming,5,15,41
+Shell,programming,5,16,41
 TeX,markup,1,14,0
 Raku,programming,2,13,0
 Checksums,data,5,12,8
@@ -21,7 +21,7 @@ Clojure,programming,0,10,1
 Perl,programming,1,10,6
 PHP,programming,1,10,4
 Wolfram Language,programming,5,10,0
-YAML,data,1,10,8
+YAML,data,1,10,10
 Common Lisp,programming,1,8,0
 Erlang,programming,0,8,4
 Forth,programming,0,8,0
@@ -36,6 +36,7 @@ Stata,programming,0,7,0
 Unity3D Asset,data,0,7,0
 XML Property List,data,0,7,0
 ASP.NET,programming,2,6,0
+CoffeeScript,programming,2,6,1
 Gnuplot,programming,0,6,0
 HCL,programming,3,6,0
 Makefile,programming,3,6,14
@@ -47,7 +48,6 @@ Awk,programming,0,5,0
 C,programming,0,5,0
 C#,programming,3,5,0
 COBOL,programming,0,5,0
-CoffeeScript,programming,2,5,1
 Cpp-ObjDump,data,1,5,0
 GAP,programming,0,5,0
 Go Template,markup,1,5,1
@@ -61,6 +61,7 @@ Text,prose,2,5,26
 Visual Basic 6.0,programming,5,5,0
 XQuery,programming,0,5,0
 Altium Designer,data,1,4,0
+AutoHotkey,programming,1,4,0
 BitBake,programming,0,4,0
 Dylan,programming,0,4,0
 EJS,markup,0,4,0
@@ -76,12 +77,13 @@ Modula-3,programming,0,4,0
 PostScript,markup,1,4,0
 PowerBuilder,programming,0,4,0
 Protocol Buffer Text Format,data,2,4,0
+R,programming,2,4,4
 Racket,programming,0,4,0
 reStructuredText,prose,1,4,0
 Scala,programming,0,4,0
 Standard ML,programming,1,4,0
 VBA,programming,1,4,0
-Vim Script,programming,4,4,8
+Vim script,programming,4,4,8
 Ada,programming,2,3,0
 Antlers,markup,0,3,0
 Apex,programming,0,3,0
@@ -113,7 +115,6 @@ Ox,programming,0,3,0
 Pawn,programming,0,3,0
 PlantUML,data,0,3,0
 PowerShell,programming,2,3,0
-R,programming,2,3,2
 REXX,programming,1,3,0
 ROS Interface,data,1,3,0
 Scilab,programming,0,3,0
@@ -136,7 +137,6 @@ APL,programming,0,2,0
 AppleScript,programming,2,2,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
-AutoHotkey,programming,1,2,0
 Batchfile,programming,4,2,2
 Befunge,programming,0,2,0
 BibTeX,markup,0,2,0
@@ -171,6 +171,7 @@ F*,programming,1,2,0
 Fancy,programming,0,2,1
 FLUX,programming,0,2,0
 Formatted,data,0,2,0
+FPP,programming,0,2,0
 FreeBASIC,programming,1,2,0
 FreeMarker,programming,1,2,0
 GDB,programming,0,2,0
@@ -296,6 +297,7 @@ Agda,programming,0,1,0
 AIDL,programming,0,1,0
 Aiken,programming,0,1,0
 AL,programming,0,1,0
+Aleo,programming,0,1,0
 ALGOL,programming,0,1,0
 Alloy,programming,0,1,0
 Answer Set Programming,programming,0,1,0
@@ -309,11 +311,13 @@ Asymptote,programming,0,1,0
 Augeas,programming,0,1,0
 AutoIt,programming,3,1,0
 Avro IDL,data,0,1,0
+B,programming,0,1,0
 B (Formal Method),programming,0,1,0
 B4X,programming,1,1,0
 Ballerina,programming,0,1,0
 BAML,programming,0,1,0
 BASIC,programming,0,1,0
+BBCode,markup,0,1,0
 Beef,programming,0,1,0
 Berry,programming,1,1,0
 BibTeX Style,programming,0,1,0
@@ -464,11 +468,12 @@ Hurl,programming,0,1,0
 HXML,data,0,1,0
 Hy,programming,1,1,0
 HyPhy,programming,0,1,0
-Ignore List,data,3,1,23
+Ignore List,data,3,1,24
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 ImageJ Macro,programming,1,1,0
 Imba,programming,0,1,0
+ImHex Pattern Language,programming,3,1,0
 Ink,programming,0,1,0
 Io,programming,0,1,0
 Ioke,programming,0,1,0
@@ -479,6 +484,7 @@ Jac,programming,0,1,0
 Jai,programming,0,1,0
 Janet,programming,0,1,0
 Jasmin,programming,0,1,0
+JASS,programming,1,1,0
 Java Properties,data,0,1,0
 Java Template Engine,programming,1,1,0
 JavaScript+ERB,programming,0,1,0
@@ -523,6 +529,7 @@ Literate Agda,programming,0,1,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+Lobster,programming,0,1,0
 LOLCODE,programming,0,1,0
 LoomScript,programming,0,1,0
 LTspice Symbol,data,0,1,0
@@ -540,6 +547,7 @@ MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
 MiniD,programming,0,1,0
+MiniScript,programming,0,1,0
 MiniZinc,programming,0,1,0
 MiniZinc Data,data,0,1,0
 Mint,programming,0,1,0
@@ -660,7 +668,7 @@ RouterOS Script,programming,0,1,0
 RPC,programming,3,1,0
 RPM Spec,data,1,1,0
 Sail,programming,0,1,0
-SaltStack,programming,2,1,0
+Salt,programming,2,1,0
 SAS,programming,0,1,0
 Sass,markup,0,1,0
 Scaml,markup,0,1,0
@@ -705,6 +713,7 @@ Sweave,prose,0,1,0
 Swift,programming,0,1,0
 Tact,programming,0,1,0
 Talon,programming,0,1,0
+Tape,programming,1,1,0
 Tea,markup,0,1,0
 Teal,programming,0,1,0
 templ,markup,0,1,0
@@ -717,6 +726,7 @@ TL-Verilog,programming,0,1,0
 TLA,programming,0,1,0
 TMDL,data,1,1,0
 Toit,programming,0,1,0
+Tolk,programming,0,1,0
 Tree-sitter Query,programming,1,1,0
 TSPLIB data,data,2,1,0
 TSQL,programming,0,1,0
@@ -727,6 +737,7 @@ TXL,programming,0,1,0
 Type Language,data,1,1,0
 TypeSpec,programming,1,1,0
 Typst,programming,1,1,0
+ucode,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Uno,programming,0,1,0
 UnrealScript,programming,0,1,0
@@ -737,6 +748,7 @@ vCard,data,2,1,0
 VCL,programming,0,1,0
 Velocity Template Language,markup,2,1,0
 Vento,markup,0,1,0
+Verse,programming,0,1,0
 Vim Help File,prose,2,1,0
 Volt,programming,0,1,0
 Vue,markup,0,1,0
@@ -771,6 +783,7 @@ Zephir,programming,0,1,0
 Zmodel,data,0,1,0
 Alpine Abuild,programming,2,0,1
 Ant Build System,data,0,0,2
+BIRD2,data,2,0,1
 Browserslist,data,0,0,2
 Cloud Firestore Security Rules,data,0,0,1
 CODEOWNERS,data,0,0,1
@@ -781,7 +794,7 @@ Earthly,programming,1,0,1
 Elvish Transcript,programming,0,0,0
 Gemfile.lock,data,0,0,1
 Git Attributes,data,1,0,1
-Git Commit,data,1,0,1
+Git Commit,data,1,0,2
 Git Revision List,data,1,0,1
 Go Checksums,data,4,0,2
 Go Module,data,2,0,1

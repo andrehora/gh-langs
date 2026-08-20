@@ -3,7 +3,7 @@ Roff,markup,8,28,5
 Checksums,data,5,12,8
 QuickBASIC,programming,5,2,0
 Ruby,programming,5,22,23
-Shell,programming,5,15,41
+Shell,programming,5,16,41
 Visual Basic 6.0,programming,5,5,0
 Wolfram Language,programming,5,10,0
 Adblock Filter List,data,4,1,0
@@ -14,10 +14,10 @@ E-mail,data,4,2,0
 Emacs Lisp,programming,4,3,11
 Go Checksums,data,4,0,2
 Jinja,markup,4,3,0
-JSON,data,4,22,19
+JSON,data,4,22,20
 Python,programming,4,17,5
 SSH Config,data,4,0,6
-Vim Script,programming,4,4,8
+Vim script,programming,4,4,8
 Vim Snippet,markup,4,3,0
 Visual Basic .NET,programming,4,2,0
 ActionScript,programming,3,1,0
@@ -28,7 +28,8 @@ GtkRC,data,3,1,2
 HCL,programming,3,6,0
 HTML+EEX,markup,3,3,0
 HTML+ERB,markup,3,3,0
-Ignore List,data,3,1,23
+Ignore List,data,3,1,24
+ImHex Pattern Language,programming,3,1,0
 Makefile,programming,3,6,14
 Objective-C,programming,3,2,0
 Objective-C++,programming,3,1,0
@@ -39,16 +40,17 @@ Robots Exclusion Rules,data,3,0,1
 RPC,programming,3,1,0
 Unix Assembly,programming,3,2,0
 xBase,programming,3,3,0
-XML,data,3,110,10
+XML,data,3,112,10
 Ada,programming,2,3,0
 Alpine Abuild,programming,2,0,1
 ApacheConf,data,2,2,3
 AppleScript,programming,2,2,0
 ASP.NET,programming,2,6,0
 Assembly,programming,2,7,0
+BIRD2,data,2,0,1
 Bluespec,programming,2,1,0
 Bluespec BH,programming,2,1,0
-CoffeeScript,programming,2,5,1
+CoffeeScript,programming,2,6,1
 CoNLL-U,data,2,2,0
 crontab,data,2,0,1
 Genshi,programming,2,1,0
@@ -60,7 +62,7 @@ Handlebars,markup,2,2,0
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 Inform 7,programming,2,2,0
-INI,data,2,17,9
+INI,data,2,17,10
 IRC log,data,2,2,0
 JavaScript,programming,2,25,1
 KakouneScript,programming,2,1,1
@@ -78,14 +80,14 @@ Pascal,programming,2,7,0
 POV-Ray SDL,programming,2,2,0
 PowerShell,programming,2,3,0
 Protocol Buffer Text Format,data,2,4,0
-R,programming,2,3,2
+R,programming,2,4,4
 Ragel,programming,2,1,0
 Raku,programming,2,13,0
 Readline Config,data,2,0,2
 Regular Expression,data,2,2,0
 Rocq Prover,programming,2,2,0
 RPGLE,programming,2,2,0
-SaltStack,programming,2,1,0
+Salt,programming,2,1,0
 SELinux Policy,data,2,1,5
 ShellSession,programming,2,1,0
 Starlark,programming,2,2,8
@@ -104,7 +106,7 @@ YASnippet,markup,2,1,0
 AGS Script,programming,1,2,0
 Altium Designer,data,1,4,0
 ATS,programming,1,3,0
-AutoHotkey,programming,1,2,0
+AutoHotkey,programming,1,4,0
 B4X,programming,1,1,0
 Berry,programming,1,1,0
 BlitzMax,programming,1,1,0
@@ -150,7 +152,7 @@ Gerber Image,data,1,16,0
 Gettext Catalog,prose,1,2,0
 Gherkin,programming,1,2,0
 Git Attributes,data,1,0,1
-Git Commit,data,1,0,1
+Git Commit,data,1,0,2
 Git Revision List,data,1,0,1
 Glimmer JS,programming,1,1,0
 Glimmer TS,programming,1,1,0
@@ -165,10 +167,11 @@ HTML+Razor,markup,1,2,0
 Hy,programming,1,1,0
 iCalendar,data,1,2,0
 ImageJ Macro,programming,1,1,0
+JASS,programming,1,1,0
 Java Server Pages,programming,1,2,0
 Java Template Engine,programming,1,1,0
 JetBrains MPS,programming,1,3,0
-JSON with Comments,data,1,18,14
+JSON with Comments,data,1,19,15
 Jupyter Notebook,markup,1,1,1
 Just,programming,1,1,6
 Kaitai Struct,programming,1,1,0
@@ -226,6 +229,7 @@ Snakemake,programming,1,2,1
 SourcePawn,programming,1,2,0
 Standard ML,programming,1,4,0
 SurrealQL,programming,1,1,0
+Tape,programming,1,1,0
 TeX,markup,1,14,0
 TextMate Properties,data,1,0,1
 TMDL,data,1,1,0
@@ -248,7 +252,7 @@ X BitMap,data,1,1,0
 X PixMap,data,1,2,0
 X10,programming,1,1,0
 XSLT,programming,1,2,0
-YAML,data,1,10,8
+YAML,data,1,10,10
 Zeek,programming,1,2,0
 1C Enterprise,programming,0,2,0
 2-Dimensional Array,data,0,1,0
@@ -260,6 +264,7 @@ Agda,programming,0,1,0
 AIDL,programming,0,1,0
 Aiken,programming,0,1,0
 AL,programming,0,1,0
+Aleo,programming,0,1,0
 ALGOL,programming,0,1,0
 Alloy,programming,0,1,0
 AMPL,programming,0,2,0
@@ -282,10 +287,12 @@ Asymptote,programming,0,1,0
 Augeas,programming,0,1,0
 Avro IDL,data,0,1,0
 Awk,programming,0,5,0
+B,programming,0,1,0
 B (Formal Method),programming,0,1,0
 Ballerina,programming,0,1,0
 BAML,programming,0,1,0
 BASIC,programming,0,1,0
+BBCode,markup,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
 BibTeX,markup,0,2,0
@@ -403,6 +410,7 @@ Formatted,data,0,2,0
 Forth,programming,0,8,0
 Fortran,programming,0,4,0
 Fortran Free Form,programming,0,4,0
+FPP,programming,0,2,0
 Frege,programming,0,1,0
 Futhark,programming,0,1,0
 G-code,programming,0,4,0
@@ -520,6 +528,7 @@ Liquidsoap,programming,0,1,0
 Literate Agda,programming,0,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+Lobster,programming,0,1,0
 Logos,programming,0,3,0
 Logtalk,programming,0,2,0
 LOLCODE,programming,0,1,0
@@ -545,6 +554,7 @@ MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
 MiniD,programming,0,1,0
+MiniScript,programming,0,1,0
 MiniYAML,data,0,2,0
 MiniZinc,programming,0,1,0
 MiniZinc Data,data,0,1,0
@@ -760,12 +770,14 @@ TI Program,programming,0,2,0
 TL-Verilog,programming,0,1,0
 TLA,programming,0,1,0
 Toit,programming,0,1,0
+Tolk,programming,0,1,0
 TOML,data,0,2,9
 TSQL,programming,0,1,0
 Turing,programming,0,2,0
 Turtle,data,0,1,0
 Twig,markup,0,1,0
 TXL,programming,0,1,0
+ucode,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Unity3D Asset,data,0,7,0
 Uno,programming,0,1,0
@@ -776,6 +788,7 @@ VBScript,programming,0,1,0
 VCL,programming,0,1,0
 Vento,markup,0,1,0
 Verilog,programming,0,2,0
+Verse,programming,0,1,0
 VHDL,programming,0,8,0
 Volt,programming,0,1,0
 Vue,markup,0,1,0

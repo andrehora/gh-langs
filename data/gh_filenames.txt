@@ -1,9 +1,12 @@
 .JUSTFILE
 .Justfile
+.Rapp.history
+.Rhistory
 .Rprofile
 .XCompose
 .abbrev_defs
 .ackrc
+.agignore
 .all-contributorsrc
 .arcconfig
 .atomignore
@@ -57,6 +60,7 @@
 .envrc
 .eslint-ignore
 .eslintignore
+.eslintrc
 .eslintrc.json
 .exrc
 .factor-boot-rc
@@ -69,7 +73,9 @@
 .gitattributes
 .gitconfig
 .gitignore
+.gitmessage
 .gitmodules
+.gitreview
 .gn
 .gnus
 .gvimrc
@@ -103,6 +109,7 @@
 .project
 .pryrc
 .pylintrc
+.releaserc
 .rgignore
 .rspec
 .scalafix.conf
@@ -262,6 +269,7 @@ bash_aliases
 bash_logout
 bash_profile
 bashrc
+bird.conf
 browserslist
 build.xml
 buildfile
