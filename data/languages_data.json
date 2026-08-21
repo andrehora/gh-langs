@@ -74,6 +74,15 @@
       ".avdl"
     ]
   },
+  "BIRD2": {
+    "aliases": [
+      "bird",
+      "bird3"
+    ],
+    "filenames": [
+      "bird.conf"
+    ]
+  },
   "Browserslist": {
     "filenames": [
       ".browserslistrc",
@@ -427,6 +436,7 @@
       "commit"
     ],
     "filenames": [
+      ".gitmessage",
       "COMMIT_EDITMSG"
     ]
   },
@@ -606,6 +616,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -659,6 +670,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -731,6 +743,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -753,6 +766,7 @@
       ".jsonc",
       ".code-snippets",
       ".code-workspace",
+      ".hujson",
       ".sublime-build",
       ".sublime-color-scheme",
       ".sublime-commands",
@@ -772,6 +786,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -1520,6 +1535,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -1541,6 +1557,7 @@
       ".pt",
       ".pubxml",
       ".qhelp",
+      ".rbxmx",
       ".rdf",
       ".res",
       ".resx",
@@ -1641,7 +1658,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",

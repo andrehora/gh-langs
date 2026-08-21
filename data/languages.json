@@ -81,6 +81,12 @@
       ".al"
     ]
   },
+  "Aleo": {
+    "type": "programming",
+    "extensions": [
+      ".aleo"
+    ]
+  },
   "ALGOL": {
     "type": "programming",
     "extensions": [
@@ -241,6 +247,8 @@
     ],
     "extensions": [
       ".ahk",
+      ".ah1",
+      ".ah2",
       ".ahkl"
     ]
   },
@@ -263,6 +271,12 @@
       ".gawk",
       ".mawk",
       ".nawk"
+    ]
+  },
+  "B": {
+    "type": "programming",
+    "extensions": [
+      ".b"
     ]
   },
   "B (Formal Method)": {
@@ -716,6 +730,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -1253,6 +1268,13 @@
       ".f95"
     ]
   },
+  "FPP": {
+    "type": "programming",
+    "extensions": [
+      ".fpp",
+      ".fppi"
+    ]
+  },
   "FreeBASIC": {
     "type": "programming",
     "aliases": [
@@ -1696,6 +1718,17 @@
       ".imba"
     ]
   },
+  "ImHex Pattern Language": {
+    "type": "programming",
+    "aliases": [
+      "ImHex",
+      "ImHexPatternLanguage",
+      "imhexpl"
+    ],
+    "extensions": [
+      ".hexpat"
+    ]
+  },
   "Inform 7": {
     "type": "programming",
     "aliases": [
@@ -1776,6 +1809,15 @@
   },
   "Jasmin": {
     "type": "programming",
+    "extensions": [
+      ".j"
+    ]
+  },
+  "JASS": {
+    "type": "programming",
+    "aliases": [
+      "jass2"
+    ],
     "extensions": [
       ".j"
     ]
@@ -2177,6 +2219,12 @@
       ".ll"
     ]
   },
+  "Lobster": {
+    "type": "programming",
+    "extensions": [
+      ".lobster"
+    ]
+  },
   "Logos": {
     "type": "programming",
     "extensions": [
@@ -2390,6 +2438,12 @@
     "type": "programming",
     "extensions": [
       ".minid"
+    ]
+  },
+  "MiniScript": {
+    "type": "programming",
+    "extensions": [
+      ".ms"
     ]
   },
   "MiniZinc": {
@@ -3363,9 +3417,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ]
@@ -3665,11 +3722,11 @@
       ".sail"
     ]
   },
-  "SaltStack": {
+  "Salt": {
     "type": "programming",
     "aliases": [
-      "saltstate",
-      "salt"
+      "saltstack",
+      "saltstate"
     ],
     "extensions": [
       ".sls"
@@ -3750,6 +3807,7 @@
       ".command",
       ".fcgi",
       ".ksh",
+      ".pacscript",
       ".sbatch",
       ".sh.in",
       ".slurm",
@@ -4050,6 +4108,15 @@
       ".talon"
     ]
   },
+  "Tape": {
+    "type": "programming",
+    "aliases": [
+      "vhs"
+    ],
+    "extensions": [
+      ".tape"
+    ]
+  },
   "Tcl": {
     "type": "programming",
     "aliases": [
@@ -4119,6 +4186,12 @@
       ".toit"
     ]
   },
+  "Tolk": {
+    "type": "programming",
+    "extensions": [
+      ".tolk"
+    ]
+  },
   "Tree-sitter Query": {
     "type": "programming",
     "aliases": [
@@ -4183,6 +4256,12 @@
     ],
     "extensions": [
       ".typ"
+    ]
+  },
+  "ucode": {
+    "type": "programming",
+    "extensions": [
+      ".uc"
     ]
   },
   "Unified Parallel C": {
@@ -4279,6 +4358,12 @@
       ".veo"
     ]
   },
+  "Verse": {
+    "type": "programming",
+    "extensions": [
+      ".verse"
+    ]
+  },
   "VHDL": {
     "type": "programming",
     "extensions": [
@@ -4292,7 +4377,7 @@
       ".vhw"
     ]
   },
-  "Vim Script": {
+  "Vim script": {
     "type": "programming",
     "aliases": [
       "vim",
@@ -4692,6 +4777,16 @@
       ".avdl"
     ]
   },
+  "BIRD2": {
+    "type": "data",
+    "aliases": [
+      "bird",
+      "bird3"
+    ],
+    "filenames": [
+      "bird.conf"
+    ]
+  },
   "Browserslist": {
     "type": "data",
     "filenames": [
@@ -5088,6 +5183,7 @@
       "commit"
     ],
     "filenames": [
+      ".gitmessage",
       "COMMIT_EDITMSG"
     ]
   },
@@ -5288,6 +5384,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -5342,6 +5439,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -5419,6 +5517,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -5442,6 +5541,7 @@
       ".jsonc",
       ".code-snippets",
       ".code-workspace",
+      ".hujson",
       ".sublime-build",
       ".sublime-color-scheme",
       ".sublime-commands",
@@ -5461,6 +5561,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -6305,6 +6406,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -6326,6 +6428,7 @@
       ".pt",
       ".pubxml",
       ".qhelp",
+      ".rbxmx",
       ".rdf",
       ".res",
       ".resx",
@@ -6429,7 +6532,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",
@@ -6466,6 +6571,12 @@
     "type": "markup",
     "extensions": [
       ".astro"
+    ]
+  },
+  "BBCode": {
+    "type": "markup",
+    "extensions": [
+      ".bbcode"
     ]
   },
   "BibTeX": {

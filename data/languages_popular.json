@@ -63,6 +63,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -393,6 +394,7 @@
       ".command",
       ".fcgi",
       ".ksh",
+      ".pacscript",
       ".sbatch",
       ".sh.in",
       ".slurm",

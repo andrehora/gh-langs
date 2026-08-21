@@ -16,6 +16,11 @@
       ".astro"
     ]
   },
+  "BBCode": {
+    "extensions": [
+      ".bbcode"
+    ]
+  },
   "BibTeX": {
     "extensions": [
       ".bib",

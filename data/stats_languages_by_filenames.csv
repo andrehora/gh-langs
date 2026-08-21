@@ -1,20 +1,20 @@
 language,type,aliases_count,extensions_count,filenames_count
-Shell,programming,5,15,41
+Shell,programming,5,16,41
 Text,prose,2,5,26
-Ignore List,data,3,1,23
+Ignore List,data,3,1,24
 Ruby,programming,5,22,23
-JSON,data,4,22,19
+JSON,data,4,22,20
+JSON with Comments,data,1,19,15
 Dotenv,data,0,1,14
-JSON with Comments,data,1,18,14
 Makefile,programming,3,6,14
 Emacs Lisp,programming,4,3,11
-XML,data,3,110,10
-INI,data,2,17,9
+INI,data,2,17,10
+XML,data,3,112,10
+YAML,data,1,10,10
 TOML,data,0,2,9
 Checksums,data,5,12,8
 Starlark,programming,2,2,8
-Vim Script,programming,4,4,8
-YAML,data,1,10,8
+Vim script,programming,4,4,8
 dircolors,data,0,1,6
 Just,programming,1,1,6
 Perl,programming,1,10,6
@@ -27,6 +27,7 @@ Erlang,programming,0,8,4
 Git Config,data,2,1,4
 PHP,programming,1,10,4
 Pip Requirements,data,0,0,4
+R,programming,2,4,4
 X Font Directory Index,data,0,0,4
 ApacheConf,data,2,2,3
 Hosts File,data,1,0,3
@@ -38,6 +39,7 @@ Cabal Config,data,1,1,2
 cURL Config,data,1,0,2
 Dockerfile,programming,1,2,2
 Factor,programming,0,1,2
+Git Commit,data,1,0,2
 Go Checksums,data,4,0,2
 GtkRC,data,3,1,2
 HOCON,data,0,1,2
@@ -48,16 +50,16 @@ Module Management System,programming,0,2,2
 nanorc,data,0,1,2
 Qt Script,programming,0,1,2
 Quake,programming,0,0,2
-R,programming,2,3,2
 Readline Config,data,2,0,2
 Tcl,programming,2,6,2
 Alpine Abuild,programming,2,0,1
+BIRD2,data,2,0,1
 Caddyfile,data,1,1,1
 Clojure,programming,0,10,1
 Cloud Firestore Security Rules,data,0,0,1
 CMake,programming,0,2,1
 CODEOWNERS,data,0,0,1
-CoffeeScript,programming,2,5,1
+CoffeeScript,programming,2,6,1
 crontab,data,2,0,1
 Cylc,data,0,1,1
 Dune,programming,0,0,1
@@ -67,7 +69,6 @@ Elixir,programming,0,2,1
 Fancy,programming,0,2,1
 Gemfile.lock,data,0,0,1
 Git Attributes,data,1,0,1
-Git Commit,data,1,0,1
 Git Revision List,data,1,0,1
 GN,data,0,2,1
 Go Module,data,2,0,1
@@ -121,6 +122,7 @@ AGS Script,programming,1,2,0
 AIDL,programming,0,1,0
 Aiken,programming,0,1,0
 AL,programming,0,1,0
+Aleo,programming,0,1,0
 ALGOL,programming,0,1,0
 Alloy,programming,0,1,0
 Altium Designer,data,1,4,0
@@ -145,15 +147,17 @@ Astro,markup,0,1,0
 Asymptote,programming,0,1,0
 ATS,programming,1,3,0
 Augeas,programming,0,1,0
-AutoHotkey,programming,1,2,0
+AutoHotkey,programming,1,4,0
 AutoIt,programming,3,1,0
 Avro IDL,data,0,1,0
 Awk,programming,0,5,0
+B,programming,0,1,0
 B (Formal Method),programming,0,1,0
 B4X,programming,1,1,0
 Ballerina,programming,0,1,0
 BAML,programming,0,1,0
 BASIC,programming,0,1,0
+BBCode,markup,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
 Berry,programming,1,1,0
@@ -296,6 +300,7 @@ Formatted,data,0,2,0
 Forth,programming,0,8,0
 Fortran,programming,0,4,0
 Fortran Free Form,programming,0,4,0
+FPP,programming,0,2,0
 FreeBASIC,programming,1,2,0
 FreeMarker,programming,1,2,0
 Frege,programming,0,1,0
@@ -371,6 +376,7 @@ IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 ImageJ Macro,programming,1,1,0
 Imba,programming,0,1,0
+ImHex Pattern Language,programming,3,1,0
 Inform 7,programming,2,2,0
 Ink,programming,0,1,0
 Inno Setup,programming,0,2,0
@@ -384,6 +390,7 @@ Jac,programming,0,1,0
 Jai,programming,0,1,0
 Janet,programming,0,1,0
 Jasmin,programming,0,1,0
+JASS,programming,1,1,0
 Java,programming,0,3,0
 Java Properties,data,0,1,0
 Java Server Pages,programming,1,2,0
@@ -441,6 +448,7 @@ Literate CoffeeScript,programming,1,2,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+Lobster,programming,0,1,0
 Logos,programming,0,3,0
 Logtalk,programming,0,2,0
 LOLCODE,programming,0,1,0
@@ -470,6 +478,7 @@ MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
 MiniD,programming,0,1,0
+MiniScript,programming,0,1,0
 MiniYAML,data,0,2,0
 MiniZinc,programming,0,1,0
 MiniZinc Data,data,0,1,0
@@ -656,7 +665,7 @@ RUNOFF,markup,0,2,0
 Rust,programming,1,2,0
 Sage,programming,0,2,0
 Sail,programming,0,1,0
-SaltStack,programming,2,1,0
+Salt,programming,2,1,0
 SAS,programming,0,1,0
 Sass,markup,0,1,0
 Scala,programming,0,4,0
@@ -715,6 +724,7 @@ SWIG,programming,0,3,0
 SystemVerilog,programming,0,3,0
 Tact,programming,0,1,0
 Talon,programming,0,1,0
+Tape,programming,1,1,0
 Tcsh,programming,0,2,0
 Tea,markup,0,1,0
 Teal,programming,0,1,0
@@ -731,6 +741,7 @@ TL-Verilog,programming,0,1,0
 TLA,programming,0,1,0
 TMDL,data,1,1,0
 Toit,programming,0,1,0
+Tolk,programming,0,1,0
 Tree-sitter Query,programming,1,1,0
 TSPLIB data,data,2,1,0
 TSQL,programming,0,1,0
@@ -744,6 +755,7 @@ Type Language,data,1,1,0
 TypeScript,programming,1,3,0
 TypeSpec,programming,1,1,0
 Typst,programming,1,1,0
+ucode,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Unity3D Asset,data,0,7,0
 Unix Assembly,programming,3,2,0
@@ -761,6 +773,7 @@ VCL,programming,0,1,0
 Velocity Template Language,markup,2,1,0
 Vento,markup,0,1,0
 Verilog,programming,0,2,0
+Verse,programming,0,1,0
 VHDL,programming,0,8,0
 Vim Help File,prose,2,1,0
 Vim Snippet,markup,4,3,0

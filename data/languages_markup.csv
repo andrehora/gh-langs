@@ -2,6 +2,7 @@ language,aliases,extensions,filenames
 Antlers,,.antlers.html; .antlers.php; .antlers.xml,
 API Blueprint,,.apib,
 Astro,,.astro,
+BBCode,,.bbcode,
 BibTeX,,.bib; .bibtex,
 Bikeshed,,.bs,
 Blade,,.blade; .blade.php,

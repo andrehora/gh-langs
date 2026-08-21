@@ -13,6 +13,7 @@ AGS Script
 AIDL
 Aiken
 AL
+Aleo
 ALGOL
 Alloy
 Alpine Abuild
@@ -44,12 +45,14 @@ AutoHotkey
 AutoIt
 Avro IDL
 Awk
+B
 B (Formal Method)
 B4X
 Ballerina
 BAML
 BASIC
 Batchfile
+BBCode
 Beef
 Befunge
 Berry
@@ -57,6 +60,7 @@ BibTeX
 BibTeX Style
 Bicep
 Bikeshed
+BIRD2
 Bison
 BitBake
 Blade
@@ -215,6 +219,7 @@ Formatted
 Forth
 Fortran
 Fortran Free Form
+FPP
 FreeBASIC
 FreeMarker
 Frege
@@ -307,6 +312,7 @@ IGOR Pro
 IL Assembly
 ImageJ Macro
 Imba
+ImHex Pattern Language
 Inform 7
 INI
 Ink
@@ -323,6 +329,7 @@ Jai
 Janet
 JAR Manifest
 Jasmin
+JASS
 Java
 Java Properties
 Java Server Pages
@@ -391,6 +398,7 @@ Literate Haskell
 LiveCode Script
 LiveScript
 LLVM
+Lobster
 Logos
 Logtalk
 LOLCODE
@@ -426,6 +434,7 @@ MeTTa
 Microsoft Developer Studio Project
 Microsoft Visual Studio Solution
 MiniD
+MiniScript
 MiniYAML
 MiniZinc
 MiniZinc Data
@@ -635,7 +644,7 @@ RUNOFF
 Rust
 Sage
 Sail
-SaltStack
+Salt
 SAS
 Sass
 Scala
@@ -702,6 +711,7 @@ SWIG
 SystemVerilog
 Tact
 Talon
+Tape
 Tcl
 Tcsh
 Tea
@@ -721,6 +731,7 @@ TL-Verilog
 TLA
 TMDL
 Toit
+Tolk
 TOML
 Tor Config
 Tree-sitter Query
@@ -736,6 +747,7 @@ Type Language
 TypeScript
 TypeSpec
 Typst
+ucode
 Unified Parallel C
 Unity3D Asset
 Unix Assembly
@@ -753,9 +765,10 @@ VCL
 Velocity Template Language
 Vento
 Verilog
+Verse
 VHDL
 Vim Help File
-Vim Script
+Vim script
 Vim Snippet
 Visual Basic .NET
 Visual Basic 6.0

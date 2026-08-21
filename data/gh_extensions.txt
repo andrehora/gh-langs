@@ -51,12 +51,15 @@
 .afm
 .agc
 .agda
+.ah1
+.ah2
 .ahk
 .ahkl
 .aidl
 .aj
 .ak
 .al
+.aleo
 .alg
 .als
 .ampl
@@ -120,6 +123,7 @@
 .bb
 .bbappend
 .bbclass
+.bbcode
 .bbx
 .bdf
 .bdy
@@ -219,6 +223,7 @@
 .code-snippets
 .code-workspace
 .coffee
+.coffee.erb
 .coffee.md
 .com
 .command
@@ -387,6 +392,7 @@
 .forth
 .fp
 .fpp
+.fppi
 .fr
 .frag
 .frg
@@ -506,6 +512,7 @@
 .hc
 .hcl
 .heex
+.hexpat
 .hh
 .hhi
 .hic
@@ -529,6 +536,7 @@
 .html.hl
 .html.tmpl
 .http
+.hujson
 .hurl
 .hx
 .hxml
@@ -676,6 +684,7 @@
 .lkml
 .ll
 .lmi
+.lobster
 .logtalk
 .lol
 .lookml
@@ -737,6 +746,7 @@
 .mediawiki
 .mermaid
 .meta
+.meta4
 .metal
 .metta
 .mg
@@ -879,6 +889,7 @@
 .p6m
 .p8
 .pac
+.pacscript
 .pact
 .pan
 .parrot
@@ -1027,6 +1038,7 @@
 .rbuistate
 .rbw
 .rbx
+.rbxmx
 .rbxs
 .rchit
 .rd
@@ -1053,6 +1065,7 @@
 .rex
 .rexx
 .rg
+.rhistory
 .rhtml
 .ring
 .riot
@@ -1224,6 +1237,7 @@
 .tact
 .tag
 .talon
+.tape
 .target
 .targets
 .tcc
@@ -1266,6 +1280,7 @@
 .toc
 .tofu
 .toit
+.tolk
 .toml
 .toml.example
 .tool
@@ -1320,6 +1335,7 @@
 .vcxproj
 .vdf
 .veo
+.verse
 .vert
 .vh
 .vhd

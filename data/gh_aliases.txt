@@ -13,6 +13,8 @@ FIGfont
 Git Blame Ignore Revs
 HashiCorp Configuration Language
 IPython Notebook
+ImHex
+ImHexPatternLanguage
 Justfile
 NeoSnippet
 Protocol Buffers
@@ -68,6 +70,8 @@ batch
 bazel
 be
 bh
+bird
+bird3
 blitz3d
 blitzplus
 blp
@@ -193,11 +197,13 @@ igorpro
 ijm
 ilasm
 ile rpg
+imhexpl
 inc
 inform7
 inputrc
 irc
 irc logs
+jass2
 java server page
 jruby
 js
@@ -337,7 +343,7 @@ rs-274x
 rss
 rst
 rusthon
-salt
+saltstack
 saltstate
 sarif
 sdc
@@ -387,6 +393,7 @@ vb6
 vbnet
 vdf
 velocity
+vhs
 vim
 vimhelp
 viml

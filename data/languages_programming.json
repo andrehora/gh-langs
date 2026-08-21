@@ -70,6 +70,11 @@
       ".al"
     ]
   },
+  "Aleo": {
+    "extensions": [
+      ".aleo"
+    ]
+  },
   "ALGOL": {
     "extensions": [
       ".alg"
@@ -210,6 +215,8 @@
     ],
     "extensions": [
       ".ahk",
+      ".ah1",
+      ".ah2",
       ".ahkl"
     ]
   },
@@ -230,6 +237,11 @@
       ".gawk",
       ".mawk",
       ".nawk"
+    ]
+  },
+  "B": {
+    "extensions": [
+      ".b"
     ]
   },
   "B (Formal Method)": {
@@ -628,6 +640,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -1099,6 +1112,12 @@
       ".f95"
     ]
   },
+  "FPP": {
+    "extensions": [
+      ".fpp",
+      ".fppi"
+    ]
+  },
   "FreeBASIC": {
     "aliases": [
       "fb"
@@ -1488,6 +1507,16 @@
       ".imba"
     ]
   },
+  "ImHex Pattern Language": {
+    "aliases": [
+      "ImHex",
+      "ImHexPatternLanguage",
+      "imhexpl"
+    ],
+    "extensions": [
+      ".hexpat"
+    ]
+  },
   "Inform 7": {
     "aliases": [
       "i7",
@@ -1555,6 +1584,14 @@
     ]
   },
   "Jasmin": {
+    "extensions": [
+      ".j"
+    ]
+  },
+  "JASS": {
+    "aliases": [
+      "jass2"
+    ],
     "extensions": [
       ".j"
     ]
@@ -1908,6 +1945,11 @@
       ".ll"
     ]
   },
+  "Lobster": {
+    "extensions": [
+      ".lobster"
+    ]
+  },
   "Logos": {
     "extensions": [
       ".xm",
@@ -2097,6 +2139,11 @@
   "MiniD": {
     "extensions": [
       ".minid"
+    ]
+  },
+  "MiniScript": {
+    "extensions": [
+      ".ms"
     ]
   },
   "MiniZinc": {
@@ -2950,9 +2997,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ]
@@ -3223,10 +3273,10 @@
       ".sail"
     ]
   },
-  "SaltStack": {
+  "Salt": {
     "aliases": [
-      "saltstate",
-      "salt"
+      "saltstack",
+      "saltstate"
     ],
     "extensions": [
       ".sls"
@@ -3298,6 +3348,7 @@
       ".command",
       ".fcgi",
       ".ksh",
+      ".pacscript",
       ".sbatch",
       ".sh.in",
       ".slurm",
@@ -3567,6 +3618,14 @@
       ".talon"
     ]
   },
+  "Tape": {
+    "aliases": [
+      "vhs"
+    ],
+    "extensions": [
+      ".tape"
+    ]
+  },
   "Tcl": {
     "aliases": [
       "sdc",
@@ -3627,6 +3686,11 @@
       ".toit"
     ]
   },
+  "Tolk": {
+    "extensions": [
+      ".tolk"
+    ]
+  },
   "Tree-sitter Query": {
     "aliases": [
       "tsq"
@@ -3683,6 +3747,11 @@
     ],
     "extensions": [
       ".typ"
+    ]
+  },
+  "ucode": {
+    "extensions": [
+      ".uc"
     ]
   },
   "Unified Parallel C": {
@@ -3767,6 +3836,11 @@
       ".veo"
     ]
   },
+  "Verse": {
+    "extensions": [
+      ".verse"
+    ]
+  },
   "VHDL": {
     "extensions": [
       ".vhdl",
@@ -3779,7 +3853,7 @@
       ".vhw"
     ]
   },
-  "Vim Script": {
+  "Vim script": {
     "aliases": [
       "vim",
       "viml",
