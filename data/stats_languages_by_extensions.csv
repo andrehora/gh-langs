@@ -645,6 +645,7 @@ q,programming,0,1,0
 Q#,programming,1,1,0
 Qt Script,programming,0,1,2
 QuakeC,programming,0,1,0
+Quartus Simulation IP,data,0,1,0
 Quint,programming,0,1,0
 Ragel,programming,2,1,0
 RAML,markup,0,1,0
@@ -658,6 +659,7 @@ Redcode,programming,0,1,0
 Redscript,programming,0,1,0
 Ren'Py,programming,1,1,0
 Rez,programming,0,1,0
+Rhai,programming,0,1,0
 Rich Text Format,markup,0,1,0
 Ring,programming,0,1,0
 Riot,markup,0,1,0
@@ -682,6 +684,7 @@ ShellSession,programming,2,1,0
 Shen,programming,0,1,0
 Sieve,programming,0,1,0
 Simple File Verification,data,1,1,0
+SIP,programming,0,1,0
 Slang,programming,0,1,0
 Slash,programming,0,1,0
 Slice,programming,0,1,0
@@ -749,6 +752,7 @@ VCL,programming,0,1,0
 Velocity Template Language,markup,2,1,0
 Vento,markup,0,1,0
 Verse,programming,0,1,0
+Vespa Schema Definition,data,1,1,0
 Vim Help File,prose,2,1,0
 Volt,programming,0,1,0
 Vue,markup,0,1,0

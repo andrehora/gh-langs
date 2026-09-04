@@ -3576,6 +3576,12 @@
       ".r"
     ]
   },
+  "Rhai": {
+    "type": "programming",
+    "extensions": [
+      ".rhai"
+    ]
+  },
   "Ring": {
     "type": "programming",
     "extensions": [
@@ -3887,6 +3893,12 @@
     "type": "programming",
     "filenames": [
       "Singularity"
+    ]
+  },
+  "SIP": {
+    "type": "programming",
+    "extensions": [
+      ".sip"
     ]
   },
   "Slang": {
@@ -5921,6 +5933,12 @@
       ".pytb"
     ]
   },
+  "Quartus Simulation IP": {
+    "type": "data",
+    "extensions": [
+      ".sip"
+    ]
+  },
   "Raw token data": {
     "type": "data",
     "aliases": [
@@ -6257,6 +6275,15 @@
     ],
     "extensions": [
       ".vcf"
+    ]
+  },
+  "Vespa Schema Definition": {
+    "type": "data",
+    "aliases": [
+      "vespa"
+    ],
+    "extensions": [
+      ".sd"
     ]
   },
   "Wavefront Material": {

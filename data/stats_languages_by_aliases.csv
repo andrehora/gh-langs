@@ -243,6 +243,7 @@ TypeSpec,programming,1,1,0
 Typst,programming,1,1,0
 V,programming,1,1,0
 VBA,programming,1,4,0
+Vespa Schema Definition,data,1,1,0
 WDL,programming,1,1,0
 WebAssembly Interface Type,data,1,1,0
 WebVTT,data,1,1,0
@@ -674,6 +675,7 @@ QML,programming,0,2,0
 Qt Script,programming,0,1,2
 Quake,programming,0,0,2
 QuakeC,programming,0,1,0
+Quartus Simulation IP,data,0,1,0
 Quint,programming,0,1,0
 Racket,programming,0,4,0
 RAML,markup,0,1,0
@@ -691,6 +693,7 @@ Redscript,programming,0,1,0
 RenderScript,programming,0,2,0
 ReScript,programming,0,2,0
 Rez,programming,0,1,0
+Rhai,programming,0,1,0
 Rich Text Format,markup,0,1,0
 Ring,programming,0,1,0
 Riot,markup,0,1,0
@@ -718,6 +721,7 @@ ShaderLab,programming,0,1,0
 Shen,programming,0,1,0
 Sieve,programming,0,1,0
 Singularity,programming,0,0,1
+SIP,programming,0,1,0
 Slang,programming,0,1,0
 Slash,programming,0,1,0
 Slice,programming,0,1,0

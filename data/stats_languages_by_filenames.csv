@@ -621,6 +621,7 @@ Q#,programming,1,1,0
 QMake,programming,0,2,0
 QML,programming,0,2,0
 QuakeC,programming,0,1,0
+Quartus Simulation IP,data,0,1,0
 QuickBASIC,programming,5,2,0
 Quint,programming,0,1,0
 Racket,programming,0,4,0
@@ -646,6 +647,7 @@ ReScript,programming,0,2,0
 reStructuredText,prose,1,4,0
 REXX,programming,1,3,0
 Rez,programming,0,1,0
+Rhai,programming,0,1,0
 Rich Text Format,markup,0,1,0
 Ring,programming,0,1,0
 Riot,markup,0,1,0
@@ -681,6 +683,7 @@ ShellSession,programming,2,1,0
 Shen,programming,0,1,0
 Sieve,programming,0,1,0
 Simple File Verification,data,1,1,0
+SIP,programming,0,1,0
 Slang,programming,0,1,0
 Slash,programming,0,1,0
 Slice,programming,0,1,0
@@ -774,6 +777,7 @@ Velocity Template Language,markup,2,1,0
 Vento,markup,0,1,0
 Verilog,programming,0,2,0
 Verse,programming,0,1,0
+Vespa Schema Definition,data,1,1,0
 VHDL,programming,0,8,0
 Vim Help File,prose,2,1,0
 Vim Snippet,markup,4,3,0

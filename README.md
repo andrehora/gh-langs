@@ -6,7 +6,7 @@ Data is extracted from [languages.yml](https://github.com/github-linguist/lingui
 Explore the data: https://andrehora.github.io/gh-langs/
 
 <!-- updated -->
-Updated: 2026-08-20
+Updated: 2026-09-04
 <!-- /updated -->
 
 ## Data
@@ -16,9 +16,9 @@ Updated: 2026-08-20
 <!-- gh:start -->
 | File | Count | Description |
 |------|-------|-------------|
-| [`gh_languages.txt`](data/gh_languages.txt) | 829 | Languages known to GitHub |
-| [`gh_extensions.txt`](data/gh_extensions.txt) | 1483 | Language extensions known to GitHub |
-| [`gh_aliases.txt`](data/gh_aliases.txt) | 432 | Language aliases known to GitHub |
+| [`gh_languages.txt`](data/gh_languages.txt) | 833 | Languages known to GitHub |
+| [`gh_extensions.txt`](data/gh_extensions.txt) | 1486 | Language extensions known to GitHub |
+| [`gh_aliases.txt`](data/gh_aliases.txt) | 433 | Language aliases known to GitHub |
 | [`gh_filenames.txt`](data/gh_filenames.txt) | 419 | Language filenames known to GitHub |
 <!-- gh:end -->
 
@@ -29,7 +29,7 @@ Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github
 <!-- summary:start -->
 | File | Count | Description |
 |------|-------|-------------|
-| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 829 | All languages |
+| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 833 | All languages |
 | [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages |
 <!-- summary:end -->
 
@@ -38,8 +38,8 @@ Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github
 <!-- types:start -->
 | File | Count | Description |
 |------|-------|-------------|
-| [`languages_programming.json`](data/languages_programming.json) / [`csv`](data/languages_programming.csv) | 558 | Programming languages |
-| [`languages_data.json`](data/languages_data.json) / [`csv`](data/languages_data.csv) | 182 | Data languages |
+| [`languages_programming.json`](data/languages_programming.json) / [`csv`](data/languages_programming.csv) | 560 | Programming languages |
+| [`languages_data.json`](data/languages_data.json) / [`csv`](data/languages_data.csv) | 184 | Data languages |
 | [`languages_markup.json`](data/languages_markup.json) / [`csv`](data/languages_markup.csv) | 71 | Markup languages |
 | [`languages_prose.json`](data/languages_prose.json) / [`csv`](data/languages_prose.csv) | 18 | Prose languages |
 <!-- types:end -->
