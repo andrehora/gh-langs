@@ -393,6 +393,7 @@ vb6
 vbnet
 vdf
 velocity
+vespa
 vhs
 vim
 vimhelp

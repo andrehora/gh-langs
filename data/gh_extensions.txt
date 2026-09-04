@@ -1065,6 +1065,7 @@
 .rex
 .rexx
 .rg
+.rhai
 .rhistory
 .rhtml
 .ring
@@ -1124,6 +1125,7 @@
 .scrbl
 .scss
 .scxml
+.sd
 .sdc
 .sed
 .self
@@ -1148,6 +1150,7 @@
 .shproj
 .sieve
 .sig
+.sip
 .sj
 .sjs
 .sl

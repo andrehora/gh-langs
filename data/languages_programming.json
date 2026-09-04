@@ -3139,6 +3139,11 @@
       ".r"
     ]
   },
+  "Rhai": {
+    "extensions": [
+      ".rhai"
+    ]
+  },
   "Ring": {
     "extensions": [
       ".ring"
@@ -3424,6 +3429,11 @@
   "Singularity": {
     "filenames": [
       "Singularity"
+    ]
+  },
+  "SIP": {
+    "extensions": [
+      ".sip"
     ]
   },
   "Slang": {

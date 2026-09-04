@@ -593,6 +593,7 @@ QML
 Qt Script
 Quake
 QuakeC
+Quartus Simulation IP
 QuickBASIC
 Quint
 R
@@ -622,6 +623,7 @@ ReScript
 reStructuredText
 REXX
 Rez
+Rhai
 Rich Text Format
 Ring
 Riot
@@ -664,6 +666,7 @@ Shen
 Sieve
 Simple File Verification
 Singularity
+SIP
 Slang
 Slash
 Slice
@@ -766,6 +769,7 @@ Velocity Template Language
 Vento
 Verilog
 Verse
+Vespa Schema Definition
 VHDL
 Vim Help File
 Vim script

@@ -1101,6 +1101,11 @@
       ".pytb"
     ]
   },
+  "Quartus Simulation IP": {
+    "extensions": [
+      ".sip"
+    ]
+  },
   "Raw token data": {
     "aliases": [
       "raw"
@@ -1400,6 +1405,14 @@
     ],
     "extensions": [
       ".vcf"
+    ]
+  },
+  "Vespa Schema Definition": {
+    "aliases": [
+      "vespa"
+    ],
+    "extensions": [
+      ".sd"
     ]
   },
   "Wavefront Material": {
