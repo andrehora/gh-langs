@@ -173,6 +173,12 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "type": "programming",
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "type": "programming",
     "extensions": [
@@ -2217,6 +2223,15 @@
     "type": "programming",
     "extensions": [
       ".ll"
+    ]
+  },
+  "LLVM TableGen": {
+    "type": "programming",
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
     ]
   },
   "Lobster": {

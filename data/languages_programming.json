@@ -149,6 +149,11 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "extensions": [
       ".asl",
@@ -1943,6 +1948,14 @@
   "LLVM": {
     "extensions": [
       ".ll"
+    ]
+  },
+  "LLVM TableGen": {
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
     ]
   },
   "Lobster": {
