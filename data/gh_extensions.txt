@@ -363,6 +363,7 @@
 .es6
 .escript
 .esdl
+.ets
 .ex
 .exs
 .eye
@@ -1247,6 +1248,7 @@
 .tcl
 .tcl.in
 .tcsh
+.td
 .te
 .tea
 .templ

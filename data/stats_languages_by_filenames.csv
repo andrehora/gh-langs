@@ -137,6 +137,7 @@ APL,programming,0,2,0
 Apollo Guidance Computer,programming,0,1,0
 AppleScript,programming,2,2,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AsciiDoc,prose,0,3,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
@@ -448,6 +449,7 @@ Literate CoffeeScript,programming,1,2,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+LLVM TableGen,programming,1,1,0
 Lobster,programming,0,1,0
 Logos,programming,0,3,0
 Logtalk,programming,0,2,0
