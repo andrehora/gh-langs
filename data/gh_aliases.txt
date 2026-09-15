@@ -370,6 +370,7 @@ sum
 sums
 surql
 tab-seperated values
+tablegen
 terraform
 text proto
 tl
