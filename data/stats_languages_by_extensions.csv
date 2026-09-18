@@ -305,6 +305,7 @@ ANTLR,programming,0,1,0
 API Blueprint,markup,0,1,0
 Apollo Guidance Computer,programming,0,1,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AspectJ,programming,0,1,0
 Astro,markup,0,1,0
 Asymptote,programming,0,1,0
@@ -529,6 +530,7 @@ Literate Agda,programming,0,1,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+LLVM TableGen,programming,1,1,0
 Lobster,programming,0,1,0
 LOLCODE,programming,0,1,0
 LoomScript,programming,0,1,0
