@@ -108,6 +108,7 @@ Altium Designer,data,1,4,0
 ATS,programming,1,3,0
 AutoHotkey,programming,1,4,0
 B4X,programming,1,1,0
+Bend,programming,1,1,0
 Berry,programming,1,1,0
 BlitzMax,programming,1,1,0
 Blueprint,markup,1,1,0
@@ -182,6 +183,7 @@ Lean 4,programming,1,1,0
 Less,markup,1,1,0
 Lex,programming,1,2,2
 Literate CoffeeScript,programming,1,2,0
+LLVM TableGen,programming,1,1,0
 M,programming,1,2,0
 M4Sugar,programming,1,1,1
 Macaulay2,programming,1,1,0
@@ -279,6 +281,7 @@ API Blueprint,markup,0,1,0
 APL,programming,0,2,0
 Apollo Guidance Computer,programming,0,1,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AsciiDoc,prose,0,3,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
@@ -571,7 +574,7 @@ Mojo,programming,0,1,0
 Monkey,programming,0,2,0
 Monkey C,programming,0,1,0
 Moocode,programming,0,1,0
-MoonBit,programming,0,1,0
+MoonBit,programming,0,1,2
 MoonScript,programming,0,1,0
 Motoko,programming,0,1,0
 Move,programming,0,1,0
