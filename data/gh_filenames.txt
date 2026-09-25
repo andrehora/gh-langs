@@ -354,6 +354,8 @@ mkfile
 mmn
 mmt
 mocha.opts
+moon.mod
+moon.pkg
 mvnw
 mvnw.cmd
 nanorc

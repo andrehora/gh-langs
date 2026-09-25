@@ -149,6 +149,11 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "extensions": [
       ".asl",
@@ -297,6 +302,14 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -1945,6 +1958,14 @@
       ".ll"
     ]
   },
+  "LLVM TableGen": {
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
+    ]
+  },
   "Lobster": {
     "extensions": [
       ".lobster"
@@ -2225,6 +2246,10 @@
   "MoonBit": {
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
