@@ -47,6 +47,7 @@ KCL,programming,0,1,2
 Lex,programming,1,2,2
 Meson,programming,0,0,2
 Module Management System,programming,0,2,2
+MoonBit,programming,0,1,2
 nanorc,data,0,1,2
 Qt Script,programming,0,1,2
 Quake,programming,0,0,2
@@ -137,6 +138,7 @@ APL,programming,0,2,0
 Apollo Guidance Computer,programming,0,1,0
 AppleScript,programming,2,2,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AsciiDoc,prose,0,3,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
@@ -160,6 +162,7 @@ BASIC,programming,0,1,0
 BBCode,markup,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
+Bend,programming,1,1,0
 Berry,programming,1,1,0
 BibTeX,markup,0,2,0
 BibTeX Style,programming,0,1,0
@@ -448,6 +451,7 @@ Literate CoffeeScript,programming,1,2,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+LLVM TableGen,programming,1,1,0
 Lobster,programming,0,1,0
 Logos,programming,0,3,0
 Logtalk,programming,0,2,0
@@ -493,7 +497,6 @@ Mojo,programming,0,1,0
 Monkey,programming,0,2,0
 Monkey C,programming,0,1,0
 Moocode,programming,0,1,0
-MoonBit,programming,0,1,0
 MoonScript,programming,0,1,0
 Motoko,programming,0,1,0
 Motorola 68K Assembly,programming,1,5,0
