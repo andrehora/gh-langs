@@ -156,6 +156,7 @@ TextMate Properties,tm-properties,,.tm_properties
 TMDL,Tabular Model Definition Language,.tmdl,
 TOML,,.toml; .toml.example,Cargo.lock; Cargo.toml.orig; Gopkg.lock; Pipfile; mise.local.lock; mise.lock; pdm.lock; poetry.lock; uv.lock
 Tor Config,torrc,,torrc
+Tree-sitter Query,tsq,.scm,
 TSPLIB data,travelling salesman problem; traveling salesman problem,.tsp,
 TSV,tab-seperated values,.tsv; .vcf,
 Turtle,,.ttl,
