@@ -173,6 +173,12 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "type": "programming",
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "type": "programming",
     "extensions": [
@@ -340,6 +346,15 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "type": "programming",
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -2219,6 +2234,15 @@
       ".ll"
     ]
   },
+  "LLVM TableGen": {
+    "type": "programming",
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
+    ]
+  },
   "Lobster": {
     "type": "programming",
     "extensions": [
@@ -2539,6 +2563,10 @@
     "type": "programming",
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
@@ -4202,15 +4230,6 @@
     "type": "programming",
     "extensions": [
       ".tolk"
-    ]
-  },
-  "Tree-sitter Query": {
-    "type": "programming",
-    "aliases": [
-      "tsq"
-    ],
-    "extensions": [
-      ".scm"
     ]
   },
   "TSQL": {
@@ -6207,6 +6226,15 @@
     ],
     "filenames": [
       "torrc"
+    ]
+  },
+  "Tree-sitter Query": {
+    "type": "data",
+    "aliases": [
+      "tsq"
+    ],
+    "extensions": [
+      ".scm"
     ]
   },
   "TSPLIB data": {
