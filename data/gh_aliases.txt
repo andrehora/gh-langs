@@ -61,6 +61,10 @@ aspx-vb
 ats2
 au3
 autoconf
+avisynth+
+avisynthplus
+avs
+avsplus
 b3d
 bash
 bash session
@@ -69,6 +73,7 @@ bat
 batch
 bazel
 be
+bend2
 bh
 bird
 bird3
@@ -199,10 +204,12 @@ ilasm
 ile rpg
 imhexpl
 inc
+indented text
 inform7
 inputrc
 irc
 irc logs
+iso-10303-21
 jass2
 java server page
 jruby
@@ -223,9 +230,12 @@ less-css
 lhaskell
 lhs
 lisp
+lisp data
 litcoffee
 live-script
 ls
+m formula language
+m language
 m2
 m3u playlist
 m68k
@@ -288,7 +298,10 @@ opentofu
 opts
 opy
 osascript
+p21
 pandoc
+paragraph indent text
+parindent
 pasm
 pcbnew
 perl-6
@@ -370,6 +383,7 @@ sum
 sums
 surql
 tab-seperated values
+tablegen
 terraform
 text proto
 tl
