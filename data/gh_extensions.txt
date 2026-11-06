@@ -103,7 +103,9 @@
 .auk
 .aux
 .avdl
+.avs
 .avsc
+.avsi
 .aw
 .awk
 .axaml
@@ -129,6 +131,7 @@
 .bdy
 .be
 .befunge
+.bend
 .bf
 .bi
 .bib
@@ -342,6 +345,7 @@
 .ejs
 .ejs.t
 .el
+.eld
 .eliom
 .eliomi
 .elm
@@ -363,6 +367,7 @@
 .es6
 .escript
 .esdl
+.ets
 .ex
 .exs
 .eye
@@ -555,6 +560,7 @@
 .ics
 .idc
 .idr
+.ifc
 .ig
 .ihlp
 .ijm
@@ -749,6 +755,7 @@
 .meta4
 .metal
 .metta
+.mf
 .mg
 .minid
 .mint
@@ -784,6 +791,7 @@
 .moon
 .mount
 .move
+.mp
 .mpl
 .mps
 .mq4
@@ -1200,11 +1208,13 @@
 .stTheme
 .stan
 .star
+.step
 .sthlp
 .stl
 .ston
 .story
 .storyboard
+.stp
 .sty
 .styl
 .sublime-build
@@ -1247,6 +1257,7 @@
 .tcl
 .tcl.in
 .tcsh
+.td
 .te
 .tea
 .templ
@@ -1299,6 +1310,7 @@
 .tscn
 .tsconfig.json
 .tsp
+.tsrx
 .tst
 .tsv
 .tsx
@@ -1311,6 +1323,7 @@
 .txtpb
 .txx
 .typ
+.ua
 .uc
 .udf
 .udo
@@ -1356,6 +1369,7 @@
 .vmb
 .vmf
 .volt
+.vpy
 .vrx
 .vs
 .vsh
@@ -1379,6 +1393,7 @@
 .webidl
 .webmanifest
 .weechatlog
+.wesl
 .wgsl
 .whiley
 .wiki

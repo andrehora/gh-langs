@@ -3,13 +3,13 @@ XML,data,3,112,10
 Roff,markup,8,28,5
 JavaScript,programming,2,25,1
 GLSL,programming,0,23,0
-JSON,data,4,22,20
+JSON,data,4,22,21
 Ruby,programming,5,22,23
 C++,programming,1,20,0
 Roff Manpage,markup,0,20,0
 JSON with Comments,data,1,19,15
-INI,data,2,17,10
-Python,programming,4,17,5
+Python,programming,4,18,5
+INI,data,2,17,11
 Gerber Image,data,1,16,0
 PLSQL,programming,0,16,0
 Shell,programming,5,16,41
@@ -57,7 +57,7 @@ Motorola 68K Assembly,programming,1,5,0
 Nim,programming,0,5,1
 Prolog,programming,0,5,0
 Rebol,programming,0,5,0
-Text,prose,2,5,26
+Text,prose,5,5,26
 Visual Basic 6.0,programming,5,5,0
 XQuery,programming,0,5,0
 Altium Designer,data,1,4,0
@@ -65,6 +65,7 @@ AutoHotkey,programming,1,4,0
 BitBake,programming,0,4,0
 Dylan,programming,0,4,0
 EJS,markup,0,4,0
+Emacs Lisp,programming,5,4,11
 Fortran,programming,0,4,0
 Fortran Free Form,programming,0,4,0
 G-code,programming,0,4,0
@@ -90,7 +91,6 @@ Apex,programming,0,3,0
 AsciiDoc,prose,0,3,0
 ATS,programming,1,3,0
 Cython,programming,1,3,0
-Emacs Lisp,programming,4,3,11
 F#,programming,1,3,0
 GraphQL,data,0,3,0
 GSC,programming,0,3,0
@@ -137,6 +137,7 @@ APL,programming,0,2,0
 AppleScript,programming,2,2,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
+AviSynth,programming,4,2,0
 Batchfile,programming,4,2,2
 Befunge,programming,0,2,0
 BibTeX,markup,0,2,0
@@ -263,6 +264,7 @@ SPARQL,data,0,2,0
 SQF,programming,0,2,0
 SQLPL,programming,0,2,0
 Starlark,programming,2,2,8
+STEP,data,2,2,0
 SuperCollider,programming,0,2,0
 Tcsh,programming,0,2,0
 TI Program,programming,0,2,0
@@ -305,6 +307,7 @@ ANTLR,programming,0,1,0
 API Blueprint,markup,0,1,0
 Apollo Guidance Computer,programming,0,1,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AspectJ,programming,0,1,0
 Astro,markup,0,1,0
 Asymptote,programming,0,1,0
@@ -319,6 +322,7 @@ BAML,programming,0,1,0
 BASIC,programming,0,1,0
 BBCode,markup,0,1,0
 Beef,programming,0,1,0
+Bend,programming,1,1,0
 Berry,programming,1,1,0
 BibTeX Style,programming,0,1,0
 Bikeshed,markup,0,1,0
@@ -399,6 +403,7 @@ Dotenv,data,0,1,14
 DTrace,programming,1,1,0
 E,programming,0,1,0
 Easybuild,data,0,1,0
+EasyCrypt,programming,0,1,0
 EBNF,data,0,1,0
 Ecere Projects,data,0,1,0
 ECLiPSe,programming,0,1,0
@@ -468,7 +473,8 @@ Hurl,programming,0,1,0
 HXML,data,0,1,0
 Hy,programming,1,1,0
 HyPhy,programming,0,1,0
-Ignore List,data,3,1,24
+IFC,data,0,1,0
+Ignore List,data,3,1,31
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 ImageJ Macro,programming,1,1,0
@@ -529,6 +535,7 @@ Literate Agda,programming,0,1,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+LLVM TableGen,programming,1,1,0
 Lobster,programming,0,1,0
 LOLCODE,programming,0,1,0
 LoomScript,programming,0,1,0
@@ -542,7 +549,9 @@ Mathematical Programming System,programming,0,1,0
 mcfunction,programming,0,1,0
 mdsvex,markup,0,1,0
 MDX,markup,0,1,0
+METAFONT,programming,0,1,0
 Metal,programming,0,1,0
+MetaPost,programming,0,1,0
 MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
@@ -558,7 +567,7 @@ Modula-2,programming,0,1,0
 Mojo,programming,0,1,0
 Monkey C,programming,0,1,0
 Moocode,programming,0,1,0
-MoonBit,programming,0,1,0
+MoonBit,programming,0,1,2
 MoonScript,programming,0,1,0
 Motoko,programming,0,1,0
 Move,programming,0,1,0
@@ -627,7 +636,7 @@ PogoScript,programming,0,1,0
 Polar,programming,0,1,0
 Pony,programming,0,1,0
 Portugol,programming,0,1,0
-Power Query,programming,1,1,0
+Power Query,programming,3,1,0
 Praat,programming,0,1,0
 Prisma,data,0,1,0
 Pro*C,programming,0,1,0
@@ -730,9 +739,10 @@ TLA,programming,0,1,0
 TMDL,data,1,1,0
 Toit,programming,0,1,0
 Tolk,programming,0,1,0
-Tree-sitter Query,programming,1,1,0
+Tree-sitter Query,data,1,1,0
 TSPLIB data,data,2,1,0
 TSQL,programming,0,1,0
+TSRX,programming,0,1,0
 TSX,programming,1,1,0
 Turtle,data,0,1,0
 Twig,markup,0,1,0
@@ -741,6 +751,7 @@ Type Language,data,1,1,0
 TypeSpec,programming,1,1,0
 Typst,programming,1,1,0
 ucode,programming,0,1,0
+Uiua,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Uno,programming,0,1,0
 UnrealScript,programming,0,1,0
@@ -764,6 +775,7 @@ Web Ontology Language,data,0,1,0
 WebAssembly Interface Type,data,1,1,0
 WebIDL,programming,0,1,0
 WebVTT,data,1,1,0
+WESL,programming,0,1,0
 WGSL,programming,0,1,0
 Whiley,programming,0,1,0
 Win32 Message File,data,0,1,0
@@ -813,7 +825,7 @@ NPM Config,data,1,0,1
 OpenAPI Specification v2,data,1,0,0
 OpenAPI Specification v3,data,1,0,0
 OpenRC runscript,programming,1,0,0
-Option List,data,2,0,5
+Option List,data,2,0,6
 Pip Requirements,data,0,0,4
 Procfile,programming,0,0,1
 Python console,programming,1,0,0

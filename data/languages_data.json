@@ -606,6 +606,11 @@
       ".ical"
     ]
   },
+  "IFC": {
+    "extensions": [
+      ".ifc"
+    ]
+  },
   "Ignore List": {
     "aliases": [
       "ignore",
@@ -617,15 +622,20 @@
     ],
     "filenames": [
       ".agignore",
+      ".aiexclude",
+      ".aiignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
       ".ckignore",
+      ".clang-format-ignore",
       ".coffeelintignore",
+      ".cursorignore",
       ".cvsignore",
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".elpaignore",
       ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
@@ -633,8 +643,10 @@
       ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
+      ".nxignore",
       ".prettierignore",
       ".rgignore",
+      ".stow-local-ignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -668,6 +680,7 @@
     ],
     "filenames": [
       ".buckconfig",
+      ".codespellrc",
       ".coveragerc",
       ".flake8",
       ".gitreview",
@@ -739,6 +752,7 @@
       ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
+      ".autorc",
       ".c8rc",
       ".htmlhintrc",
       ".imgbotconfig",
@@ -1018,6 +1032,7 @@
     ],
     "filenames": [
       ".ackrc",
+      ".ert-runner",
       ".rspec",
       ".yardopts",
       "ackrc",
@@ -1271,6 +1286,16 @@
       ".star"
     ]
   },
+  "STEP": {
+    "aliases": [
+      "iso-10303-21",
+      "p21"
+    ],
+    "extensions": [
+      ".step",
+      ".stp"
+    ]
+  },
   "STL": {
     "aliases": [
       "ascii stl",
@@ -1344,6 +1369,14 @@
     ],
     "filenames": [
       "torrc"
+    ]
+  },
+  "Tree-sitter Query": {
+    "aliases": [
+      "tsq"
+    ],
+    "extensions": [
+      ".scm"
     ]
   },
   "TSPLIB data": {

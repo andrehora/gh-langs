@@ -1,21 +1,23 @@
 language,type,aliases_count,extensions_count,filenames_count
 Roff,markup,8,28,5
 Checksums,data,5,12,8
+Emacs Lisp,programming,5,4,11
 QuickBASIC,programming,5,2,0
 Ruby,programming,5,22,23
 Shell,programming,5,16,41
+Text,prose,5,5,26
 Visual Basic 6.0,programming,5,5,0
 Wolfram Language,programming,5,10,0
 Adblock Filter List,data,4,1,0
 Adobe Font Metrics,data,4,1,0
+AviSynth,programming,4,2,0
 Batchfile,programming,4,2,2
 BlitzBasic,programming,4,2,0
 E-mail,data,4,2,0
-Emacs Lisp,programming,4,3,11
 Go Checksums,data,4,0,2
 Jinja,markup,4,3,0
-JSON,data,4,22,20
-Python,programming,4,17,5
+JSON,data,4,22,21
+Python,programming,4,18,5
 SSH Config,data,4,0,6
 Vim script,programming,4,4,8
 Vim Snippet,markup,4,3,0
@@ -28,13 +30,14 @@ GtkRC,data,3,1,2
 HCL,programming,3,6,0
 HTML+EEX,markup,3,3,0
 HTML+ERB,markup,3,3,0
-Ignore List,data,3,1,24
+Ignore List,data,3,1,31
 ImHex Pattern Language,programming,3,1,0
 Makefile,programming,3,6,14
 Objective-C,programming,3,2,0
 Objective-C++,programming,3,1,0
 Objective-J,programming,3,2,0
 OpenEdge ABL,programming,3,3,0
+Power Query,programming,3,1,0
 Protocol Buffer,data,3,1,0
 Robots Exclusion Rules,data,3,0,1
 RPC,programming,3,1,0
@@ -62,7 +65,7 @@ Handlebars,markup,2,2,0
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 Inform 7,programming,2,2,0
-INI,data,2,17,10
+INI,data,2,17,11
 IRC log,data,2,2,0
 JavaScript,programming,2,25,1
 KakouneScript,programming,2,1,1
@@ -75,7 +78,7 @@ Muse,prose,2,1,0
 NEON,data,2,1,0
 Nushell,programming,2,1,0
 Odin,programming,2,1,0
-Option List,data,2,0,5
+Option List,data,2,0,6
 Pascal,programming,2,7,0
 POV-Ray SDL,programming,2,2,0
 PowerShell,programming,2,3,0
@@ -91,9 +94,9 @@ Salt,programming,2,1,0
 SELinux Policy,data,2,1,5
 ShellSession,programming,2,1,0
 Starlark,programming,2,2,8
+STEP,data,2,2,0
 STL,data,2,1,0
 Tcl,programming,2,6,2
-Text,prose,2,5,26
 TSPLIB data,data,2,1,0
 UrWeb,programming,2,2,0
 Valve Data Format,data,2,2,0
@@ -108,6 +111,7 @@ Altium Designer,data,1,4,0
 ATS,programming,1,3,0
 AutoHotkey,programming,1,4,0
 B4X,programming,1,1,0
+Bend,programming,1,1,0
 Berry,programming,1,1,0
 BlitzMax,programming,1,1,0
 Blueprint,markup,1,1,0
@@ -182,6 +186,7 @@ Lean 4,programming,1,1,0
 Less,markup,1,1,0
 Lex,programming,1,2,2
 Literate CoffeeScript,programming,1,2,0
+LLVM TableGen,programming,1,1,0
 M,programming,1,2,0
 M4Sugar,programming,1,1,1
 Macaulay2,programming,1,1,0
@@ -209,7 +214,6 @@ PHP,programming,1,10,4
 Pic,markup,1,2,0
 pkg-config,data,1,2,0
 PostScript,markup,1,4,0
-Power Query,programming,1,1,0
 Python console,programming,1,0,0
 Q#,programming,1,1,0
 Raw token data,data,1,1,0
@@ -234,7 +238,7 @@ TeX,markup,1,14,0
 TextMate Properties,data,1,0,1
 TMDL,data,1,1,0
 Tor Config,data,1,0,1
-Tree-sitter Query,programming,1,1,0
+Tree-sitter Query,data,1,1,0
 TSV,data,1,2,0
 TSX,programming,1,1,0
 Type Language,data,1,1,0
@@ -279,6 +283,7 @@ API Blueprint,markup,0,1,0
 APL,programming,0,2,0
 Apollo Guidance Computer,programming,0,1,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AsciiDoc,prose,0,3,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
@@ -376,6 +381,7 @@ Dylan,programming,0,4,0
 E,programming,0,1,0
 Eagle,data,0,2,0
 Easybuild,data,0,1,0
+EasyCrypt,programming,0,1,0
 EBNF,data,0,1,0
 eC,programming,0,2,0
 Ecere Projects,data,0,1,0
@@ -467,6 +473,7 @@ HXML,data,0,1,0
 HyPhy,programming,0,1,0
 IDL,programming,0,2,0
 Idris,programming,0,2,0
+IFC,data,0,1,0
 Imba,programming,0,1,0
 Ink,programming,0,1,0
 Inno Setup,programming,0,2,0
@@ -550,7 +557,9 @@ mdsvex,markup,0,1,0
 MDX,markup,0,1,0
 Mercury,programming,0,2,0
 Meson,programming,0,0,2
+METAFONT,programming,0,1,0
 Metal,programming,0,1,0
+MetaPost,programming,0,1,0
 MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
@@ -571,7 +580,7 @@ Mojo,programming,0,1,0
 Monkey,programming,0,2,0
 Monkey C,programming,0,1,0
 Moocode,programming,0,1,0
-MoonBit,programming,0,1,0
+MoonBit,programming,0,1,2
 MoonScript,programming,0,1,0
 Motoko,programming,0,1,0
 Move,programming,0,1,0
@@ -777,11 +786,13 @@ Toit,programming,0,1,0
 Tolk,programming,0,1,0
 TOML,data,0,2,9
 TSQL,programming,0,1,0
+TSRX,programming,0,1,0
 Turing,programming,0,2,0
 Turtle,data,0,1,0
 Twig,markup,0,1,0
 TXL,programming,0,1,0
 ucode,programming,0,1,0
+Uiua,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Unity3D Asset,data,0,7,0
 Uno,programming,0,1,0
@@ -801,6 +812,7 @@ Wavefront Material,data,0,1,0
 Wavefront Object,data,0,1,0
 Web Ontology Language,data,0,1,0
 WebIDL,programming,0,1,0
+WESL,programming,0,1,0
 WGSL,programming,0,1,0
 Whiley,programming,0,1,0
 Win32 Message File,data,0,1,0

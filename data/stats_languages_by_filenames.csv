@@ -1,14 +1,14 @@
 language,type,aliases_count,extensions_count,filenames_count
 Shell,programming,5,16,41
-Text,prose,2,5,26
-Ignore List,data,3,1,24
+Ignore List,data,3,1,31
+Text,prose,5,5,26
 Ruby,programming,5,22,23
-JSON,data,4,22,20
+JSON,data,4,22,21
 JSON with Comments,data,1,19,15
 Dotenv,data,0,1,14
 Makefile,programming,3,6,14
-Emacs Lisp,programming,4,3,11
-INI,data,2,17,10
+Emacs Lisp,programming,5,4,11
+INI,data,2,17,11
 XML,data,3,112,10
 YAML,data,1,10,10
 TOML,data,0,2,9
@@ -17,10 +17,10 @@ Starlark,programming,2,2,8
 Vim script,programming,4,4,8
 dircolors,data,0,1,6
 Just,programming,1,1,6
+Option List,data,2,0,6
 Perl,programming,1,10,6
 SSH Config,data,4,0,6
-Option List,data,2,0,5
-Python,programming,4,17,5
+Python,programming,4,18,5
 Roff,markup,8,28,5
 SELinux Policy,data,2,1,5
 Erlang,programming,0,8,4
@@ -47,6 +47,7 @@ KCL,programming,0,1,2
 Lex,programming,1,2,2
 Meson,programming,0,0,2
 Module Management System,programming,0,2,2
+MoonBit,programming,0,1,2
 nanorc,data,0,1,2
 Qt Script,programming,0,1,2
 Quake,programming,0,0,2
@@ -137,6 +138,7 @@ APL,programming,0,2,0
 Apollo Guidance Computer,programming,0,1,0
 AppleScript,programming,2,2,0
 Arc,programming,0,1,0
+ArkTS,programming,0,1,0
 AsciiDoc,prose,0,3,0
 ASL,programming,0,2,0
 ASN.1,data,0,2,0
@@ -149,6 +151,7 @@ ATS,programming,1,3,0
 Augeas,programming,0,1,0
 AutoHotkey,programming,1,4,0
 AutoIt,programming,3,1,0
+AviSynth,programming,4,2,0
 Avro IDL,data,0,1,0
 Awk,programming,0,5,0
 B,programming,0,1,0
@@ -160,6 +163,7 @@ BASIC,programming,0,1,0
 BBCode,markup,0,1,0
 Beef,programming,0,1,0
 Befunge,programming,0,2,0
+Bend,programming,1,1,0
 Berry,programming,1,1,0
 BibTeX,markup,0,2,0
 BibTeX Style,programming,0,1,0
@@ -264,6 +268,7 @@ E,programming,0,1,0
 E-mail,data,4,2,0
 Eagle,data,0,2,0
 Easybuild,data,0,1,0
+EasyCrypt,programming,0,1,0
 EBNF,data,0,1,0
 eC,programming,0,2,0
 Ecere Projects,data,0,1,0
@@ -372,6 +377,7 @@ HyPhy,programming,0,1,0
 iCalendar,data,1,2,0
 IDL,programming,0,2,0
 Idris,programming,0,2,0
+IFC,data,0,1,0
 IGOR Pro,programming,2,1,0
 IL Assembly,programming,2,1,0
 ImageJ Macro,programming,1,1,0
@@ -448,6 +454,7 @@ Literate CoffeeScript,programming,1,2,0
 Literate Haskell,programming,2,1,0
 LiveCode Script,programming,0,1,0
 LLVM,programming,0,1,0
+LLVM TableGen,programming,1,1,0
 Lobster,programming,0,1,0
 Logos,programming,0,3,0
 Logtalk,programming,0,2,0
@@ -473,7 +480,9 @@ mdsvex,markup,0,1,0
 MDX,markup,0,1,0
 Mercury,programming,0,2,0
 Mermaid,markup,1,2,0
+METAFONT,programming,0,1,0
 Metal,programming,0,1,0
+MetaPost,programming,0,1,0
 MeTTa,programming,0,1,0
 Microsoft Developer Studio Project,data,0,1,0
 Microsoft Visual Studio Solution,data,0,1,0
@@ -493,7 +502,6 @@ Mojo,programming,0,1,0
 Monkey,programming,0,2,0
 Monkey C,programming,0,1,0
 Moocode,programming,0,1,0
-MoonBit,programming,0,1,0
 MoonScript,programming,0,1,0
 Motoko,programming,0,1,0
 Motorola 68K Assembly,programming,1,5,0
@@ -595,7 +603,7 @@ Portugol,programming,0,1,0
 PostCSS,markup,0,2,0
 PostScript,markup,1,4,0
 POV-Ray SDL,programming,2,2,0
-Power Query,programming,1,1,0
+Power Query,programming,3,1,0
 PowerBuilder,programming,0,4,0
 PowerShell,programming,2,3,0
 Praat,programming,0,1,0
@@ -709,6 +717,7 @@ Stan,programming,0,1,0
 Standard ML,programming,1,4,0
 STAR,data,0,1,0
 Stata,programming,0,7,0
+STEP,data,2,2,0
 STL,data,2,1,0
 STON,data,0,1,0
 StringTemplate,markup,0,1,0
@@ -745,9 +754,10 @@ TLA,programming,0,1,0
 TMDL,data,1,1,0
 Toit,programming,0,1,0
 Tolk,programming,0,1,0
-Tree-sitter Query,programming,1,1,0
+Tree-sitter Query,data,1,1,0
 TSPLIB data,data,2,1,0
 TSQL,programming,0,1,0
+TSRX,programming,0,1,0
 TSV,data,1,2,0
 TSX,programming,1,1,0
 Turing,programming,0,2,0
@@ -759,6 +769,7 @@ TypeScript,programming,1,3,0
 TypeSpec,programming,1,1,0
 Typst,programming,1,1,0
 ucode,programming,0,1,0
+Uiua,programming,0,1,0
 Unified Parallel C,programming,0,1,0
 Unity3D Asset,data,0,7,0
 Unix Assembly,programming,3,2,0
@@ -794,6 +805,7 @@ WebAssembly,programming,2,2,0
 WebAssembly Interface Type,data,1,1,0
 WebIDL,programming,0,1,0
 WebVTT,data,1,1,0
+WESL,programming,0,1,0
 WGSL,programming,0,1,0
 Whiley,programming,0,1,0
 Wikitext,prose,2,3,0
