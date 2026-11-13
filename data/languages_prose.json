@@ -112,7 +112,10 @@
   "Text": {
     "aliases": [
       "fundamental",
-      "plain text"
+      "indented text",
+      "plain text",
+      "paragraph indent text",
+      "parindent"
     ],
     "extensions": [
       ".txt",
