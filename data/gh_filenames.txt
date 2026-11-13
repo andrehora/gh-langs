@@ -7,10 +7,13 @@
 .abbrev_defs
 .ackrc
 .agignore
+.aiexclude
+.aiignore
 .all-contributorsrc
 .arcconfig
 .atomignore
 .auto-changelog
+.autorc
 .babelignore
 .babelrc
 .bash_aliases
@@ -25,14 +28,17 @@
 .c8rc
 .ckignore
 .clang-format
+.clang-format-ignore
 .clang-tidy
 .clangd
 .classpath
+.codespellrc
 .coffeelintignore
 .coveragerc
 .cproject
 .cshrc
 .curlrc
+.cursorignore
 .cvsignore
 .devcontainer.json
 .dir_colors
@@ -41,6 +47,7 @@
 .easignore
 .editorconfig
 .eleventyignore
+.elpaignore
 .emacs
 .emacs.desktop
 .env
@@ -58,6 +65,7 @@
 .env.test
 .env.testing
 .envrc
+.ert-runner
 .eslint-ignore
 .eslintignore
 .eslintrc
@@ -99,6 +107,7 @@
 .npmignore
 .npmrc
 .nvimrc
+.nxignore
 .nycrc
 .oxlintrc.json
 .php
@@ -118,6 +127,7 @@
 .shellcheckrc
 .simplecov
 .spacemacs
+.stow-local-ignore
 .stylelintignore
 .swcrc
 .tern-config
@@ -354,6 +364,8 @@ mkfile
 mmn
 mmt
 mocha.opts
+moon.mod
+moon.pkg
 mvnw
 mvnw.cmd
 nanorc

@@ -31,6 +31,7 @@ APL
 Apollo Guidance Computer
 AppleScript
 Arc
+ArkTS
 AsciiDoc
 ASL
 ASN.1
@@ -43,6 +44,7 @@ ATS
 Augeas
 AutoHotkey
 AutoIt
+AviSynth
 Avro IDL
 Awk
 B
@@ -55,6 +57,7 @@ Batchfile
 BBCode
 Beef
 Befunge
+Bend
 Berry
 BibTeX
 BibTeX Style
@@ -177,6 +180,7 @@ E-mail
 Eagle
 Earthly
 Easybuild
+EasyCrypt
 EBNF
 eC
 Ecere Projects
@@ -307,6 +311,7 @@ HyPhy
 iCalendar
 IDL
 Idris
+IFC
 Ignore List
 IGOR Pro
 IL Assembly
@@ -398,6 +403,7 @@ Literate Haskell
 LiveCode Script
 LiveScript
 LLVM
+LLVM TableGen
 Lobster
 Logos
 Logtalk
@@ -429,7 +435,9 @@ MDX
 Mercury
 Mermaid
 Meson
+METAFONT
 Metal
+MetaPost
 MeTTa
 Microsoft Developer Studio Project
 Microsoft Visual Studio Solution
@@ -696,6 +704,7 @@ Standard ML
 STAR
 Starlark
 Stata
+STEP
 STL
 STON
 StringTemplate
@@ -740,6 +749,7 @@ Tor Config
 Tree-sitter Query
 TSPLIB data
 TSQL
+TSRX
 TSV
 TSX
 Turing
@@ -751,6 +761,7 @@ TypeScript
 TypeSpec
 Typst
 ucode
+Uiua
 Unified Parallel C
 Unity3D Asset
 Unix Assembly
@@ -787,6 +798,7 @@ WebAssembly
 WebAssembly Interface Type
 WebIDL
 WebVTT
+WESL
 Wget Config
 WGSL
 Whiley

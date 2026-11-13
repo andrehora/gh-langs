@@ -149,6 +149,11 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "extensions": [
       ".asl",
@@ -230,6 +235,18 @@
       ".au3"
     ]
   },
+  "AviSynth": {
+    "aliases": [
+      "avisynth+",
+      "avisynthplus",
+      "avs",
+      "avsplus"
+    ],
+    "extensions": [
+      ".avs",
+      ".avsi"
+    ]
+  },
   "Awk": {
     "extensions": [
       ".awk",
@@ -297,6 +314,14 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -884,6 +909,11 @@
       "Earthfile"
     ]
   },
+  "EasyCrypt": {
+    "extensions": [
+      ".ec"
+    ]
+  },
   "eC": {
     "extensions": [
       ".ec",
@@ -940,10 +970,12 @@
       "cask",
       "eask",
       "elisp",
-      "emacs"
+      "emacs",
+      "lisp data"
     ],
     "extensions": [
       ".el",
+      ".eld",
       ".emacs",
       ".emacs.desktop"
     ],
@@ -1945,6 +1977,14 @@
       ".ll"
     ]
   },
+  "LLVM TableGen": {
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
+    ]
+  },
   "Lobster": {
     "extensions": [
       ".lobster"
@@ -2126,9 +2166,19 @@
       "meson_options.txt"
     ]
   },
+  "METAFONT": {
+    "extensions": [
+      ".mf"
+    ]
+  },
   "Metal": {
     "extensions": [
       ".metal"
+    ]
+  },
+  "MetaPost": {
+    "extensions": [
+      ".mp"
     ]
   },
   "MeTTa": {
@@ -2225,6 +2275,10 @@
   "MoonBit": {
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
@@ -2799,7 +2853,9 @@
   },
   "Power Query": {
     "aliases": [
-      "powerquery"
+      "powerquery",
+      "m language",
+      "m formula language"
     ],
     "extensions": [
       ".pq"
@@ -2910,6 +2966,7 @@
       ".rpy",
       ".spec",
       ".tac",
+      ".vpy",
       ".wsgi",
       ".xpy"
     ],
@@ -3701,17 +3758,14 @@
       ".tolk"
     ]
   },
-  "Tree-sitter Query": {
-    "aliases": [
-      "tsq"
-    ],
-    "extensions": [
-      ".scm"
-    ]
-  },
   "TSQL": {
     "extensions": [
       ".sql"
+    ]
+  },
+  "TSRX": {
+    "extensions": [
+      ".tsrx"
     ]
   },
   "TSX": {
@@ -3762,6 +3816,11 @@
   "ucode": {
     "extensions": [
       ".uc"
+    ]
+  },
+  "Uiua": {
+    "extensions": [
+      ".ua"
     ]
   },
   "Unified Parallel C": {
@@ -3946,6 +4005,11 @@
   "WebIDL": {
     "extensions": [
       ".webidl"
+    ]
+  },
+  "WESL": {
+    "extensions": [
+      ".wesl"
     ]
   },
   "WGSL": {
