@@ -149,6 +149,11 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "extensions": [
+      ".ets"
+    ]
+  },
   "ASL": {
     "extensions": [
       ".asl",
@@ -230,6 +235,18 @@
       ".au3"
     ]
   },
+  "AviSynth": {
+    "aliases": [
+      "avisynth+",
+      "avisynthplus",
+      "avs",
+      "avsplus"
+    ],
+    "extensions": [
+      ".avs",
+      ".avsi"
+    ]
+  },
   "Awk": {
     "extensions": [
       ".awk",
@@ -297,6 +314,14 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -512,6 +537,11 @@
     ],
     "extensions": [
       ".mss"
+    ]
+  },
+  "Cedar": {
+    "extensions": [
+      ".cedar"
     ]
   },
   "Ceylon": {
@@ -884,6 +914,11 @@
       "Earthfile"
     ]
   },
+  "EasyCrypt": {
+    "extensions": [
+      ".ec"
+    ]
+  },
   "eC": {
     "extensions": [
       ".ec",
@@ -940,10 +975,12 @@
       "cask",
       "eask",
       "elisp",
-      "emacs"
+      "emacs",
+      "lisp data"
     ],
     "extensions": [
       ".el",
+      ".eld",
       ".emacs",
       ".emacs.desktop"
     ],
@@ -1320,6 +1357,11 @@
   "Golo": {
     "extensions": [
       ".golo"
+    ]
+  },
+  "Goose": {
+    "extensions": [
+      ".goose"
     ]
   },
   "Gosu": {
@@ -1770,6 +1812,11 @@
       ".ks"
     ]
   },
+  "KerML": {
+    "extensions": [
+      ".kerml"
+    ]
+  },
   "KFramework": {
     "extensions": [
       ".k"
@@ -1943,6 +1990,14 @@
   "LLVM": {
     "extensions": [
       ".ll"
+    ]
+  },
+  "LLVM TableGen": {
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
     ]
   },
   "Lobster": {
@@ -2126,9 +2181,19 @@
       "meson_options.txt"
     ]
   },
+  "METAFONT": {
+    "extensions": [
+      ".mf"
+    ]
+  },
   "Metal": {
     "extensions": [
       ".metal"
+    ]
+  },
+  "MetaPost": {
+    "extensions": [
+      ".mp"
     ]
   },
   "MeTTa": {
@@ -2225,6 +2290,10 @@
   "MoonBit": {
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
@@ -2799,7 +2868,9 @@
   },
   "Power Query": {
     "aliases": [
-      "powerquery"
+      "powerquery",
+      "m language",
+      "m formula language"
     ],
     "extensions": [
       ".pq"
@@ -2910,6 +2981,7 @@
       ".rpy",
       ".spec",
       ".tac",
+      ".vpy",
       ".wsgi",
       ".xpy"
     ],
@@ -3611,6 +3683,15 @@
       ".swig"
     ]
   },
+  "SysML": {
+    "aliases": [
+      "sysmlv2",
+      "sysml2"
+    ],
+    "extensions": [
+      ".sysml"
+    ]
+  },
   "SystemVerilog": {
     "extensions": [
       ".sv",
@@ -3701,17 +3782,14 @@
       ".tolk"
     ]
   },
-  "Tree-sitter Query": {
-    "aliases": [
-      "tsq"
-    ],
-    "extensions": [
-      ".scm"
-    ]
-  },
   "TSQL": {
     "extensions": [
       ".sql"
+    ]
+  },
+  "TSRX": {
+    "extensions": [
+      ".tsrx"
     ]
   },
   "TSX": {
@@ -3762,6 +3840,11 @@
   "ucode": {
     "extensions": [
       ".uc"
+    ]
+  },
+  "Uiua": {
+    "extensions": [
+      ".ua"
     ]
   },
   "Unified Parallel C": {
@@ -3946,6 +4029,11 @@
   "WebIDL": {
     "extensions": [
       ".webidl"
+    ]
+  },
+  "WESL": {
+    "extensions": [
+      ".wesl"
     ]
   },
   "WGSL": {
