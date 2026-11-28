@@ -149,6 +149,19 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "extensions": [
+      ".ets"
+    ]
+  },
+  "ARM Assembly": {
+    "aliases": [
+      "armasm"
+    ],
+    "extensions": [
+      ".s"
+    ]
+  },
   "ASL": {
     "extensions": [
       ".asl",
@@ -230,6 +243,18 @@
       ".au3"
     ]
   },
+  "AviSynth": {
+    "aliases": [
+      "avisynth+",
+      "avisynthplus",
+      "avs",
+      "avsplus"
+    ],
+    "extensions": [
+      ".avs",
+      ".avsi"
+    ]
+  },
   "Awk": {
     "extensions": [
       ".awk",
@@ -288,6 +313,14 @@
       "mvnw.cmd"
     ]
   },
+  "BBC BASIC": {
+    "aliases": [
+      "bbcbasic"
+    ],
+    "extensions": [
+      ".bas"
+    ]
+  },
   "Beef": {
     "extensions": [
       ".bf"
@@ -297,6 +330,14 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -514,6 +555,11 @@
       ".mss"
     ]
   },
+  "Cedar": {
+    "extensions": [
+      ".cedar"
+    ]
+  },
   "Ceylon": {
     "extensions": [
       ".ceylon"
@@ -689,6 +735,11 @@
       ".cwl"
     ]
   },
+  "Compact": {
+    "extensions": [
+      ".compact"
+    ]
+  },
   "Component Pascal": {
     "extensions": [
       ".cp",
@@ -806,6 +857,14 @@
       ".dwl"
     ]
   },
+  "DAX": {
+    "aliases": [
+      "data analysis expressions"
+    ],
+    "extensions": [
+      ".dax"
+    ]
+  },
   "DenizenScript": {
     "extensions": [
       ".dsc"
@@ -860,7 +919,9 @@
   },
   "Dune": {
     "filenames": [
-      "dune-project"
+      "dune",
+      "dune-project",
+      "dune-workspace"
     ]
   },
   "Dylan": {
@@ -882,6 +943,11 @@
     ],
     "filenames": [
       "Earthfile"
+    ]
+  },
+  "EasyCrypt": {
+    "extensions": [
+      ".ec"
     ]
   },
   "eC": {
@@ -940,10 +1006,12 @@
       "cask",
       "eask",
       "elisp",
-      "emacs"
+      "emacs",
+      "lisp data"
     ],
     "extensions": [
       ".el",
+      ".eld",
       ".emacs",
       ".emacs.desktop"
     ],
@@ -1320,6 +1388,11 @@
   "Golo": {
     "extensions": [
       ".golo"
+    ]
+  },
+  "Goose": {
+    "extensions": [
+      ".goose"
     ]
   },
   "Gosu": {
@@ -1770,6 +1843,11 @@
       ".ks"
     ]
   },
+  "KerML": {
+    "extensions": [
+      ".kerml"
+    ]
+  },
   "KFramework": {
     "extensions": [
       ".k"
@@ -1943,6 +2021,14 @@
   "LLVM": {
     "extensions": [
       ".ll"
+    ]
+  },
+  "LLVM TableGen": {
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
     ]
   },
   "Lobster": {
@@ -2126,9 +2212,19 @@
       "meson_options.txt"
     ]
   },
+  "METAFONT": {
+    "extensions": [
+      ".mf"
+    ]
+  },
   "Metal": {
     "extensions": [
       ".metal"
+    ]
+  },
+  "MetaPost": {
+    "extensions": [
+      ".mp"
     ]
   },
   "MeTTa": {
@@ -2225,6 +2321,10 @@
   "MoonBit": {
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
@@ -2799,7 +2899,9 @@
   },
   "Power Query": {
     "aliases": [
-      "powerquery"
+      "powerquery",
+      "m language",
+      "m formula language"
     ],
     "extensions": [
       ".pq"
@@ -2910,6 +3012,7 @@
       ".rpy",
       ".spec",
       ".tac",
+      ".vpy",
       ".wsgi",
       ".xpy"
     ],
@@ -3611,6 +3714,15 @@
       ".swig"
     ]
   },
+  "SysML": {
+    "aliases": [
+      "sysmlv2",
+      "sysml2"
+    ],
+    "extensions": [
+      ".sysml"
+    ]
+  },
   "SystemVerilog": {
     "extensions": [
       ".sv",
@@ -3701,17 +3813,14 @@
       ".tolk"
     ]
   },
-  "Tree-sitter Query": {
-    "aliases": [
-      "tsq"
-    ],
-    "extensions": [
-      ".scm"
-    ]
-  },
   "TSQL": {
     "extensions": [
       ".sql"
+    ]
+  },
+  "TSRX": {
+    "extensions": [
+      ".tsrx"
     ]
   },
   "TSX": {
@@ -3762,6 +3871,11 @@
   "ucode": {
     "extensions": [
       ".uc"
+    ]
+  },
+  "Uiua": {
+    "extensions": [
+      ".ua"
     ]
   },
   "Unified Parallel C": {
@@ -3946,6 +4060,11 @@
   "WebIDL": {
     "extensions": [
       ".webidl"
+    ]
+  },
+  "WESL": {
+    "extensions": [
+      ".wesl"
     ]
   },
   "WGSL": {

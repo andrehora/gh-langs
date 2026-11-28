@@ -52,15 +52,22 @@ apache
 apkbuild
 apples
 arexx
+armasm
 as3
 ascii stl
 asm
 asp
 aspx
 aspx-vb
+astyle
+astylerc
 ats2
 au3
 autoconf
+avisynth+
+avisynthplus
+avs
+avsplus
 b3d
 bash
 bash session
@@ -68,7 +75,9 @@ basic for android
 bat
 batch
 bazel
+bbcbasic
 be
+bend2
 bh
 bird
 bird3
@@ -119,6 +128,7 @@ cucumber
 curlrc
 cwl
 d2lang
+data analysis expressions
 dcl
 delphi
 django
@@ -199,10 +209,13 @@ ilasm
 ile rpg
 imhexpl
 inc
+indent
+indented text
 inform7
 inputrc
 irc
 irc logs
+iso-10303-21
 jass2
 java server page
 jruby
@@ -223,9 +236,12 @@ less-css
 lhaskell
 lhs
 lisp
+lisp data
 litcoffee
 live-script
 ls
+m formula language
+m language
 m2
 m3u playlist
 m68k
@@ -288,7 +304,10 @@ opentofu
 opts
 opy
 osascript
+p21
 pandoc
+paragraph indent text
+parindent
 pasm
 pcbnew
 perl-6
@@ -369,7 +388,10 @@ stla
 sum
 sums
 surql
+sysml2
+sysmlv2
 tab-seperated values
+tablegen
 terraform
 text proto
 tl

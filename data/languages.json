@@ -173,6 +173,21 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "type": "programming",
+    "extensions": [
+      ".ets"
+    ]
+  },
+  "ARM Assembly": {
+    "type": "programming",
+    "aliases": [
+      "armasm"
+    ],
+    "extensions": [
+      ".s"
+    ]
+  },
   "ASL": {
     "type": "programming",
     "extensions": [
@@ -263,6 +278,19 @@
       ".au3"
     ]
   },
+  "AviSynth": {
+    "type": "programming",
+    "aliases": [
+      "avisynth+",
+      "avisynthplus",
+      "avs",
+      "avsplus"
+    ],
+    "extensions": [
+      ".avs",
+      ".avsi"
+    ]
+  },
   "Awk": {
     "type": "programming",
     "extensions": [
@@ -329,6 +357,15 @@
       "mvnw.cmd"
     ]
   },
+  "BBC BASIC": {
+    "type": "programming",
+    "aliases": [
+      "bbcbasic"
+    ],
+    "extensions": [
+      ".bas"
+    ]
+  },
   "Beef": {
     "type": "programming",
     "extensions": [
@@ -340,6 +377,15 @@
     "extensions": [
       ".befunge",
       ".bf"
+    ]
+  },
+  "Bend": {
+    "type": "programming",
+    "aliases": [
+      "bend2"
+    ],
+    "extensions": [
+      ".bend"
     ]
   },
   "Berry": {
@@ -586,6 +632,12 @@
       ".mss"
     ]
   },
+  "Cedar": {
+    "type": "programming",
+    "extensions": [
+      ".cedar"
+    ]
+  },
   "Ceylon": {
     "type": "programming",
     "extensions": [
@@ -783,6 +835,12 @@
       ".cwl"
     ]
   },
+  "Compact": {
+    "type": "programming",
+    "extensions": [
+      ".compact"
+    ]
+  },
   "Component Pascal": {
     "type": "programming",
     "extensions": [
@@ -919,6 +977,15 @@
       ".dwl"
     ]
   },
+  "DAX": {
+    "type": "programming",
+    "aliases": [
+      "data analysis expressions"
+    ],
+    "extensions": [
+      ".dax"
+    ]
+  },
   "DenizenScript": {
     "type": "programming",
     "extensions": [
@@ -981,7 +1048,9 @@
   "Dune": {
     "type": "programming",
     "filenames": [
-      "dune-project"
+      "dune",
+      "dune-project",
+      "dune-workspace"
     ]
   },
   "Dylan": {
@@ -1006,6 +1075,12 @@
     ],
     "filenames": [
       "Earthfile"
+    ]
+  },
+  "EasyCrypt": {
+    "type": "programming",
+    "extensions": [
+      ".ec"
     ]
   },
   "eC": {
@@ -1075,10 +1150,12 @@
       "cask",
       "eask",
       "elisp",
-      "emacs"
+      "emacs",
+      "lisp data"
     ],
     "extensions": [
       ".el",
+      ".eld",
       ".emacs",
       ".emacs.desktop"
     ],
@@ -1505,6 +1582,12 @@
     "type": "programming",
     "extensions": [
       ".golo"
+    ]
+  },
+  "Goose": {
+    "type": "programming",
+    "extensions": [
+      ".goose"
     ]
   },
   "Gosu": {
@@ -2018,6 +2101,12 @@
       ".ks"
     ]
   },
+  "KerML": {
+    "type": "programming",
+    "extensions": [
+      ".kerml"
+    ]
+  },
   "KFramework": {
     "type": "programming",
     "extensions": [
@@ -2217,6 +2306,15 @@
     "type": "programming",
     "extensions": [
       ".ll"
+    ]
+  },
+  "LLVM TableGen": {
+    "type": "programming",
+    "aliases": [
+      "tablegen"
+    ],
+    "extensions": [
+      ".td"
     ]
   },
   "Lobster": {
@@ -2422,10 +2520,22 @@
       "meson_options.txt"
     ]
   },
+  "METAFONT": {
+    "type": "programming",
+    "extensions": [
+      ".mf"
+    ]
+  },
   "Metal": {
     "type": "programming",
     "extensions": [
       ".metal"
+    ]
+  },
+  "MetaPost": {
+    "type": "programming",
+    "extensions": [
+      ".mp"
     ]
   },
   "MeTTa": {
@@ -2539,6 +2649,10 @@
     "type": "programming",
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ]
   },
   "MoonScript": {
@@ -3194,7 +3308,9 @@
   "Power Query": {
     "type": "programming",
     "aliases": [
-      "powerquery"
+      "powerquery",
+      "m language",
+      "m formula language"
     ],
     "extensions": [
       ".pq"
@@ -3319,6 +3435,7 @@
       ".rpy",
       ".spec",
       ".tac",
+      ".vpy",
       ".wsgi",
       ".xpy"
     ],
@@ -4100,6 +4217,16 @@
       ".swig"
     ]
   },
+  "SysML": {
+    "type": "programming",
+    "aliases": [
+      "sysmlv2",
+      "sysml2"
+    ],
+    "extensions": [
+      ".sysml"
+    ]
+  },
   "SystemVerilog": {
     "type": "programming",
     "extensions": [
@@ -4204,19 +4331,16 @@
       ".tolk"
     ]
   },
-  "Tree-sitter Query": {
-    "type": "programming",
-    "aliases": [
-      "tsq"
-    ],
-    "extensions": [
-      ".scm"
-    ]
-  },
   "TSQL": {
     "type": "programming",
     "extensions": [
       ".sql"
+    ]
+  },
+  "TSRX": {
+    "type": "programming",
+    "extensions": [
+      ".tsrx"
     ]
   },
   "TSX": {
@@ -4274,6 +4398,12 @@
     "type": "programming",
     "extensions": [
       ".uc"
+    ]
+  },
+  "Uiua": {
+    "type": "programming",
+    "extensions": [
+      ".ua"
     ]
   },
   "Unified Parallel C": {
@@ -4480,6 +4610,12 @@
     "type": "programming",
     "extensions": [
       ".webidl"
+    ]
+  },
+  "WESL": {
+    "type": "programming",
+    "extensions": [
+      ".wesl"
     ]
   },
   "WGSL": {
@@ -4774,6 +4910,16 @@
       ".htaccess",
       "apache2.conf",
       "httpd.conf"
+    ]
+  },
+  "Artistic Style Configuration": {
+    "type": "data",
+    "aliases": [
+      "astyle",
+      "astylerc"
+    ],
+    "filenames": [
+      ".astylerc"
     ]
   },
   "ASN.1": {
@@ -5385,6 +5531,12 @@
       ".ical"
     ]
   },
+  "IFC": {
+    "type": "data",
+    "extensions": [
+      ".ifc"
+    ]
+  },
   "Ignore List": {
     "type": "data",
     "aliases": [
@@ -5397,15 +5549,20 @@
     ],
     "filenames": [
       ".agignore",
+      ".aiexclude",
+      ".aiignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
       ".ckignore",
+      ".clang-format-ignore",
       ".coffeelintignore",
+      ".cursorignore",
       ".cvsignore",
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".elpaignore",
       ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
@@ -5413,13 +5570,24 @@
       ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
+      ".nxignore",
       ".prettierignore",
       ".rgignore",
+      ".stow-local-ignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
+    ]
+  },
+  "Indent Profile": {
+    "type": "data",
+    "aliases": [
+      "indent"
+    ],
+    "filenames": [
+      ".indent.pro"
     ]
   },
   "INI": {
@@ -5449,9 +5617,11 @@
     ],
     "filenames": [
       ".buckconfig",
+      ".codespellrc",
       ".coveragerc",
       ".flake8",
       ".gitreview",
+      ".perlcriticrc",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -5525,6 +5695,7 @@
       ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
+      ".autorc",
       ".c8rc",
       ".htmlhintrc",
       ".imgbotconfig",
@@ -5839,6 +6010,8 @@
     ],
     "filenames": [
       ".ackrc",
+      ".ert-runner",
+      ".perltidyrc",
       ".rspec",
       ".yardopts",
       "ackrc",
@@ -6124,6 +6297,17 @@
       ".star"
     ]
   },
+  "STEP": {
+    "type": "data",
+    "aliases": [
+      "iso-10303-21",
+      "p21"
+    ],
+    "extensions": [
+      ".step",
+      ".stp"
+    ]
+  },
   "STL": {
     "type": "data",
     "aliases": [
@@ -6207,6 +6391,15 @@
     ],
     "filenames": [
       "torrc"
+    ]
+  },
+  "Tree-sitter Query": {
+    "type": "data",
+    "aliases": [
+      "tsq"
+    ],
+    "extensions": [
+      ".scm"
     ]
   },
   "TSPLIB data": {
@@ -7334,7 +7527,10 @@
     "type": "prose",
     "aliases": [
       "fundamental",
-      "plain text"
+      "indented text",
+      "plain text",
+      "paragraph indent text",
+      "parindent"
     ],
     "extensions": [
       ".txt",
