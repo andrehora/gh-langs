@@ -31,6 +31,9 @@ APL
 Apollo Guidance Computer
 AppleScript
 Arc
+ArkTS
+ARM Assembly
+Artistic Style Configuration
 AsciiDoc
 ASL
 ASN.1
@@ -43,6 +46,7 @@ ATS
 Augeas
 AutoHotkey
 AutoIt
+AviSynth
 Avro IDL
 Awk
 B
@@ -52,9 +56,11 @@ Ballerina
 BAML
 BASIC
 Batchfile
+BBC BASIC
 BBCode
 Beef
 Befunge
+Bend
 Berry
 BibTeX
 BibTeX Style
@@ -95,6 +101,7 @@ CAP CDS
 Cap'n Proto
 Carbon
 CartoCSS
+Cedar
 Ceylon
 Chapel
 Charity
@@ -123,6 +130,7 @@ ColdFusion CFC
 COLLADA
 Common Lisp
 Common Workflow Language
+Compact
 Component Pascal
 CoNLL-U
 Cooklang
@@ -156,6 +164,7 @@ Darcs Patch
 Dart
 Daslang
 DataWeave
+DAX
 Debian Package Control File
 DenizenScript
 desktop
@@ -177,6 +186,7 @@ E-mail
 Eagle
 Earthly
 Easybuild
+EasyCrypt
 EBNF
 eC
 Ecere Projects
@@ -265,6 +275,7 @@ Go Template
 Go Workspace
 Godot Resource
 Golo
+Goose
 Gosu
 Grace
 Gradle
@@ -307,12 +318,14 @@ HyPhy
 iCalendar
 IDL
 Idris
+IFC
 Ignore List
 IGOR Pro
 IL Assembly
 ImageJ Macro
 Imba
 ImHex Pattern Language
+Indent Profile
 Inform 7
 INI
 Ink
@@ -360,6 +373,7 @@ KakouneScript
 KCL
 KDL
 KerboScript
+KerML
 KFramework
 KiCad Layout
 KiCad Legacy Layout
@@ -398,6 +412,7 @@ Literate Haskell
 LiveCode Script
 LiveScript
 LLVM
+LLVM TableGen
 Lobster
 Logos
 Logtalk
@@ -429,7 +444,9 @@ MDX
 Mercury
 Mermaid
 Meson
+METAFONT
 Metal
+MetaPost
 MeTTa
 Microsoft Developer Studio Project
 Microsoft Visual Studio Solution
@@ -696,6 +713,7 @@ Standard ML
 STAR
 Starlark
 Stata
+STEP
 STL
 STON
 StringTemplate
@@ -711,6 +729,7 @@ Sway
 Sweave
 Swift
 SWIG
+SysML
 SystemVerilog
 Tact
 Talon
@@ -740,6 +759,7 @@ Tor Config
 Tree-sitter Query
 TSPLIB data
 TSQL
+TSRX
 TSV
 TSX
 Turing
@@ -751,6 +771,7 @@ TypeScript
 TypeSpec
 Typst
 ucode
+Uiua
 Unified Parallel C
 Unity3D Asset
 Unix Assembly
@@ -787,6 +808,7 @@ WebAssembly
 WebAssembly Interface Type
 WebIDL
 WebVTT
+WESL
 Wget Config
 WGSL
 Whiley
